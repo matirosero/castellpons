@@ -1,0 +1,45 @@
+<?php
+/*
+Plugin Name: C+P Theme Functions
+Plugin URI: https://github.com/matirosero/castellpons
+Description: Custom functions for the C+P website.
+Version: 0.1
+Author: Mat Rosero
+Author URI: https://www.matilderosero.com/
+This plugin is released under the GPLv2 license. The images packaged with this plugin are the property of their respective owners, and do not, necessarily, inherit the GPLv2 license.
+*/
+
+/**
+ * Load plugin textdomain.
+ *
+ * @since 0.1.0
+ */
+function cpf_load_textdomain() {
+	load_plugin_textdomain( 'cpf', false, basename( dirname( __FILE__ ) ) . '/languages' );
+}
+add_action( 'plugins_loaded', 'cpf_load_textdomain' );
+
+
+/**
+ * Post types.
+ *
+ * @since 0.1.0
+ */
+require_once( dirname( __FILE__ ) . '/includes/cpt/register-cpt.php' );
+// require_once( dirname( __FILE__ ) . '/includes/cpt/register-tax.php' );
+
+
+/**
+ * Enqueue scripts.
+ *
+ * @since 0.1.0
+ */
+// require_once( dirname( __FILE__ ) . '/includes/enqueue.php' );
+
+
+/**
+ * Admin tweaks.
+ *
+ * @since 0.1.0
+ */
+// require_once( dirname( __FILE__ ) . '/includes/admin-tweaks/bulk-quickedit-functions.php' );

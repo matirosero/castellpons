@@ -9,6 +9,7 @@ Author URI: https://www.matilderosero.com/
 This plugin is released under the GPLv2 license. The images packaged with this plugin are the property of their respective owners, and do not, necessarily, inherit the GPLv2 license.
 */
 
+
 /**
  * Load plugin textdomain.
  *
@@ -21,12 +22,35 @@ add_action( 'plugins_loaded', 'cpf_load_textdomain' );
 
 
 /**
+ * Get the CMB2 bootstrap!
+ *
+ * @since 0.1.0
+ */
+if ( file_exists( __DIR__ . '/vendor/cmb2/init.php' ) ) {
+  	require_once __DIR__ . '/vendor/cmb2/init.php';
+} elseif ( file_exists(  __DIR__ . '/vendor/CMB2/init.php' ) ) {
+  	require_once __DIR__ . '/vendor/CMB2/init.php';
+}
+
+
+
+
+
+/**
  * Post types.
  *
  * @since 0.1.0
  */
 require_once( dirname( __FILE__ ) . '/includes/cpt/register-cpt.php' );
 // require_once( dirname( __FILE__ ) . '/includes/cpt/register-tax.php' );
+
+
+/**
+ * Custom fields.
+ *
+ * @since 0.1.0
+ */
+require_once( dirname( __FILE__ ) . '/includes/cmb2/register-metabox-fields.php' );
 
 
 /**

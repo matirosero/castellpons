@@ -31,4 +31,3 @@ wp-content/themes/*
 
 wp-content/languages/*
 !wp-content/languages/plugins/
-wp-content/languages/plugins/*

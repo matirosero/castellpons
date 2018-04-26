@@ -13,7 +13,7 @@ function mro_cp_register_page_metabox() {
 	 */
 	$cmb_demo = new_cmb2_box( array(
 		'id'            => $prefix . 'metabox',
-		'title'         => esc_html__( 'Additional Information', 'cpf' ),
+		'title'         => esc_html__( 'Sidebar', 'cpf' ),
 		'object_types'  => array( 'page' ), // Post type
 		// 'show_on'      => array(
 		// 	'id' => array( 975 ),
@@ -29,8 +29,8 @@ function mro_cp_register_page_metabox() {
 	) );
 
 	$cmb_demo->add_field( array(
-		'name'    => esc_html__( 'Sidebar', 'cpf' ),
-		'desc'    => esc_html__( 'Información de la columna lateral derecha.', 'cpf' ),
+		// 'name'    => esc_html__( 'Sidebar', 'cpf' ),
+		'desc'    => esc_html__( 'This content goes in the narrow, right sidebar.', 'cpf' ),
 		'id'      => $prefix . 'sidebar',
 		'type'    => 'wysiwyg',
 		'options' => array(

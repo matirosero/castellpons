@@ -13,9 +13,8 @@
 					<div class="inner-footer grid-x grid-margin-x grid-padding-x">
 
 						<div id="footer-social-menu" class="small-12 medium-4 large-4 cell">
-							<?php cp_social_media_icons(); ?>
 							<nav role="navigation">
-	    						<?php joints_footer_links(); ?>
+	    						<?php cp_social_media_icons(); ?>
 	    					</nav>
 	    				</div>
 

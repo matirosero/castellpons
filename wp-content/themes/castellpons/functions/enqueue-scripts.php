@@ -12,5 +12,12 @@ function site_scripts() {
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
       wp_enqueue_script( 'comment-reply' );
     }
+
+    /*
+     * Google Fonts
+     *
+     * font-family: font-family: 'Montserrat', sans-serif;
+     */
+    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i', false );
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);

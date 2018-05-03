@@ -9,12 +9,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('grid-x grid-margin-x grid-padding-x'); ?> role="article">
 
 	<div class="article-image small-12 medium-4 cell">
-		<a href="<?php the_permalink() ?>"><?php the_post_thumbnail('full'); ?></a>
+		<?php the_post_thumbnail('full'); ?>
 	</div>
 
 	<div class="article-content small-12 medium-8 cell">
 		<header class="article-header">
-			<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+			<h2><?php the_title(); ?></h2>
 			<?php get_template_part( 'parts/content', 'byline' ); ?>
 		</header> <!-- end article header -->
 

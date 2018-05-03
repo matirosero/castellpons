@@ -1,0 +1,26 @@
+<div class="{{ css_classes }} cp-lenguage-switcher">
+	  
+	<ul>
+	   
+	  
+		<li class="{{ language.css_classes }} cp-current-language">
+			<a href="#" class="{{ css_classes_link }}">
+				{{ current_language_code }}
+			</a>
+			<ul class="cp-switcher-submenu">
+
+				{% for code, language in languages %}
+					<li class="{{ language.css_classes }} cp-lenguage-switcher-item">
+				        <a href="{{ language.url }}" class="{{ css_classes_link }}">
+							{{ language.code }}
+				        </a>
+				    </li>
+			    {% endfor %}
+			</ul>
+		</li>
+
+	  
+	   
+	</ul>
+	  
+</div>

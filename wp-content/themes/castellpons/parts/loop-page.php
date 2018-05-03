@@ -7,46 +7,55 @@
 <?php
 if ( has_post_thumbnail() ) { ?>
 
-	<header class="page-header grid-x grid-margin-x grid-padding-x" data-equalizer="page-header" data-equalizer-mq="medium-up">
-		<?php the_post_thumbnail( 'full' ); ?>
+	<header class="page-header grid-y grid-padding-x">
+		<div class="page-header-media">
+			<?php the_post_thumbnail( 'full' ); ?>
+		</div>
 
-		<h1 class="page-title"><?php echo get_the_title($post->ID); ?></h1>
+		<div class="page-header-inner small-12 cell">
+			<h1 class="page-title"><?php echo get_the_title($post->ID); ?></h1>
+		</div>
 
 	</header>
 
 <?php } ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(' grid-x grid-margin-x grid-padding-x'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
+<div class="inner-content">
 
-	<main class="main small-12 large-8 medium-8 cell" role="main">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(' grid-x grid-margin-x grid-padding-x'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 
-		<?php
-		if ( !has_post_thumbnail() ) { ?>
-			<header class="article-header">
-				<h1 class="page-title"><?php the_title(); ?></h1>
-			</header> <!-- end article header -->
-		<?php } ?>
+		<main class="main small-12 large-8 medium-8 cell" role="main">
 
-	    <section class="entry-content" itemprop="articleBody">
-		    <?php the_content(); ?>
-		</section> <!-- end article section -->
+			<?php
+			if ( !has_post_thumbnail() ) { ?>
+				<header class="article-header">
+					<h1 class="page-title"><?php the_title(); ?></h1>
+				</header> <!-- end article header -->
+			<?php } ?>
 
-		<footer class="article-footer">
-			 <?php wp_link_pages(); ?>
-		</footer> <!-- end article footer -->
+		    <section class="entry-content" itemprop="articleBody">
+			    <?php the_content(); ?>
+			</section> <!-- end article section -->
 
-		<?php comments_template(); ?>
+			<footer class="article-footer">
+				 <?php wp_link_pages(); ?>
+			</footer> <!-- end article footer -->
 
-	</main> <!-- end #main -->
+			<?php comments_template(); ?>
 
-	<div id="sidebar1" class="sidebar small-12 medium-4 large-4 cell" role="complementary">
+		</main> <!-- end #main -->
 
-		<?php
-	    $content = get_post_meta( get_the_ID(), 'mro_cp_page_sidebar', true );
-	    // var_dump($content);
-	    cp_content_filter( $content );
-	    ?>
+		<div id="sidebar1" class="sidebar small-12 medium-4 large-4 cell" role="complementary">
 
-	</div>
+			<?php
+		    $content = get_post_meta( get_the_ID(), 'mro_cp_page_sidebar', true );
+		    // var_dump($content);
+		    cp_content_filter( $content );
+		    ?>
 
-</article> <!-- end article -->
+		</div>
+
+	</article> <!-- end article -->
+
+</div> <!-- end #inner-content -->
+

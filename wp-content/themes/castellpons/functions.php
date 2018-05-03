@@ -51,3 +51,4 @@ require_once(get_template_directory().'/functions/translation/translation.php');
  */
 // Replace 'older/newer' post links with numbered navigation
 require_once(get_template_directory().'/functions/cp-functions.php'); 
+require_once(get_template_directory().'/functions/customizer.php'); 

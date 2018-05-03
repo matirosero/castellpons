@@ -1,5 +1,5 @@
 {
-"name":           "C+P Switcher",
+"name":           "C+P Drop Up",
 "version":         "1.0",
 "for":            ["sidebars", "shortcode_actions"],
 "settings":       {"display_link_for_current_lang": 0}

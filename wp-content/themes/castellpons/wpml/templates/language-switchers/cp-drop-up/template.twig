@@ -1,13 +1,10 @@
-<div class="{{ css_classes }} cp-lenguage-switcher">
-	  
+<div class="{{ css_classes }} cp-language-dropup">
 	<ul>
-	   
-	  
 		<li class="{{ language.css_classes }} cp-current-language">
 			<a href="#" class="{{ css_classes_link }}">
 				{{ current_language_code }}
 			</a>
-			<ul class="cp-switcher-submenu">
+			<ul class="cp-dropup-submenu">
 
 				{% for code, language in languages %}
 					<li class="{{ language.css_classes }} cp-lenguage-switcher-item">
@@ -18,9 +15,5 @@
 			    {% endfor %}
 			</ul>
 		</li>
-
-	  
-	   
 	</ul>
-	  
 </div>

@@ -1,0 +1,13 @@
+#site-footer {
+	text-align: center;
+}
+
+@include breakpoint(medium) {
+	#footer-social-menu {
+		text-align: left;
+	}
+
+	#footer-language-menu {
+		text-align: right;
+	}
+}

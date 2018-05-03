@@ -1,6 +1,19 @@
 #top-bar-menu {
 	border-bottom: 1px solid $primary-color;
+	@include breakpoint(small only) {
+		.menu .button, .menu a {
+			padding: .7rem .5rem;
+		}
+	}
 	@include breakpoint(medium) {
 		font-size: 13px;
+	}
+}
+
+a[data-toggle] {
+	color: $medium-gray;
+	font-size: 2.5rem;
+	@include hover {
+		color: $primary-color;
 	}
 }

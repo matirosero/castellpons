@@ -1,0 +1,6 @@
+// Describe all psuedo state classes
+@mixin hover {
+	&:active, &:focus, &:hover {
+		@content;
+	}
+}

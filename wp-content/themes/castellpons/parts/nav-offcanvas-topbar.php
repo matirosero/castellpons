@@ -7,7 +7,7 @@
 ?>
 
 <div class="top-bar" id="top-bar-menu">
-	<div class="top-bar-left float-left">
+	<div class="title-area top-bar-left float-left">
 		<ul class="menu">
 			<li>
 				<?php
@@ -25,7 +25,7 @@
 	<div class="top-bar-right float-right show-for-small-only">
 		<ul class="menu">
 			<!-- <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> -->
-			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
+			<li><a data-toggle="off-canvas"><i class="icon-menu-toggle"></i></a></li>
 		</ul>
 	</div>
 </div>

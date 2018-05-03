@@ -43,8 +43,10 @@
 	}
 	@include breakpoint(medium) {
 		height: 45vw;
+		margin-bottom: 3rem;
 	}
 	@include breakpoint(large) {
 		height: 35vw;
+		margin-bottom: 4rem;
 	}
 }

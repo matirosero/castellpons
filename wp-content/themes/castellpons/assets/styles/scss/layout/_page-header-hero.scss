@@ -1,0 +1,50 @@
+.page-header {
+	background: $black;
+	color: $white;
+	height: 120vw;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 2rem;
+
+	.page-header-media {
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+
+		img {
+			height: 100%;
+			left: 0;
+			-o-object-fit: cover;
+			object-fit: cover;
+			top: 0;
+			-ms-transform: none;
+			-moz-transform: none;
+			-webkit-transform: none;
+			transform: none;
+
+			width: 100%;
+		}
+	}
+
+	.page-header-inner {
+		position: absolute;
+		background: transparentize($black, .7);
+		right: 0;
+		left: 0;
+		text-align: center;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	@include breakpoint(medium) {
+		height: 45vw;
+	}
+	@include breakpoint(large) {
+		height: 35vw;
+	}
+}

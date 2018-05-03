@@ -1,0 +1,6 @@
+#top-bar-menu {
+	border-bottom: 1px solid $primary-color;
+	@include breakpoint(medium) {
+		font-size: 13px;
+	}
+}

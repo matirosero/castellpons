@@ -1,0 +1,7 @@
+.page-title {
+	text-transform: uppercase;
+	font-size: 42px;
+	@include breakpoint(medium) {
+		font-size: 60px;
+	}
+}

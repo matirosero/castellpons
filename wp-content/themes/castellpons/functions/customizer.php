@@ -59,7 +59,7 @@ function cp_social_media_icons() {
     /* for each active social site, add it as a list item */
     if ( ! empty( $active_sites ) ) {
 
-        echo "<ul class='social-media-icons'>";
+        echo "<ul class='social-media-icons menu'>";
 
         foreach ( $active_sites as $active_site ) {
 

@@ -1,0 +1,29 @@
+.news-article {
+	margin-bottom: 15px;
+
+	@include xy-grid('horizontal');
+
+	.news-article-image,
+	.news-article-content {
+		@include xy-cell(full);
+	}
+	.news-article-content {
+		padding: 2rem;
+	}
+
+    @include breakpoint(medium) {
+        .news-article-image {
+        	@include xy-cell(4 of 12, true, 15);
+        }
+        .news-article-content {
+        	@include xy-cell(8 of 12, true, 15);
+        	padding: 2rem;
+        }
+    }
+}
+
+
+
+.news-article-content {
+	background: $light-gray;
+}

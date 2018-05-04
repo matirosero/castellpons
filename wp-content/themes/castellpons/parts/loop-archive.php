@@ -6,15 +6,15 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('grid-x grid-margin-x grid-padding-x'); ?> role="article">
+<article id="post-<?php the_ID(); ?>" <?php post_class('news-article'); ?> role="article">
 
-	<div class="article-image small-12 medium-4 cell">
+	<div class="news-article-image">
 		<?php the_post_thumbnail('full'); ?>
 	</div>
 
-	<div class="article-content small-12 medium-8 cell">
+	<div class="news-article-content">
 		<header class="article-header">
-			<h2><?php the_title(); ?></h2>
+			<h2 class="article-title"><?php the_title(); ?></h2>
 			<?php get_template_part( 'parts/content', 'byline' ); ?>
 		</header> <!-- end article header -->
 

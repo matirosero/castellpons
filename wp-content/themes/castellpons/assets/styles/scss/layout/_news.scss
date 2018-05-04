@@ -13,6 +13,15 @@
 
     @include breakpoint(medium) {
         .news-article-image {
+        	@include xy-cell(5 of 12, true, 15);
+        }
+        .news-article-content {
+        	@include xy-cell(7 of 12, true, 15);
+        	padding: 2rem;
+        }
+    }
+    @include breakpoint(large) {
+        .news-article-image {
         	@include xy-cell(4 of 12, true, 15);
         }
         .news-article-content {

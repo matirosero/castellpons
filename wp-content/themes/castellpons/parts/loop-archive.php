@@ -25,7 +25,10 @@
 
 		<footer class="article-footer">
 	    	<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>
+	    	<a href="#" class="button news-article-project-btn"><?php _e( 'See project', 'jointswp' );?></a>
 		</footer> <!-- end article footer -->
 	</div>
+
+
 
 </article> <!-- end article -->

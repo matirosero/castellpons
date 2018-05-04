@@ -1,5 +1,11 @@
 #top-bar-menu {
 	border-bottom: 1px solid $primary-color;
+	a {
+		color: $body-font-color;
+		@include hover {
+			color: $primary-color;
+		}
+	}
 	@include breakpoint(small only) {
 		.menu .button, .menu a {
 			padding: .7rem .5rem;

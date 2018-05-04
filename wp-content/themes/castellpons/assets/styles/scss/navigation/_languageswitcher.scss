@@ -1,0 +1,29 @@
+.cp-language-dropup {
+	text-transform: uppercase;
+}
+
+.dropup.menu {
+	li {
+		position: relative;
+		background: $light-gray;
+		// border: 1px solid;
+
+		> .submenu {
+			// display: none;
+			position: absolute;
+			top: -76px;
+
+
+			@include breakpoint(medium) {
+				display: flex;
+				flex-direction: row;
+				height: 100%;
+				top: 0px;
+				right: 75px;
+				li {
+					display:inline-block;
+				}
+			}
+		}
+	}
+}

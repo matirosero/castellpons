@@ -1,8 +1,9 @@
-// #footer-social-menu {
-// 	ul {
-// 		@include reset-list;
-// 		li {
-// 			display: inline-block;
-// 		}
-// 	}
-// }
+#footer-social-menu {
+	ul {
+		// @include reset-list;
+		li {
+			// display: inline-block;
+			background: $light-gray;
+		}
+	}
+}

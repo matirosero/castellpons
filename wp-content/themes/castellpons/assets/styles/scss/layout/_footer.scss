@@ -8,6 +8,30 @@
 	}
 }
 
+#footer-social-menu,
+#footer-language-menu {
+	
+}
+
+@include breakpoint(small only) {
+	#footer-credits,
+	#footer-language-menu,
+	#footer-social-menu {
+
+	}
+		
+	#footer-credits,
+	#footer-language-menu {
+		font-size: 13px;
+	}
+	#footer-social-menu,
+	#footer-language-menu {
+		a {
+			padding: 0.7rem 0;
+		}
+	}
+}
+
 @include breakpoint(medium) {
 	#footer-social-menu {
 		text-align: left;
@@ -15,5 +39,6 @@
 
 	#footer-language-menu {
 		text-align: right;
+		font-size: 13px;
 	}
 }

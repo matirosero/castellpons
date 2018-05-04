@@ -21,7 +21,7 @@
         }
         .news-article-content {
         	@include xy-cell(7 of 12, true, 20);
-        	padding: 30px 35px;
+        	padding: 28px 35px;
         }
     }
     @include breakpoint(large) {

@@ -6,7 +6,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('news-article'); ?> role="article">
+<article id="post-<?php the_ID(); ?>" <?php post_class('news-article small-margin-collapse small-padding-collapse'); ?> role="article">
 
 	<div class="news-article-image">
 		<?php the_post_thumbnail('full'); ?>
@@ -19,14 +19,15 @@
 		</header> <!-- end article header -->
 
 		<section class="entry-content" itemprop="articleBody">
-			
+
 			<?php the_content('<button class="tiny">' . __( 'Read more...', 'jointswp' ) . '</button>'); ?>
+			<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>
 		</section> <!-- end article section -->
 
 		<footer class="article-footer">
-	    	<p class="tags"><?php the_tags('<span class="tags-title">' . __('Tags:', 'jointstheme') . '</span> ', ', ', ''); ?></p>
 	    	<a href="#" class="button news-article-project-btn"><?php _e( 'See project', 'jointswp' );?></a>
 		</footer> <!-- end article footer -->
+
 	</div>
 
 

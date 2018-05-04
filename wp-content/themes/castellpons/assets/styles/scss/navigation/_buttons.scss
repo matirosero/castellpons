@@ -1,0 +1,9 @@
+.button {
+	border: 2px solid $primary-color;
+	text-transform: uppercase;
+	font-weight: $global-weight-bold;
+	font-size: 13px;
+	@include hover {
+		color: $white;
+	}
+}

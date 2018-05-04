@@ -1,5 +1,11 @@
 #site-footer {
 	text-align: center;
+	a {
+		color: $medium-gray;
+		@include hover {
+			color: $primary-color;
+		}
+	}
 }
 
 @include breakpoint(medium) {

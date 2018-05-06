@@ -1,0 +1,56 @@
+index.php (news)
+
+- body
+	- .off-canvas-wrapper
+		- .off-canvas
+		- .off-canvas-content
+			- header.header
+				- .top-bar
+					- ...
+			- .content [full]
+				- .inner-content [grid container]
+					- main.main (12 col) X
+						- article [row]
+							- .news-article-image [cell]
+							- .news-article-content [cell]
+			- #site-footer
+
+
+page.php
+
+- body
+	- .off-canvas-wrapper
+		- .off-canvas
+		- .off-canvas-content
+			- header.header
+				- .top-bar
+					- ...
+			- .content [full]
+				- .page-header [full row]
+				- .inner-content [grid container]
+					- article.post -> ? [row]
+						- main.main [cell 8]
+						- .sidebar [cell 4]
+
+			- #site-footer
+
+
+projects
+
+- body
+	- .off-canvas-wrapper
+		- .off-canvas
+		- .off-canvas-content
+			- header.header
+				- .top-bar
+					- ...
+			- .content [full]
+				- .page-header/project-header [full row]
+				- .inner-content [grid container]
+					- article.post [row]
+						- main.main [cell 8]
+						- .sidebar [cell 4]
+					- tags [cell 12]
+					- gallery [cell 12]
+
+			- #site-footer

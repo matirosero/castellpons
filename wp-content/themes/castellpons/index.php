@@ -11,7 +11,7 @@ get_header(); ?>
 
 	<div class="content">
 
-		<div class="inner-content grid-x grid-padding-x small-margin-collapse small-padding-collapse">
+		<div class="inner-content small-margin-collapse small-padding-collapse">
 
 		    <main class="main small-12 cell" role="main">
 

@@ -1,0 +1,20 @@
+.main {
+	background: red;
+	@include xy-cell(full, true, 40px);
+
+}
+.sidebar {
+	background: green;
+	@include xy-cell(full, true, 0);
+	padding: 28px 35px;
+}
+
+@include breakpoint(medium) {
+    .main {
+    	@include xy-cell(8 of 12, true, 60);
+    }
+    .sidebar {
+    	@include xy-cell(4 of 12, true, 60);
+    	padding: 28px 35px;
+    }
+}

@@ -8,9 +8,11 @@
 
 <div class="inner-content">
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(' grid-x grid-margin-x grid-padding-x'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
+	<div class="content-row">
+	<!-- grid-x grid-margin-x grid-padding-x -->
 
-		<main class="main small-12 large-8 medium-8 cell" role="main">
+		<main class="main" role="main">
+			 <!-- small-12 large-8 medium-8 cell -->
 
 			<?php
 			if ( !has_post_thumbnail() ) { ?>
@@ -31,7 +33,8 @@
 
 		</main> <!-- end #main -->
 
-		<div id="sidebar1" class="sidebar small-12 medium-4 large-4 cell" role="complementary">
+		<div id="sidebar1" class="sidebar" role="complementary">
+			<!-- small-12 medium-4 large-4 cell -->
 
 			<?php
 		    $content = get_post_meta( get_the_ID(), 'mro_cp_page_sidebar', true );
@@ -41,7 +44,7 @@
 
 		</div>
 
-	</article> <!-- end article -->
+	</div> <!-- end article -->
 
 </div> <!-- end #inner-content -->
 

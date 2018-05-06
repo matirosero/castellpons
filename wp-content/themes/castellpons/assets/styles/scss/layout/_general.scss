@@ -1,4 +1,12 @@
 .inner-content {
-	@include xy-grid-container;
-	background: #eee;
+	@include xy-grid-container(1200px,0);
+	background: #ccc;
+	@include breakpoint(medium) {
+		@include xy-grid-container(1200px,20);
+	}
+}
+
+.content-row {
+	@include xy-grid;
+	// color: #fff;
 }

@@ -28,7 +28,7 @@ page.php
 			- .content [full]
 				- .page-header [full row]
 				- .inner-content [grid container]
-					- article.post -> ? [row]
+					- .content-row [row]
 						- main.main [cell 8]
 						- .sidebar [cell 4]
 

@@ -1,3 +1,6 @@
+.news-content {
+
+}
 .news-article {
 	margin-bottom: 20px;
 
@@ -9,10 +12,7 @@
 
 	.news-article-image,
 	.news-article-content {
-		@include xy-cell(full, true, 15);
-	}
-	.news-article-content {
-		padding: 0.75rem 20px;
+		@include xy-cell(full, true, 20);
 	}
 
     @include breakpoint(medium) {
@@ -21,7 +21,7 @@
         }
         .news-article-content {
         	@include xy-cell(7 of 12, true, 20);
-        	padding: 28px 35px;
+        	
         }
     }
     @include breakpoint(large) {
@@ -40,9 +40,13 @@
 .news-article-content {
 	background: $light-gray;
     position: relative;
+    padding: 0.75rem 20px;
     .article-footer {
         text-align: right;
-        @include breakpoint(medium) {
+    }
+    @include breakpoint(medium) {
+        padding: 28px 35px;
+        .article-footer {
             position: absolute;
             bottom: 1rem;
             right: 2rem;

@@ -11,9 +11,9 @@ get_header(); ?>
 
 	<div class="content">
 
-		<div class="inner-content small-margin-collapse small-padding-collapse">
+		<div class="inner-content">
 
-		    <main class="main small-12 cell" role="main">
+		    <main class="main news-content" role="main">
 
 			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -32,7 +32,6 @@ get_header(); ?>
 
 		    </main> <!-- end #main -->
 
-		    <?php //get_sidebar(); ?>
 
 		</div> <!-- end #inner-content -->
 

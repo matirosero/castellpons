@@ -1,9 +1,9 @@
 .inner-content {
-	@include xy-grid-container(1200px,0);
+	@include xy-grid-container;
 	background: #ccc;
-	@include breakpoint(medium) {
-		@include xy-grid-container(1200px,20);
-	}
+	// @include breakpoint(medium) {
+	// 	@include xy-grid-container(1200px,20);
+	// }
 }
 
 .content-row {

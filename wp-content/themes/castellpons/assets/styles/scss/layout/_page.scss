@@ -1,12 +1,12 @@
 .main {
 	background: red;
-	@include xy-cell(full, true, 40px);
+	@include xy-cell(full, true, 0);
 
 }
 .sidebar {
 	background: green;
 	@include xy-cell(full, true, 0);
-	padding: 28px 35px;
+	// padding: 28px 35px;
 }
 
 @include breakpoint(medium) {
@@ -15,6 +15,6 @@
     }
     .sidebar {
     	@include xy-cell(4 of 12, true, 60);
-    	padding: 28px 35px;
+    	// padding: 28px 35px;
     }
 }

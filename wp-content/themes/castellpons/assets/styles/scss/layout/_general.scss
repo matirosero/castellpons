@@ -1,4 +1,12 @@
 .inner-content {
 	@include xy-grid-container;
+	// background: #eee;
+}
+
+.main {
+	background: red;
+}
+
+.sidebar {
 	background: #eee;
 }

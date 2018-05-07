@@ -22,7 +22,7 @@ if ( has_post_thumbnail() ) { ?>
 
 <div class="inner-content">
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class(' grid-x grid-margin-x grid-padding-x'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
+	<article id="post-<?php the_ID(); ?>" <?php post_class(' grid-x grid-margin-x'); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 
 		<main class="main small-12 large-8 medium-8 cell" role="main">
 

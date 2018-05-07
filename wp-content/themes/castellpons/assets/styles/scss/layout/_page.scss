@@ -1,20 +1,33 @@
 .main {
-	background: red;
-	@include xy-cell(full, true, 0);
-
+	background: #fff;
+	@include xy-cell(full, true, 20);
+    //settings: $grid-container-padding: small: 20px, so outer margin is 20
+    // p:first-child {
+    //     background: #aaa;
+    //     margin-left: -20px;
+    //     margin-right: -20px;
+    // }
 }
 .sidebar {
-	background: green;
-	@include xy-cell(full, true, 0);
+	background: #fff;
+	@include xy-cell(full, true, 20);
 	// padding: 28px 35px;
 }
 
 @include breakpoint(medium) {
     .main {
-    	@include xy-cell(8 of 12, true, 60);
+    	@include xy-cell(8 of 12, true, 40);
     }
     .sidebar {
-    	@include xy-cell(4 of 12, true, 60);
-    	// padding: 28px 35px;
+    	@include xy-cell(4 of 12, true, 40);
+    }
+}
+
+@include breakpoint(large) {
+    .main {
+        @include xy-cell(8 of 12, true, 60);
+    }
+    .sidebar {
+        @include xy-cell(4 of 12, true, 60);
     }
 }

@@ -1,9 +1,7 @@
 .inner-content {
 	@include xy-grid-container;
 	background: #ccc;
-	// @include breakpoint(medium) {
-	// 	@include xy-grid-container(1200px,20);
-	// }
+	//Todo: foundation settings $grid-container-padding medium? it's at default
 }
 
 .content-row {

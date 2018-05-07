@@ -52,7 +52,7 @@ function mro_cp_register_projects() {
 		'has_archive'         => true,
 		'query_var'           => true,
 		'can_export'          => true,
-		'rewrite'             => true,
+		'rewrite'             => array( 'slug' => 'projectes' ),
 		'show_in_rest'		=> true,
 		'capability_type'     => 'post',
 		'supports'            => array(

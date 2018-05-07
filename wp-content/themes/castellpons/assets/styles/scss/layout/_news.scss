@@ -1,5 +1,12 @@
 .news-content {
-
+    @include breakpoint(medium) {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    @include breakpoint(large) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 .news-article {
 	margin-bottom: 20px;
@@ -21,7 +28,6 @@
         }
         .news-article-content {
         	@include xy-cell(7 of 12, true, 20);
-        	
         }
     }
     @include breakpoint(large) {
@@ -30,7 +36,6 @@
         }
         .news-article-content {
         	@include xy-cell(8 of 12, true, 20);
-        	// padding: 2rem;
         }
     }
 }

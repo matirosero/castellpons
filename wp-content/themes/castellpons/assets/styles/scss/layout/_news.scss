@@ -12,10 +12,6 @@
 	margin-bottom: 20px;
 
 	@include xy-grid('horizontal');
-    // @include xy-gutters((
-    //   small: 0px,
-    //   medium: 30px
-    // ), 'margin');
 
 	.news-article-image,
 	.news-article-content {

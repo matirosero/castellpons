@@ -1,6 +1,6 @@
 .inner-content {
 	@include xy-grid-container;
-	background: #ccc;
+	// background: #ccc;
 	//Todo: foundation settings $grid-container-padding medium? it's at default
 }
 
@@ -9,7 +9,7 @@
 	// color: #fff;
 
 	.main {
-		background: #fff;
+		// background: #fff;
 		@include xy-cell(full, true, 20);
 	    //settings: $grid-container-padding: small: 20px, so outer margin is 20
 	    // p:first-child {
@@ -19,7 +19,7 @@
 	    // }
 	}
 	.sidebar {
-		background: #fff;
+		// background: #fff;
 		@include xy-cell(full, true, 20);
 		// padding: 28px 35px;
 	}

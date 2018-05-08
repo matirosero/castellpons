@@ -15,7 +15,6 @@ get_header(); ?>
 
 		    	<header>
 		    		<h1 class="page-title"><?php the_archive_title();?></h1>
-					<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
 		    	</header>
 
 		    	<div class="project-grid">

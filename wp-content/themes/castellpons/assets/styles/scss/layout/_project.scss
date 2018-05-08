@@ -1,4 +1,8 @@
 .project-content {
+    .page-title {
+    	margin: 0 10px;
+    }
+
     @include breakpoint(medium) {
         margin-left: 10px;
         margin-right: 10px;
@@ -16,9 +20,5 @@
 	@include breakpoint(medium) {
 		@include xy-grid-layout( 3, '.project', true, 20, margin );
 	}
-	  // @include xy-grid-layout(3, '.fr_gallery-item', true, $grid-margin-gutters, padding, right left top bottom);
 
-	// .project {
-	// 	@include xy-cell(4 of 12, true, 20)
-	// }
 }

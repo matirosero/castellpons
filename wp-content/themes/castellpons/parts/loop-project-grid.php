@@ -9,14 +9,14 @@
 
 <div id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article">
 
-	<section class="featured-image" itemprop="articleBody">
+	<div class="featured-image" itemprop="articleBody">
 		<?php the_post_thumbnail('full'); ?>
-	</section> <!-- end article section -->
+	</div> <!-- end article section -->
 
-	<header class="article-header">
-		<h3 class="title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-	</header> <!-- end article header -->
-	
+	<a class="project-information-overlay" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+		<h3 class="title"><?php the_title(); ?></h3>
+	</a> <!-- end article header -->
+
 </div>
 
 

@@ -21,4 +21,30 @@
 		@include xy-grid-layout( 3, '.project', true, 20, margin );
 	}
 
+	.project {
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	.project-information-overlay {
+		position: absolute;
+		background: transparentize($black, 1);
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		text-align: center;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		color: transparentize($white, 1);
+
+		@include hover {
+			background: transparentize($black, 0.25);
+			color: $white;
+		}
+	}
+
 }

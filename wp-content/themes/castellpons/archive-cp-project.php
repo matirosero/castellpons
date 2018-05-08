@@ -11,19 +11,22 @@ get_header(); ?>
 
 		<div class="inner-content">
 
-		    <main class="main news-content" role="main">
+		    <main class="main project-content" role="main">
 
 		    	<header>
 		    		<h1 class="page-title"><?php the_archive_title();?></h1>
 					<?php the_archive_description('<div class="taxonomy-description">', '</div>');?>
 		    	</header>
 
-		    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		    	<div class="project-grid">
 
-					<!-- To see additional archive styles, visit the /parts directory -->
-					<?php get_template_part( 'parts/loop', 'archive-grid' ); ?>
+			    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-				<?php endwhile; ?>
+						<!-- To see additional archive styles, visit the /parts directory -->
+						<?php get_template_part( 'parts/loop', 'project-grid' ); ?>
+
+					<?php endwhile; ?>
+				</div><!-- project-grid -->
 
 					<?php joints_page_navi(); ?>
 
@@ -32,6 +35,7 @@ get_header(); ?>
 					<?php get_template_part( 'parts/content', 'missing' ); ?>
 
 				<?php endif; ?>
+
 
 			</main> <!-- end #main -->
 

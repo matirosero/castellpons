@@ -1,8 +1,6 @@
 <?php
 /**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
+ * The template for displaying all single posts and attachments
  */
 
 get_header(); ?>
@@ -13,10 +11,14 @@ get_header(); ?>
 
 		<?php get_template_part( 'parts/loop', 'page-header' ); ?>
 
-	    <?php get_template_part( 'parts/loop', 'page' ); ?>
+		<?php get_template_part( 'parts/loop', 'single-project' ); ?>
 
-	</article> <!-- end .content -->
+	</article> <!-- end article -->
 
-<?php endwhile; endif; ?>
+<?php endwhile; else : ?>
+
+	<?php get_template_part( 'parts/content', 'missing' ); ?>
+
+<?php endif; ?>
 
 <?php get_footer(); ?>

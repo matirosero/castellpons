@@ -84,6 +84,13 @@ function mro_cp_register_project_metabox() {
 	) );
 
 	$cmb_demo->add_field( array(
+		'name'      => esc_html__( 'Project date', 'cpf' ),
+		'id'        => $prefix . 'dates',
+		'type'      => 'text',
+		// 'column'  	=> true, 
+	) );
+
+	$cmb_demo->add_field( array(
 		'name'      => esc_html__( 'Firm', 'cpf' ),
 		'id'        => $prefix . 'firm',
 		'type'      => 'text',

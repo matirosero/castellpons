@@ -29,14 +29,11 @@
 
 		</main> <!-- end #main -->
 
-		<div id="sidebar1" class="sidebar" role="complementary">
-			<!-- small-12 medium-4 large-4 cell -->
-
-			SIDEBAR
-
-		</div>
+		<?php get_template_part( 'parts/loop', 'single-project-sidebar' ); ?>
 
 	</div> <!-- end project-information -->
+
+	<?php get_template_part( 'parts/loop', 'single-project-meta' ); ?>
 
 	<footer class="article-footer">
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'jointswp' ), 'after'  => '</div>' ) ); ?>

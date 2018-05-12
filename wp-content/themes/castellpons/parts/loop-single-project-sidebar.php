@@ -1,4 +1,4 @@
-		<aside id="sidebar1" class="sidebar" role="complementary">
+		<aside id="sidebar1" class="sidebar medium-order-2" role="complementary">
 			<!-- small-12 medium-4 large-4 cell -->
 
 			<?php

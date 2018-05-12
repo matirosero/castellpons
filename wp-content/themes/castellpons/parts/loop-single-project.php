@@ -9,7 +9,9 @@
 	<div class="content-row project-information">
 	<!-- grid-x grid-margin-x grid-padding-x -->
 
-		<main class="main" role="main">
+		<?php get_template_part( 'parts/loop', 'single-project-sidebar' ); ?>
+
+		<main class="main medium-order-1" role="main">
 			 <!-- small-12 large-8 medium-8 cell -->
 
 			<?php
@@ -29,7 +31,7 @@
 
 		</main> <!-- end #main -->
 
-		<?php get_template_part( 'parts/loop', 'single-project-sidebar' ); ?>
+		
 
 	</div> <!-- end project-information -->
 

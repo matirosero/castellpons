@@ -48,3 +48,19 @@
 	}
 
 }
+
+.project-dates,
+.project-meta {
+	@include xy-cell(full, true, 20);
+}
+
+.project-meta ul {
+	@include reset-list;
+}
+
+.project-gallery {
+	@include xy-cell(full, true, 20);
+	.project-gallery-image {
+		margin: 0 -20px 20px;
+	}
+}

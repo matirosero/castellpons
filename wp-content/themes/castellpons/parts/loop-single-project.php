@@ -16,7 +16,10 @@
 			if ( !has_post_thumbnail() ) { ?>
 				<header class="article-header">
 					<h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
-					<?php get_template_part( 'parts/content', 'byline' ); ?>
+				<?php
+				if ( is_singular( 'cp-project' ) ) { ?>
+					<p><?php the_excerpt(); ?></p>
+				<?php } ?>
 			    </header> <!-- end article header -->
 			<?php } ?>
 
@@ -29,7 +32,7 @@
 		<div id="sidebar1" class="sidebar" role="complementary">
 			<!-- small-12 medium-4 large-4 cell -->
 
-			<?php the_excerpt(); ?>
+			SIDEBAR
 
 		</div>
 

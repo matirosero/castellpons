@@ -14,6 +14,10 @@ if ( has_post_thumbnail() ) { ?>
 
 		<div class="page-header-inner small-12 cell">
 			<h1 class="page-title"><?php echo get_the_title($post->ID); ?></h1>
+			<?php
+			if ( is_singular( 'cp-project' ) ) { ?>
+				<p><?php the_excerpt(); ?></p>
+			<?php } ?>
 		</div>
 
 	</header>

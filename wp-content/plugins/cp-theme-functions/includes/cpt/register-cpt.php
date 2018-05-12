@@ -61,12 +61,12 @@ function mro_cp_register_projects() {
 			'author',
 			'thumbnail',
 			'excerpt',
-			'custom-fields',
-			'trackbacks',
-			'comments',
+			// 'custom-fields',
+			// 'trackbacks',
+			// 'comments',
 			'revisions',
 			'page-attributes',
-			'post-formats',
+			// 'post-formats',
 		),
 		'template' => array(
 	            array( 'core/image', array(

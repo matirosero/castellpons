@@ -66,4 +66,4 @@ require_once( dirname( __FILE__ ) . '/includes/cmb2/register-metabox-fields.php'
  *
  * @since 0.1.0
  */
-// require_once( dirname( __FILE__ ) . '/includes/admin-tweaks/bulk-quickedit-functions.php' );
+require_once( dirname( __FILE__ ) . '/includes/helpers/admin-tweaks.php' );

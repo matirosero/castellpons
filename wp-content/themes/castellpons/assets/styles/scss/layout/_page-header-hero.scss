@@ -4,7 +4,7 @@
 	height: 120vw;
 	overflow: hidden;
 	position: relative;
-	margin-bottom: 2rem;
+	margin-bottom: block-margins('small');
 
 	.page-header-media {
 		bottom: 0;
@@ -43,10 +43,10 @@
 	}
 	@include breakpoint(medium) {
 		height: 45vw;
-		margin-bottom: 3rem;
+		margin-bottom: block-margins('medium');
 	}
 	@include breakpoint(large) {
 		height: 35vw;
-		margin-bottom: 4rem;
+		margin-bottom: block-margins('large');
 	}
 }

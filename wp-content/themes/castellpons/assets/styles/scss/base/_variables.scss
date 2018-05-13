@@ -1,0 +1,10 @@
+$vertical-block-margins: (
+  small: 2rem,
+  medium: 3rem,
+  large: 4rem,
+);
+
+@function block-margins($breakpoint: small) {
+    @return map-get($vertical-block-margins, $breakpoint);
+}
+

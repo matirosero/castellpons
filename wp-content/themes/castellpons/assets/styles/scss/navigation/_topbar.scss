@@ -6,6 +6,11 @@
 			color: $primary-color;
 		}
 	}
+	.current-menu-item {
+		a {
+			color: $primary-color;
+		}
+	}
 	@include breakpoint(small only) {
 		.menu .button, .menu a {
 			padding: .7rem .5rem;

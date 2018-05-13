@@ -15,7 +15,7 @@ add_filter( 'get_the_archive_title', function ( $title ) {
 });
 
 // Add Character Counter to the Excerpt Meta Box
-function excerpt_count_js(){
+function cp_excerpt_count_js(){
     if ('page' != get_post_type()) { ?>
         <script>
 
@@ -59,17 +59,17 @@ function excerpt_count_js(){
         </script>
     <?php }
 }
-add_action( 'admin_head-post.php', 'excerpt_count_js');
-add_action( 'admin_head-post-new.php', 'excerpt_count_js');
+add_action( 'admin_head-post.php', 'cp_excerpt_count_js');
+add_action( 'admin_head-post-new.php', 'cp_excerpt_count_js');
 
 
 /**
  * Limit excerpt to a number of characters without cutting last word
- * 
+ *
  * @param string $excerpt
  * @return string
  */
-function custom_short_excerpt($excerpt){
+function cp_custom_short_excerpt($excerpt){
     $limit = 70;
 
     if (strlen($excerpt) > $limit) {
@@ -79,5 +79,32 @@ function custom_short_excerpt($excerpt){
     return $excerpt;
 }
 
-add_filter('the_excerpt', 'custom_short_excerpt');
+add_filter('the_excerpt', 'cp_custom_short_excerpt');
 
+
+
+add_action('nav_menu_css_class', 'cp_add_current_nav_class', 10, 2 );
+
+function cp_add_current_nav_class($classes, $item) {
+
+    // Getting the current post details
+    global $post;
+
+    // Getting the post type of the current post
+    $current_post_type = get_post_type_object(get_post_type($post->ID));
+    $current_post_type_slug = $current_post_type->rewrite['slug'];
+
+    // Getting the URL of the menu item
+    $menu_slug = strtolower(trim($item->url));
+
+    // If the menu item URL contains the current post types slug add the current-menu-item class
+    if (strpos($menu_slug,$current_post_type_slug) !== false) {
+
+       $classes[] = 'current-menu-item';
+
+    }
+
+    // Return the corrected set of classes to be added to the menu item
+    return $classes;
+
+}

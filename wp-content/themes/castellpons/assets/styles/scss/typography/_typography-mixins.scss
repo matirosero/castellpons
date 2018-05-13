@@ -1,0 +1,16 @@
+@mixin h2 {
+	color: $primary-color;
+	font-weight: normal;
+}
+
+@mixin h3 {
+	font-size: 1rem;
+	border-bottom: 1px solid $medium-gray;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+@mixin h4 {
+	font-size: 1rem;
+	margin-bottom: 0;
+}

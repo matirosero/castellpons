@@ -1,0 +1,15 @@
+.page {
+	.inner-content:first-child {
+		padding-top: block-margins('small');
+		@include breakpoint(medium) {
+			padding-top: block-margins('medium');
+		}
+		@include breakpoint(large) {
+			padding-top: block-margins('large');
+		}
+	}
+
+	.main .page-title {
+		line-height: 1;
+	}
+}

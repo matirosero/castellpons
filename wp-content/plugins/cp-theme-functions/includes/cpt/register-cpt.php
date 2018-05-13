@@ -91,7 +91,7 @@ function mro_cp_register_projects() {
 	register_post_type( 'cp-project', $args );
 }
 
-add_action( 'init', 'mro_cp_register_projects' );
+add_action( 'init', 'mro_cp_register_projects', 0 );
 
 
 /**

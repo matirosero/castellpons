@@ -98,9 +98,22 @@
 }
 
 @include breakpoint(medium) {
+
+	.project-information {
+		margin-bottom: block-margins('medium') - 1rem;
+		+ .project-information {
+			margin-bottom: block-margins('medium');
+		}
+	}
+
 	.project-dates,
 	.project-gallery {
 		@include xy-cell(full, true, 40);
+	}
+
+	.project-dates {
+		margin-bottom: 2rem;
+		font-size: 1rem;
 	}
 
 	.project-meta {
@@ -112,11 +125,20 @@
 		}
 		li {
 			// background: $medium-gray;
+			margin-bottom: 2rem;
 		}
 	}
 }
 
 @include breakpoint(large) {
+
+	.project-information {
+		margin-bottom: block-margins('large') - 1rem;
+		+ .project-information {
+			margin-bottom: block-margins('large');
+		}
+	}
+
 	.project-dates,
 	.project-gallery {
 		@include xy-cell(full, true, 60);

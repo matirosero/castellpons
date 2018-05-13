@@ -83,3 +83,8 @@
      border-top-left-radius: $radius;
      background-clip: padding-box;
 }
+
+
+@function header-size($breakpoint, $size) {
+  @return rem-calc(map-get(map-get(map-get($header-styles, "small"), $size), "font-size") * 1px);
+}

@@ -56,6 +56,26 @@
 	}
 }
 
+.project-location {
+	// background: $light-gray;
+	position: relative;
+	padding-left: 1.25rem;
+	&:before {
+		@include icon-before;
+		content: '\e807';
+		font-size: 100%;
+		text-align: left;
+		position: absolute;
+		margin-left: 0;
+		left: -2px;
+		top: 4px;
+	}
+	.project-city {
+		font-size: header-size('small', 'h3');
+		margin-bottom: 0;
+	}
+}
+
 .project-dates,
 .project-meta,
 .project-gallery {

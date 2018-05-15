@@ -4,6 +4,17 @@
 	@include breakpoint(medium) {
 		font-size: 60px;
 	}
+
+	.main & {
+		line-height: 1;
+		margin-bottom: block-margins('small');
+		@include breakpoint(medium) {
+			margin-bottom: block-margins('medium');
+		}
+		@include breakpoint(large) {
+			margin-bottom: block-margins('large');
+		}		
+	}
 }
 
 .article-title {

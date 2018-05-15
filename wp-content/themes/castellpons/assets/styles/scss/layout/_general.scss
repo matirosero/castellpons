@@ -42,3 +42,10 @@
 	    }
 	}
 }
+
+.sidebar {
+	ul {
+		@include reset-list;
+		margin-bottom: 1rem;
+	}
+}

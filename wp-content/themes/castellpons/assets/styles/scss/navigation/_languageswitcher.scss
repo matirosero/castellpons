@@ -2,24 +2,33 @@
 	text-transform: uppercase;
 }
 
-.dropup.menu {
+.drop-up-side.menu {
 	li {
 		position: relative;
-		background: $light-gray;
+		// background: $light-gray;
 		// border: 1px solid;
 
 		> .submenu {
-			// display: none;
+			display: none;
 			position: absolute;
 			top: -76px;
 
+			&.active {
+				display: block;
+			}
+
 
 			@include breakpoint(medium) {
-				display: flex;
+				// display: flex;
 				flex-direction: row;
 				height: 100%;
-				top: 0px;
+				top: 2px;
 				right: 75px;
+
+				&.active {
+					display: flex;
+				}
+
 				li {
 					display:inline-block;
 				}

@@ -19,5 +19,8 @@ function site_scripts() {
      * font-family: font-family: 'Montserrat', sans-serif;
      */
     wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i', false );
+
+    // TEMP
+    wp_enqueue_script( 'drop-up-side-js', get_template_directory_uri() . '/assets/scripts/drop-up-side.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);

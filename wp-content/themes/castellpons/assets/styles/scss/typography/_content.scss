@@ -4,7 +4,7 @@
     	@include h2;
     }
 
-    h3 {
+    h3:not(.location-city) {
     	@include h3;
     }
 

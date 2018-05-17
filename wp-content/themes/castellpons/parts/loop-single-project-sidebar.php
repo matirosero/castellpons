@@ -4,17 +4,17 @@
 			<?php
 			if ( get_post_meta( get_the_ID(), 'mro_cp_project_location', true ) ) { ?>
 
-				<div class="project-location">
+				<div class="location project-location">
 					<?php
 					if ( get_post_meta( get_the_ID(), 'mro_cp_project_location', true ) ) { ?>
 
-						<h3 class="project-city"><?php echo get_post_meta( get_the_ID(), 'mro_cp_project_location', true ); ?></h3>
+						<h3 class="location-city"><?php echo get_post_meta( get_the_ID(), 'mro_cp_project_location', true ); ?></h3>
 					<?php } ?>
 
 					<?php
 					if ( get_post_meta( get_the_ID(), 'mro_cp_project_address', true ) ) { ?>
 
-						<p class="project-address"><?php echo get_post_meta( get_the_ID(), 'mro_cp_project_address', true ); ?></>
+						<p class="location-address"><?php echo get_post_meta( get_the_ID(), 'mro_cp_project_address', true ); ?></>
 					<?php } ?>
 				</div>
 

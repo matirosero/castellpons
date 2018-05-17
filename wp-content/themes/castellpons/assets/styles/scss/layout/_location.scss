@@ -1,0 +1,37 @@
+.offices {
+	@include reset-list;
+}
+
+.location {
+	// background: $light-gray;
+	position: relative;
+	padding-left: 1.25rem;
+	&:before {
+		@include icon-before;
+		content: '\e807';
+		font-size: 100%;
+		text-align: left;
+		position: absolute;
+		margin-left: 0;
+		left: -2px;
+		top: 4px;
+	}
+
+	+ .location {
+		margin-top: 2rem;
+	}
+}
+
+.location-city {
+	font-size: header-size('small', 'h3');
+	margin-bottom: 0;
+}
+.location-address {
+	margin: 0;
+}
+.location-map {
+	margin-left: -1.25rem;
+	@include breakpoint(small only) {
+		margin: 0 -20px 0 rem-calc(-20px)-1.25rem;
+	}
+}

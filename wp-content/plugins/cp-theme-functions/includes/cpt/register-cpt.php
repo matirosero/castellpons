@@ -23,7 +23,7 @@ function mro_cp_register_projects() {
 	$labels = array(
 		'name'               => __( 'Projects', 'cpf' ),
 		'singular_name'      => __( 'Project', 'cpf' ),
-		'add_new'            => _x( 'Add New Project', 'cpf', 'cpf' ),
+		'add_new'            => _x( 'Add New Project', 'cpf' ),
 		'add_new_item'       => __( 'Add New Project', 'cpf' ),
 		'edit_item'          => __( 'Edit Project', 'cpf' ),
 		'new_item'           => __( 'New Project', 'cpf' ),
@@ -92,6 +92,64 @@ function mro_cp_register_projects() {
 }
 
 add_action( 'init', 'mro_cp_register_projects', 0 );
+
+
+function mro_cp_register_offices() {
+
+	$labels = array(
+		'name'               => __( 'Offices', 'cpf' ),
+		'singular_name'      => __( 'Office', 'cpf' ),
+		'add_new'            => _x( 'Add New Office', 'cpf' ),
+		'add_new_item'       => __( 'Add New Office', 'cpf' ),
+		'edit_item'          => __( 'Edit Office', 'cpf' ),
+		'new_item'           => __( 'New Office', 'cpf' ),
+		'view_item'          => __( 'View Office', 'cpf' ),
+		'search_items'       => __( 'Search Offices', 'cpf' ),
+		'not_found'          => __( 'No Offices found', 'cpf' ),
+		'not_found_in_trash' => __( 'No Offices found in Trash', 'cpf' ),
+		'parent_item_colon'  => __( 'Parent Office:', 'cpf' ),
+		'menu_name'          => __( 'Offices', 'cpf' ),
+	);
+
+	$args = array(
+		'labels'              => $labels,
+		'hierarchical'        => false,
+		'description'         => 'description',
+		// 'taxonomies'          => array('cp-type'),
+		'public'              => true,
+		'show_ui'             => true,
+		'show_in_menu'        => true,
+		'show_in_admin_bar'   => true,
+		'menu_position'       => null,
+		'menu_icon'           => null,
+		'show_in_nav_menus'   => false,
+		'publicly_queryable'  => false,
+		'exclude_from_search' => true,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		// 'rewrite'             => array( 'slug' => 'projectes' ),
+		'show_in_rest'		=> true,
+		'capability_type'     => 'post',
+		'supports'            => array(
+			'title',
+			// 'editor',
+			// 'author',
+			// 'thumbnail',
+			// 'excerpt',
+			// 'custom-fields',
+			// 'trackbacks',
+			// 'comments',
+			// 'revisions',
+			// 'page-attributes',
+			// 'post-formats',
+		),
+	);
+
+	register_post_type( 'cp-office', $args );
+}
+
+add_action( 'init', 'mro_cp_register_offices', 0 );
 
 
 /**

@@ -140,7 +140,7 @@ function mro_cp_register_project_metabox() {
 	) );
 
 	$cmb_demo->add_field( array(
-		'name'      => esc_html__( 'PEM', 'cpf' ),
+		'name'      => esc_html__( 'Material Execution Budget', 'cpf' ),
 		'id'        => $prefix . 'pem',
 		'type'      => 'text',
 		// 'column'  	=> true, 

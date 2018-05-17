@@ -26,10 +26,10 @@
 
 	@include breakpoint(medium) {
 	    .main {
-	    	@include xy-cell(8 of 12, true, 40);
+	    	@include xy-cell(7 of 12, true, 40);
 	    }
 	    .sidebar {
-	    	@include xy-cell(4 of 12, true, 40);
+	    	@include xy-cell(5 of 12, true, 40);
 	    }
 	}
 

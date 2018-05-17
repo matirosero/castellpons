@@ -1,0 +1,9 @@
+.cf-uploader-trigger {
+	background: $white;
+	text-align: left !important;
+}
+
+.sidebar .caldera-grid .btn.input[type=submit],
+#fld_7908577_1 {
+	@extend .button;
+}

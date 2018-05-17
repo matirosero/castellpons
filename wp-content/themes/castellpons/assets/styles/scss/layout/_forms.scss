@@ -1,0 +1,17 @@
+.caldera-grid {
+	background: $light-gray;
+	padding: 20px;
+	margin-top: 2rem;
+
+	input[type='text'],
+	input[type='email'],
+	textarea {
+		border: 0 !important;
+	}
+
+	@include breakpoint(small only) {
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+}
+

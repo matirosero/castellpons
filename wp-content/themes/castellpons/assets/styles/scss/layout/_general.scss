@@ -49,3 +49,10 @@
 		margin-bottom: 1rem;
 	}
 }
+
+.callout {
+	@include breakpoint(small only) {
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+}

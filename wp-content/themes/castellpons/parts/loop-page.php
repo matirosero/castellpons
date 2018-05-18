@@ -23,6 +23,38 @@
 
 		    <section class="entry-content" itemprop="articleBody">
 			    <?php the_content(); ?>
+
+			    <?php
+			    if ( is_page_template( 'template-iconsbox.php' ) ) { ?>
+
+			    	<div class="callout icon-box">
+
+			    		<?php
+			    		if ( get_post_meta( get_the_ID(), 'mro_cp_iconsbox_title', true ) ) {
+			    			 echo '<h3>' . get_post_meta( get_the_ID(), 'mro_cp_iconsbox_title', true ) . '</h3>';
+			    		}
+
+			    		if ( get_post_meta( get_the_ID(), 'mro_cp_iconsbox_title', true ) ) {
+
+			    			$icons = get_post_meta( get_the_ID(), 'mro_cp_iconsbox_icon_group', true );
+
+			    			echo '<ul>';
+
+			    			foreach ( $icons as $icon ) {
+			    				echo '<li>
+			    					<div class="icon"><img src="' . $icon['icon'] . '" alt="" /></div>
+			    					<p>' . $icon['description'] . '</p>
+			    					</li>';
+			    			}
+
+			    			echo '</ul>';
+
+			    		} else { echo 'no'; }
+			    		?>
+
+			    	</div>
+
+			    <?php } ?>
 			</section> <!-- end article section -->
 
 			<footer class="article-footer">

@@ -56,3 +56,31 @@
 		margin-left: -20px;
 	}
 }
+
+.icon-box {
+	h3 {
+		border-bottom: 0 !important;
+	}
+	ul {
+		margin-top: 2rem;
+		@include reset-list;
+		@include xy-grid;
+		@include xy-grid-layout(1, 'li');
+	}
+	li {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	.icon {
+		margin-bottom: 1rem;
+	}
+
+	@include breakpoint(large) {
+		ul {
+			@include xy-grid-layout(3, 'li');
+		}
+		li {
+			margin-bottom: 0;
+		}
+	}
+}

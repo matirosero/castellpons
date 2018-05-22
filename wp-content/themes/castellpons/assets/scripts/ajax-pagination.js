@@ -13,6 +13,8 @@ jQuery(document).ready(function($) {
 
 		console.log('page number clicked: ' + page);
 
+		console.log(ajaxpagination.query_vars);
+
 		$.ajax({
 			url: ajaxpagination.ajaxurl,
 			type: 'post',
@@ -21,10 +23,15 @@ jQuery(document).ready(function($) {
 				query_vars: ajaxpagination.query_vars,
 				page: page
 			},
-			success: function( html ) {
-				// alert( result );
+			beforeSend: function() {
 				$('.posts-container').find( 'article' ).remove();
+				$('.posts-container').find( 'pre' ).remove();
 				$('#main .page-navigation').remove();
+				$(document).scrollTop();
+				$('.posts-container').append( '<div class="page-content" id="loader">Loading New Posts...</div>' );
+			},
+			success: function( html ) {
+				$('.posts-container #loader').remove();
 				$('.posts-container').append( html );
 			}
 		})

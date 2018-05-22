@@ -37,3 +37,28 @@ function cp_ajax_pagination() {
 function my_image_size_override() {
     return array( 825, 510 );
 }
+
+function cp_tax_filter() {
+	global $wp_query;
+
+	if ( is_post_type_archive( 'cp-project' ) ) {
+		$tax = 'cp-type';
+	} else {
+		$tax = 'category';
+	}
+
+	$terms = get_terms($tax);
+
+	//TODO: TODOS TODAS
+
+	echo '<ul class="menu align-center">
+		<li><a data-slug="todos" href="">Todos</a></li>';
+
+	foreach ($terms as $term) {
+		echo '<li><a data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
+	}
+
+	echo '</ul>';
+
+	// return $return;
+}

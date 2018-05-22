@@ -1,9 +1,26 @@
 jQuery(document).ready(function($) {
 
+	function getUrlParameter(name) {
+	    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+	    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+	    var results = regex.exec(location.search);
+	    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+	};
 
 	function find_page_number( element ) {
 		// element.find('span').remove();
-		return parseInt( element.html() );
+		var parsed = parseInt( element.html() ),
+			page;
+
+		if ( isNaN( parsed ) ) {
+			// var url = element.attr('href'),
+			// 	;
+			// console.log(url);
+			// page = getUrlParameter('post');
+
+		}
+
+		return parsed;
 	}
 
 	$(document).on( 'click', '.pagination a', function( event ) {

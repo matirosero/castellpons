@@ -17,6 +17,8 @@ get_header(); ?>
 		    		<h1 class="page-title"><?php the_archive_title();?></h1>
 		    	</header>
 
+		    	<?php cp_tax_filter(); ?>
+
 		    	<div class="project-grid posts-container">
 
 			    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

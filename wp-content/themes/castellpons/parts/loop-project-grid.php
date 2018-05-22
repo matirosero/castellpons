@@ -7,7 +7,7 @@
 ?>
 
 
-<div id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article">
+<article id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article">
 
 	<div class="featured-image" itemprop="articleBody">
 		<?php the_post_thumbnail('full'); ?>
@@ -18,7 +18,7 @@
 		<p><?php the_excerpt(); ?></p>
 	</a> <!-- end article header -->
 
-</div>
+</article>
 
 
 

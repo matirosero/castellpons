@@ -11,13 +11,13 @@ get_header(); ?>
 
 		<div class="inner-content">
 
-		    <main class="main project-content" role="main">
+		    <main id="main" class="main project-content" role="main">
 
 		    	<header>
 		    		<h1 class="page-title"><?php the_archive_title();?></h1>
 		    	</header>
 
-		    	<div class="project-grid">
+		    	<div class="project-grid posts-container">
 
 			    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

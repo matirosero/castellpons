@@ -13,7 +13,7 @@ get_header(); ?>
 
 		<div class="inner-content">
 
-		    <main class="main news-content" role="main">
+		    <main id="main" class="main news-content posts-container" role="main">
 
 			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 

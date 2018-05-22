@@ -11,7 +11,7 @@
 	<div class="content-row">
 	<!-- grid-x grid-margin-x grid-padding-x -->
 
-		<main class="main" role="main">
+		<main id="main" class="main" role="main">
 			 <!-- small-12 large-8 medium-8 cell -->
 
 			<?php

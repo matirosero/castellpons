@@ -11,7 +11,7 @@
 
 		<?php get_template_part( 'parts/loop', 'single-project-sidebar' ); ?>
 
-		<main class="main medium-order-1" role="main">
+		<main id="main" class="main medium-order-1" role="main">
 			 <!-- small-12 large-8 medium-8 cell -->
 
 			<?php

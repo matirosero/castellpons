@@ -32,6 +32,8 @@ jQuery(document).ready(function($) {
 
 		console.log(ajaxpagination.query_vars);
 
+		//if new wp query else query vars
+
 		$.ajax({
 			url: ajaxpagination.ajaxurl,
 			type: 'post',

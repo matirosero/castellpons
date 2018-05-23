@@ -1,0 +1,54 @@
+.menu {
+	a {
+		color: $body-font-color;
+		text-transform: uppercase;
+		// font-size: $small-font-size;
+		@include hover {
+			color: $primary-color;
+		}
+	}
+	// .current-menu-item {
+	// 	a {
+	// 		color: $primary-color;
+	// 	}
+	// }
+	// @include breakpoint(small only) {
+	// 	.menu .button, .menu a {
+	// 		padding: .7rem .5rem;
+	// 	}
+	// }
+	@include breakpoint(medium) {
+		font-size: 13px;
+	}
+}
+
+.filter-menu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	// background: pink;
+	.is-active {
+		// font-weight: bold;
+		a {
+			// background: $light-gray;
+			position: relative;
+			display: inline-block;
+			&:before {
+			   content:'';
+			    position:absolute;
+			    left: 30px; 
+			    right: 30px;
+			    top:100%;
+			    margin:0 auto;
+			    // width:50%;
+			    height:1px;
+			    background: $primary-color;
+			}
+		}
+	}
+
+	@include breakpoint(medium) {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}

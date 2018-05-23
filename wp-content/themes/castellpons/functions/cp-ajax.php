@@ -7,8 +7,25 @@ function cp_ajax_filter_pagination() {
     $query_vars = json_decode( stripslashes( $_POST['query_vars'] ), true );
 
     // var_dump($query_vars);
+    // var_dump( $_POST['taxID'] );
+    // var_dump( $_POST['page'] );
+    // var_dump($_POST['query_vars']);
 
-    $query_vars['paged'] = $_POST['page'];
+    if ( isset( $_POST['page'] ) ) {
+    	$query_vars['paged'] = $_POST['page'];
+    }
+
+    if ( isset( $_POST['taxID'] ) && isset( $_POST['taxonomy'] ) ) {
+
+    	$query_vars['tax_query'] = array(
+			array(
+				'taxonomy' => $_POST['taxonomy'],
+				'field'    => 'id',
+				'terms'    => $_POST['taxID'],
+			),
+		);
+    }
+
 
     // var_dump($query_vars);
 
@@ -55,7 +72,7 @@ function cp_tax_filter() {
 		<li class="is-active"><a data-slug="todos" href="">Todos</a></li>';
 
 	foreach ($terms as $term) {
-		echo '<li><a data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
+		echo '<li><a data-taxonomy="' . $tax . '" data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
 	}
 
 	echo '</ul>';

@@ -47,7 +47,7 @@ jQuery(document).ready(function($) {
 				$('.posts-container').find( 'pre' ).remove();
 				$('#main .page-navigation').remove();
 				$(document).scrollTop();
-				$('.posts-container').append( '<div class="page-content" id="loader">Loading New Posts...</div>' );
+				$('.posts-container').append( '<div class="page-content text-center" id="loader"><i class="icon-spin1 animate-spin"></i></div>' );
 			},
 			success: function( html ) {
 				$('.posts-container #loader').remove();

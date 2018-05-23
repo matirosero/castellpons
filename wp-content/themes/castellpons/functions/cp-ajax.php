@@ -1,9 +1,9 @@
 <?php
 
-add_action( 'wp_ajax_nopriv_ajax_pagination', 'cp_ajax_pagination' );
-add_action( 'wp_ajax_ajax_pagination', 'cp_ajax_pagination' );
+add_action( 'wp_ajax_nopriv_ajax_filter_pagination', 'cp_ajax_filter_pagination' );
+add_action( 'wp_ajax_ajax_filter_pagination', 'cp_ajax_filter_pagination' );
 
-function cp_ajax_pagination() {
+function cp_ajax_filter_pagination() {
     $query_vars = json_decode( stripslashes( $_POST['query_vars'] ), true );
 
     // var_dump($query_vars);

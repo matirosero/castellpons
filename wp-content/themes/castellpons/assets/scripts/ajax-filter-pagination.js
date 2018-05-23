@@ -30,16 +30,16 @@ jQuery(document).ready(function($) {
 
 		console.log('page number clicked: ' + page);
 
-		console.log(ajaxpagination.query_vars);
+		console.log(ajaxFilterPagination.query_vars);
 
 		//if new wp query else query vars
 
 		$.ajax({
-			url: ajaxpagination.ajaxurl,
+			url: ajaxFilterPagination.ajaxurl,
 			type: 'post',
 			data: {
-				action: 'ajax_pagination',
-				query_vars: ajaxpagination.query_vars,
+				action: 'ajax_filter_pagination',
+				query_vars: ajaxFilterPagination.query_vars,
 				page: page
 			},
 			beforeSend: function() {

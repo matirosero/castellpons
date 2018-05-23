@@ -72,7 +72,7 @@ function cp_tax_filter() {
 		<li class="is-active"><a data-slug="todos" href="">Todos</a></li>';
 
 	foreach ($terms as $term) {
-		echo '<li><a data-taxonomy="' . $tax . '" data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
+		echo '<li class="' . $term->slug . '"><a data-taxonomy="' . $tax . '" data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
 	}
 
 	echo '</ul>';

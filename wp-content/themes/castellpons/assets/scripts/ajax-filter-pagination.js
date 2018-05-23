@@ -77,6 +77,8 @@ jQuery(document).ready(function($) {
 		console.log('ID is '+taxID);
 		console.log(ajaxFilterPagination.query_vars);
 
+
+
 		//if new wp query else query vars
 
 		$.ajax({
@@ -92,12 +94,14 @@ jQuery(document).ready(function($) {
 				$('.posts-container').find( 'article' ).remove();
 				$('.posts-container').find( 'pre' ).remove();
 				$('#main .page-navigation').remove();
+				$('.filter-menu .is-active').removeClass('is-active');
 				$(document).scrollTop();
 				$('.posts-container').append( '<div class="page-content text-center" id="loader"><i class="icon-spin1 animate-spin"></i></div>' );
 			},
 			success: function( html ) {
 				$('.posts-container #loader').remove();
 				$('.posts-container').append( html );
+				$('.filter-menu .'+slug).addClass('is-active');
 			}
 		})
 		

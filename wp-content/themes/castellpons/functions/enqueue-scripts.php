@@ -28,6 +28,12 @@ function site_scripts() {
 
     global $wp_query;
 
+    // if( isset( $ajax_posts ) ) {
+    //     $query_vars = $ajax_posts->query;
+    // } else {
+    //     $query_vars = $wp_query->query;
+    // }
+
     wp_localize_script( 
         'ajax-filter-pagination', 
         'ajaxFilterPagination', array(

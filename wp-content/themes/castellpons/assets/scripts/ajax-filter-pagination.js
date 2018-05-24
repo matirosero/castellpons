@@ -26,9 +26,25 @@ jQuery(document).ready(function($) {
 	$(document).on( 'click', '.pagination a', function( event ) {
 		event.preventDefault();
 
-		page = find_page_number( $(this).clone() );
+		var page = find_page_number( $(this).clone() ),
+			currentFilter = $('.filter-menu .is-active a'),
+			taxID,
+			taxonomy;
+
+
+		if ( currentFilter.attr('data-id') ) {
+			console.log('data id is set');
+			taxID = currentFilter.data('id');
+		}
+
+		if ( currentFilter.attr('data-taxonomy') ) {
+			console.log('data taxonomy is set');
+			taxonomy = currentFilter.data('taxonomy');
+		}
 
 		console.log('page number clicked: ' + page);
+		console.log('taxonomy: ' + taxID);
+		console.log('taxonomy id: ' + taxonomy);
 
 		console.log(ajaxFilterPagination.query_vars);
 
@@ -40,7 +56,9 @@ jQuery(document).ready(function($) {
 			data: {
 				action: 'ajax_filter_pagination',
 				query_vars: ajaxFilterPagination.query_vars,
-				page: page
+				page: page,
+				taxID: taxID,
+				taxonomy: taxonomy
 			},
 			beforeSend: function() {
 				$('.posts-container').find( 'article' ).remove();

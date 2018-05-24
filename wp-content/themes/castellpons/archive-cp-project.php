@@ -13,17 +13,20 @@ get_header(); ?>
 
 		    <main id="main" class="main project-content" role="main">
 
-		    	<?php cp_tax_filter(); ?>
+			    <?php if (have_posts()) : ?>
 
-		    	<div class="project-grid posts-container">
+			    	<?php cp_tax_filter(); ?>
 
-			    	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			    	<div class="project-grid posts-container">
 
-						<!-- To see additional archive styles, visit the /parts directory -->
-						<?php get_template_part( 'parts/loop', 'project-grid' ); ?>
+				    	<?php while (have_posts()) : the_post(); ?>
 
-					<?php endwhile; ?>
-				</div><!-- project-grid -->
+							<!-- To see additional archive styles, visit the /parts directory -->
+							<?php get_template_part( 'parts/loop', 'project-grid' ); ?>
+
+						<?php endwhile; ?>
+						
+					</div><!-- project-grid -->
 
 					<?php joints_page_navi(); ?>
 

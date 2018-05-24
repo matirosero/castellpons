@@ -14,7 +14,7 @@
 		    'next_text' => __( '&raquo;', 'jointswp' ),
 			'type' => 'list',
 		) );
-		$paginate_links = str_replace( "<ul class='page-numbers'>", "<ul class='pagination'>", $paginate_links );
+		$paginate_links = str_replace( "<ul class='page-numbers'>", "<ul class='pagination text-center'>", $paginate_links );
 		$paginate_links = str_replace( '<li><span class="page-numbers dots">', "<li><a href='#'>", $paginate_links );
 		$paginate_links = str_replace( "<li><span class='page-numbers current'>", "<li class='current'>", $paginate_links );
 		$paginate_links = str_replace( '</span>', '</a>', $paginate_links );

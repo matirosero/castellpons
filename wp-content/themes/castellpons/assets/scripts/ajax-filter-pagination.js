@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 	}
 
 	$(document).on( 'click', '.pagination a', function( event ) {
-
+		
 		event.preventDefault();
 
 		var page = find_page_number( $(this).clone() ),
@@ -119,6 +119,6 @@ jQuery(document).ready(function($) {
 				$('.filter-menu .'+slug).addClass('is-active');
 			}
 		})
-
+		
 	})
 });

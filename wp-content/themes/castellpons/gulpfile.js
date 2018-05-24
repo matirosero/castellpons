@@ -152,6 +152,7 @@ gulp.task('browsersync', function() {
     // Watch these files
     var files = [
     	SOURCE.php,
+    	SOURCE.js,
     ];
 
     browserSync.init(files, {

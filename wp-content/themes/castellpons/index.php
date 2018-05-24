@@ -13,9 +13,11 @@ get_header(); ?>
 
 		<div class="inner-content">
 
-		    <main id="main" class="main news-content posts-container" role="main">
+		    <main id="main" class="main news-content" role="main">
 
 		    	<?php cp_tax_filter(); ?>
+
+		    	<div class="posts-container">
 
 			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -23,6 +25,8 @@ get_header(); ?>
 					<?php get_template_part( 'parts/loop', 'archive' ); ?>
 
 				<?php endwhile; ?>
+
+				</div>
 
 					<?php joints_page_navi(); ?>
 

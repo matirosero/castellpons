@@ -43,7 +43,9 @@ function cp_ajax_filter_pagination() {
             $posts->the_post();
 
             if ( is_post_type_archive( 'cp-project' ) ) {
+				// echo '<div class="project-grid posts-container">';
 				get_template_part( 'parts/loop', 'project-grid' );
+				// echo '</div><!-- project-grid -->';
 			} else {
 				get_template_part( 'parts/loop', 'archive' );
 			}

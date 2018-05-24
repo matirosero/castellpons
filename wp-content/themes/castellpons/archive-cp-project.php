@@ -13,10 +13,6 @@ get_header(); ?>
 
 		    <main id="main" class="main project-content" role="main">
 
-		    	<header>
-		    		<h1 class="page-title"><?php the_archive_title();?></h1>
-		    	</header>
-
 		    	<?php cp_tax_filter(); ?>
 
 		    	<div class="project-grid posts-container">

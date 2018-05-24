@@ -33,20 +33,20 @@ jQuery(document).ready(function($) {
 
 
 		if ( currentFilter.attr('data-id') ) {
-			console.log('data id is set');
+			// console.log('data id is set');
 			taxID = currentFilter.data('id');
 		}
 
 		if ( currentFilter.attr('data-taxonomy') ) {
-			console.log('data taxonomy is set');
+			// console.log('data taxonomy is set');
 			taxonomy = currentFilter.data('taxonomy');
 		}
 
-		console.log('page number clicked: ' + page);
-		console.log('taxonomy: ' + taxID);
-		console.log('taxonomy id: ' + taxonomy);
+		// console.log('page number clicked: ' + page);
+		// console.log('taxonomy: ' + taxID);
+		// console.log('taxonomy id: ' + taxonomy);
 
-		console.log(ajaxFilterPagination.query_vars);
+		// console.log(ajaxFilterPagination.query_vars);
 
 		//if new wp query else query vars
 
@@ -83,7 +83,7 @@ jQuery(document).ready(function($) {
 			taxID,
 			taxonomy;
 
-		console.log('Clicked slug: ' + $(this).data('id'));
+		// console.log('Clicked slug: ' + $(this).data('id'));
 
 		slug = $(this).data('slug');
 		taxID = $(this).data('id');
@@ -92,12 +92,8 @@ jQuery(document).ready(function($) {
 		   console.log('THERE IS AN ID');
 		}
 
-		console.log('ID is '+taxID);
-		console.log(ajaxFilterPagination.query_vars);
-
-
-
-		//if new wp query else query vars
+		// console.log('ID is '+taxID);
+		// console.log(ajaxFilterPagination.query_vars);
 
 		$.ajax({
 			url: ajaxFilterPagination.ajaxurl,

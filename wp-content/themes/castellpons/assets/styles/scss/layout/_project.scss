@@ -89,12 +89,23 @@
 
 .project-gallery {
 	.project-gallery-image {
-		margin: 0 0 30px;
+		margin: 0 auto 30px;
+		text-align: center;
 	}
 
 	@include breakpoint(small only) {
 		.project-gallery-image {
 			margin: 0 -20px 20px;
+		}
+	}
+
+	@include breakpoint(medium) {
+		.project-gallery-image {
+			max-height: 90vh;
+			img {
+				max-height: 90vh;
+				width: auto;
+			}
 		}
 	}
 

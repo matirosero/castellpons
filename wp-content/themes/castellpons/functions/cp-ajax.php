@@ -41,7 +41,13 @@ function cp_ajax_filter_pagination() {
     else {
         while ( $posts->have_posts() ) { 
             $posts->the_post();
-            get_template_part( 'parts/loop', 'archive' );
+
+            if ( is_post_type_archive( 'cp-project' ) ) {
+				get_template_part( 'parts/loop', 'project-grid' );
+			} else {
+				get_template_part( 'parts/loop', 'archive' );
+			}
+
         }
     }
     remove_filter( 'editor_max_image_size', 'my_image_size_override' );

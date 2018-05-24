@@ -68,10 +68,10 @@ function cp_tax_filter($current = 'all') {
 
 	if ( is_post_type_archive( 'cp-project' ) ) {
 		$tax = 'cp-type';
-		$all = 'Todos';
+		$all = _x( 'All', 'masculine', 'jointswp' );
 	} else {
 		$tax = 'category';
-		$all = 'Todas';
+		$all = _x( 'All', 'feminine', 'jointswp' );
 	}
 
 	$terms = get_terms($tax);

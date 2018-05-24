@@ -66,8 +66,10 @@ function cp_tax_filter($current = 'all') {
 
 	if ( is_post_type_archive( 'cp-project' ) ) {
 		$tax = 'cp-type';
+		$all = 'Todos';
 	} else {
 		$tax = 'category';
+		$all = 'Todas';
 	}
 
 	$terms = get_terms($tax);
@@ -76,10 +78,10 @@ function cp_tax_filter($current = 'all') {
 
 	if ( $current == 'all' ) {
 		echo '<ul class="filter-menu menu align-center">
-		<li class="is-active"><a data-slug="todos" href="#">Todos</a></li>';
+		<li class="is-active"><a data-slug="todos" href="#">' . $all . '</a></li>';
 	} else {
 		echo '<ul class="filter-menu menu align-center">
-		<li><a data-slug="todos" href="#">Todos</a></li>';
+		<li><a data-slug="todos" href="#">' . $all . '</a></li>';
 	}
 
 	foreach ($terms as $term) {

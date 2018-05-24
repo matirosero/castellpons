@@ -146,7 +146,11 @@ IMAGE GALLERY STYLES
 PAGE NAVI STYLES
 *********************/
 .page-navigation {
+	@include xy-cell(full);
 	margin-top: 1rem;
+	@include breakpoint(medium) {
+		margin-top: 2rem;
+	}
 }
 
 /*********************
@@ -414,6 +418,9 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 1em;
+@include breakpoint(medium) {
+		margin-top: 2rem;
+	}
 }
 	
 /*********************

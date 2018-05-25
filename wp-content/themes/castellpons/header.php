@@ -36,23 +36,16 @@
 
 	<body <?php body_class(); ?>>
 
-		<!-- <div class="off-canvas-wrapper"> -->
+		<header class="header" role="banner">
 
-			<!-- Load off-canvas container. Feel free to remove if not using. -->
-			<?php //get_template_part( 'parts/content', 'offcanvas' ); ?>
+			 <!-- This navs will be applied to the topbar, above all content
+				  To see additional nav styles, visit the /parts directory -->
+			 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 
-			<!-- <div class="off-canvas-content" data-off-canvas-content> -->
+		</header> <!-- end .header -->
 
-				<header class="header" role="banner">
+		<nav id="mobile-navigation">
+			<?php joints_off_canvas_nav(); ?>
+		</nav>
 
-					 <!-- This navs will be applied to the topbar, above all content
-						  To see additional nav styles, visit the /parts directory -->
-					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-
-				</header> <!-- end .header -->
-
-				<nav id="mobile-navigation">
-					<?php joints_off_canvas_nav(); ?>
-				</nav>
-
-				<div id="mobile-navigation-background"></div>
+		<div id="mobile-navigation-background"></div>

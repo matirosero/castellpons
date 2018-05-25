@@ -8,35 +8,31 @@
  */
  ?>
 
-				<footer id="site-footer" class="footer" role="contentinfo">
+		<footer id="site-footer" class="footer" role="contentinfo">
 
-					<div class="inner-footer grid-x grid-padding-x">
+			<div class="inner-footer grid-x grid-padding-x">
 
-						<div id="footer-social-menu" class="small-12 medium-4 large-4 cell">
-							<nav role="navigation">
-	    						<?php cp_social_media_icons(); ?>
-	    					</nav>
-	    				</div>
+				<div id="footer-social-menu" class="small-12 medium-4 large-4 cell">
+					<nav role="navigation">
+						<?php cp_social_media_icons(); ?>
+					</nav>
+				</div>
 
-						<div id="footer-credits" class="small-12 medium-4 large-4 cell">
-							<!-- <p class="source-org copyright">&copy; <?php echo date('Y'); ?> --><?php //bloginfo('name'); ?><strong>Castell + Pons</strong> <?php _e('Architects', 'jointswp'); ?></p>
+				<div id="footer-credits" class="small-12 medium-4 large-4 cell">
+					<!-- <p class="source-org copyright">&copy; <?php echo date('Y'); ?> --><?php //bloginfo('name'); ?><strong>Castell + Pons</strong> <?php _e('Architects', 'jointswp'); ?></p>
 
-						</div>
+				</div>
 
-						<?php if ( is_active_sidebar( 'footer-right' ) ) : ?>
-							<div id="footer-language-menu" class="widget-area small-12 medium-4 large-4 cell" role="complementary">
-								<?php dynamic_sidebar( 'footer-right' ); ?>
-							</div><!-- #primary-sidebar -->
-						<?php endif; ?>
+				<?php if ( is_active_sidebar( 'footer-right' ) ) : ?>
+					<div id="footer-language-menu" class="widget-area small-12 medium-4 large-4 cell" role="complementary">
+						<?php dynamic_sidebar( 'footer-right' ); ?>
+					</div><!-- #primary-sidebar -->
+				<?php endif; ?>
 
 
-					</div> <!-- end #inner-footer -->
+			</div> <!-- end #inner-footer -->
 
-				</footer> <!-- end .footer -->
-
-			<!-- </div> -->  <!-- end .off-canvas-content -->
-
-		<!-- </div> --> <!-- end .off-canvas-wrapper -->
+		</footer> <!-- end .footer -->
 
 		<?php wp_footer(); ?>
 

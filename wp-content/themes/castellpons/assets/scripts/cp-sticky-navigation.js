@@ -1,11 +1,5 @@
 jQuery(document).ready(function($) {
 
-	// $('#top-bar-menu').on('sticky.zf.stuckto:top', function(){
-	//   $(this).addClass('shrink');
-	// }).on('sticky.zf.unstuckfrom:top', function(){
-	//   $(this).removeClass('shrink');
-	// })
-
 	var toggleBtn = $('*[data-toggle="mobile-menu"]'),
 		mobileMenu = $('#mobile-navigation'),
 		mobileMenuBg = $('#mobile-navigation-background')
@@ -21,9 +15,6 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-
-
-	// $('#toggle-mobile-menu').hide();
 
 	$(document).on( 'click', toggleBtn, function( event ) {
 

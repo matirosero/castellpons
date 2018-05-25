@@ -25,7 +25,7 @@
 	<div class="top-bar-right float-right show-for-small-only">
 		<ul class="menu">
 			<!-- <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> -->
-			<li><a data-toggle="off-canvas"><i class="icon-menu-toggle"></i></a></li>
+			<li><a id="toggle-mobile-menu" data-toggle="mobile-menu"><i class="icon-menu-toggle"></i></a></li>
 		</ul>
 	</div>
   </div>

@@ -6,13 +6,37 @@ jQuery(document).ready(function($) {
 	//   $(this).removeClass('shrink');
 	// })
 
+	var toggleBtn = $('*[data-toggle="mobile-menu"]'),
+		mobileMenu = $('#mobile-navigation'),
+		mobileMenuBg = $('#mobile-navigation-background')
+		topbar = $('#top-bar-menu');
+
+
 	$(window).scroll(function() {
 		var winTop = $(window).scrollTop();
-		if (winTop >= 96) {
-			$("#top-bar-menu").addClass("shrink");
+		if (winTop >= 96 ) {
+			topbar.addClass("shrink");
 		} else{
-			$("#top-bar-menu").removeClass("shrink");
+			topbar.removeClass("shrink");
 		}
+	});
+
+
+
+	// $('#toggle-mobile-menu').hide();
+
+	$(document).on( 'click', toggleBtn, function( event ) {
+
+		event.preventDefault();
+
+		console.log('toggle on mobile menu');
+
+		mobileMenu.toggleClass('open');
+		mobileMenuBg.toggleClass('open');
+		topbar.toggleClass('static');
+
+		$('body').toggleClass('lock-scroll');
+
 	});
 
 });

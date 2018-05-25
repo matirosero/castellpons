@@ -1,3 +1,7 @@
+body.lock-scroll {
+    overflow: hidden;
+}
+
 .inner-content {
 	@include xy-grid-container;
 	// background: #ccc;

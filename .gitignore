@@ -22,8 +22,10 @@ wp-content/*
 wp-content/plugins/*
 !wp-content/plugins/cp-theme-functions/
 
-wp-content/mu-plugins/*
+
 !wp-content/mu-plugins/fix-migrate-spatial-data-columns.php
+# wp-content/mu-plugins/*
+
 
 wp-content/themes/*
 !wp-content/themes/castellpons/

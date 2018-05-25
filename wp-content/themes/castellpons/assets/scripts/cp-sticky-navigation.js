@@ -31,6 +31,8 @@ jQuery(document).ready(function($) {
 
 		console.log('toggle on mobile menu');
 
+		$(this).find('i').toggleClass('icon-menu-toggle').toggleClass('icon-menu-close');
+
 		mobileMenu.toggleClass('open');
 		mobileMenuBg.toggleClass('open');
 		topbar.toggleClass('static');

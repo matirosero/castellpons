@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
 
-	var toggleBtn = $('*[data-toggle="mobile-menu"]'),
+	var toggleBtn = $('#toggle-mobile-menu'),
 		mobileMenu = $('#mobile-navigation'),
 		mobileMenuBg = $('#mobile-navigation-background')
 		topbar = $('#top-bar-menu');
@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
 	});
 
 
-	$(document).on( 'click', toggleBtn, function( event ) {
+	$(document).on( 'click', '#toggle-mobile-menu', function( event ) {
 
 		event.preventDefault();
 

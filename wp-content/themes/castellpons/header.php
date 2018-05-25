@@ -44,8 +44,8 @@
 
 		</header> <!-- end .header -->
 
-		<nav id="mobile-navigation">
+		<nav id="mobile-navigation" class="hide-for-medium">
 			<?php joints_off_canvas_nav(); ?>
 		</nav>
 
-		<div id="mobile-navigation-background"></div>
+		<div id="mobile-navigation-background" class="hide-for-medium"></div>

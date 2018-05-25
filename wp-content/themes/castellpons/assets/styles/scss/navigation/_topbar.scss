@@ -46,6 +46,7 @@ a[data-toggle] {
 	z-index: 10;
 	right: 10px;
 	left: 10px;
+	visibility: hidden;
 
 	li {
 		-webkit-transition: all 0.2s ease-in-out 0s;
@@ -72,6 +73,7 @@ a[data-toggle] {
 
 
 	&.open {
+		visibility: visible;
 		li {
 			opacity: 1;
 			visibility: visible;

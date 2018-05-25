@@ -1,4 +1,9 @@
 #top-bar-menu {
+
+	width: 100%;
+	z-index: 10;
+	transition: top .25s ease;
+
 	border-bottom: 1px solid $primary-color;
 	a {
 		color: $body-font-color;
@@ -11,6 +16,12 @@
 			color: $primary-color;
 		}
 	}
+
+	&.shrink {
+		// height: 1px;
+		top: -100px !important;
+	}
+
 	@include breakpoint(small only) {
 		.menu .button, .menu a {
 			padding: .7rem .5rem;

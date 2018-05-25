@@ -10,7 +10,7 @@
 
 				<footer id="site-footer" class="footer" role="contentinfo">
 
-					<div class="inner-footer grid-x grid-margin-x grid-padding-x">
+					<div class="inner-footer grid-x grid-padding-x">
 
 						<div id="footer-social-menu" class="small-12 medium-4 large-4 cell">
 							<nav role="navigation">
@@ -34,9 +34,9 @@
 
 				</footer> <!-- end .footer -->
 
-			</div>  <!-- end .off-canvas-content -->
+			<!-- </div> -->  <!-- end .off-canvas-content -->
 
-		</div> <!-- end .off-canvas-wrapper -->
+		<!-- </div> --> <!-- end .off-canvas-wrapper -->
 
 		<?php wp_footer(); ?>
 

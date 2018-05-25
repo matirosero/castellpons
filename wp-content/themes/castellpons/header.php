@@ -50,3 +50,9 @@
 					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 
 				</header> <!-- end .header -->
+
+				<nav id="mobile-navigation">
+					<?php joints_off_canvas_nav(); ?>
+				</nav>
+
+				<div id="mobile-navigation-background"></div>

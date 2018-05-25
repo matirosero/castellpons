@@ -6,7 +6,7 @@
  */
 ?>
 <div data-sticky-container>
-  <div class="top-bar" id="top-bar-menu" data-sticky data-options="marginTop:0;" style="width:100%">
+  <div class="top-bar" id="top-bar-menu" data-sticky data-options="marginTop:0; stickyOn:small" style="width:100%">
     <div class="title-area top-bar-left float-left">
 		<ul class="menu">
 			<li>

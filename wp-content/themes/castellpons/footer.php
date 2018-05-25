@@ -29,7 +29,6 @@
 					</div><!-- #primary-sidebar -->
 				<?php endif; ?>
 
-
 			</div> <!-- end #inner-footer -->
 
 		</footer> <!-- end .footer -->

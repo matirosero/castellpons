@@ -13,18 +13,35 @@ jQuery(document).ready(function($) {
 			page;
 
 		if ( isNaN( parsed ) ) {
-			// var url = element.attr('href'),
-			// 	;
-			// console.log(url);
-			// page = getUrlParameter('post');
 
+			var url = element.attr('href'),
+				pattern1 = /(\d+)$/gi,
+				pattern2 = /\/(\d+)\/$/gi,
+				res;
+
+			// console.log(url);
+
+			if ( url.match(pattern1) ) {
+				// console.log('first matched ');
+				res = url.match(pattern1);
+				page = res[0];
+			} else if ( url.match(pattern2) ) {
+				// console.log('second matched !');
+				res = pattern2.exec(url);
+				page = res[1];
+			}
+
+		} else {
+			page = parsed
 		}
 
-		return parsed;
+		// console.log('page is '+page);
+
+		return page;
 	}
 
 	$(document).on( 'click', '.pagination a', function( event ) {
-		
+
 		event.preventDefault();
 
 		var page = find_page_number( $(this).clone() ),
@@ -32,6 +49,7 @@ jQuery(document).ready(function($) {
 			taxID,
 			taxonomy;
 
+		// console.log( $(this).attr('href') );
 
 		if ( currentFilter.attr('data-id') ) {
 			// console.log('data id is set');
@@ -119,6 +137,6 @@ jQuery(document).ready(function($) {
 				$('.filter-menu .'+slug).addClass('is-active');
 			}
 		})
-		
+
 	})
 });

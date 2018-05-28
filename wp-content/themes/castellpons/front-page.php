@@ -8,15 +8,12 @@ get_header(); ?>
 
 	<div class="content">
 
-		<div class="inner-content">
-
-		    <main id="main" class="main" role="main">
+		<header class="page-header grid-y grid-padding-x">
 
 		    	<?php get_template_part( 'parts/content', 'frontpage-slider' ); ?>
 
-		    </main> <!-- end #main -->
 
-		</div> <!-- end #inner-content -->
+		</header> <!-- end #inner-content -->
 
 	</div> <!-- end #content -->
 

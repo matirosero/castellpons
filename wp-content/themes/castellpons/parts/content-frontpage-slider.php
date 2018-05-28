@@ -27,23 +27,31 @@ $query = new WP_Query( $args );
 
 if( $query->have_posts() ): ?>
 
-	<div class="orbit" role="region" aria-label="Project Showcase" data-orbit>
+	<div class="slideshow-container">
 
-		<ul class="orbit-container">
+		<!-- <ul class="orbit-container"> -->
 
-			<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+			<?php 
 
-				<li class="orbit-slide is-active">
-				    <figure class="orbit-figure">
+			$count = $query->post_count;
 
-				    	<?php
-				    	the_post_thumbnail('full', ['class' => 'orbit-image', 'title' => 'Feature project']);
-				    	?>
+			while ( $query->have_posts() ) : $query->the_post(); ?>
 
-						<figcaption class="orbit-caption"><?php the_title(); ?></figcaption>
-						
-				    </figure>
-				</li>
+				<div class="slides fade">
+
+					<!-- <div class="numbertext"><?php echo $i; ?> / 3</div> -->
+					<!-- <img src="img_nature_wide.jpg" style="width:100%"> -->
+					<?php
+					the_post_thumbnail('full', ['class' => 'orbit-image', 'title' => 'Feature project']);
+					?>
+
+					<?php
+					/*
+					<div class="text"><?php the_title(); ?></div>
+					*/
+					?>
+
+				</div>
 
 				<?php
 
@@ -51,15 +59,24 @@ if( $query->have_posts() ): ?>
 
 			endwhile; ?>
 
-		</ul><!-- .orbit-container -->
+		<!-- </ul> --><!-- .orbit-container -->
 
-		<nav class="orbit-bullets">
-			<button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-			<button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-			<button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-			<button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
-		</nav>
+	</div><!-- .slideshow-container -->
 
-	</div><!-- .orbit -->
+	<div class="slider-progress" style="text-align:center">
+
+		<?php
+
+		$i = 0;
+
+		while ( $i < $count ) { ?>
+
+			<span class="dot"></span>
+
+			<?php $i++; ?>
+
+		<?php } ?>
+
+	</div>
 
 <?php endif; ?>

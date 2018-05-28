@@ -4,6 +4,8 @@ $vertical-block-margins: (
   large: 4rem,
 );
 
+$home-hero-height: 80vh;
+
 @function block-margins($breakpoint: small) {
     @return map-get($vertical-block-margins, $breakpoint);
 }

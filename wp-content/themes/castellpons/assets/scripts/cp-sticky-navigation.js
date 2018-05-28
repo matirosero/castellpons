@@ -9,9 +9,11 @@ jQuery(document).ready(function($) {
 	$(window).scroll(function() {
 		var winTop = $(window).scrollTop();
 		if (winTop >= 96 ) {
+			console.log('shrink');
 			topbar.addClass("shrink");
 		} else{
 			topbar.removeClass("shrink");
+			console.log('unshrink');
 		}
 	});
 

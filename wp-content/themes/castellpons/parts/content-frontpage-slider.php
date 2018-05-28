@@ -65,13 +65,17 @@ if( $query->have_posts() ): ?>
 
 	<div class="slider-progress" style="text-align:center">
 
+		
+
 		<?php
 
 		$i = 0;
 
 		while ( $i < $count ) { ?>
 
-			<span class="dot"></span>
+			<div class="bar" >
+				<div id="bar-<?php echo $i; ?>"></div>
+			</div>
 
 			<?php $i++; ?>
 

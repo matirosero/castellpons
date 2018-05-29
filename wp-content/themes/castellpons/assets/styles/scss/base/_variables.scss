@@ -4,7 +4,10 @@ $vertical-block-margins: (
   large: 4rem,
 );
 
-$home-hero-height: 80vh;
+$home-hero-height: 100vh;
+
+$progress-bar-height: 3px;
+$slide-duration: 4s;
 
 @function block-margins($breakpoint: small) {
     @return map-get($vertical-block-margins, $breakpoint);

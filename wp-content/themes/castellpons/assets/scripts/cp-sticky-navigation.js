@@ -3,7 +3,7 @@ jQuery(document).ready(function($) {
 	var toggleBtn = $('#toggle-mobile-menu'),
 		mobileMenu = $('#mobile-navigation'),
 		mobileMenuBg = $('#mobile-navigation-background')
-		topbar = $('#top-bar-menu');
+		topbar = $('body:not(.home) #top-bar-menu');
 
 
 	$(window).scroll(function() {

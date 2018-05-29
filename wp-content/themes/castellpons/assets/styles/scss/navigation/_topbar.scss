@@ -1,3 +1,8 @@
+.home #site-header {
+	position: absolute;
+	width: 100%;
+}
+
 #top-bar-menu {
 
 	width: 100%;
@@ -29,6 +34,15 @@
 	}
 	@include breakpoint(medium) {
 		font-size: 13px;
+	}
+
+	.home & {
+		&.top-bar {
+		    background-color: transparentize($topbar-background, .2);
+		    ul {
+		    	background-color: transparent;
+		    }
+		}
 	}
 }
 
@@ -122,3 +136,4 @@ a[data-toggle] {
 	}
 
 }
+

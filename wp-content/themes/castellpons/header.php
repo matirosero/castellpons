@@ -36,7 +36,7 @@
 
 	<body <?php body_class(); ?>>
 
-		<header class="header" role="banner">
+		<header id="site-header" class="header" role="banner">
 
 			 <!-- This navs will be applied to the topbar, above all content
 				  To see additional nav styles, visit the /parts directory -->

@@ -73,8 +73,11 @@ if( $query->have_posts() ): ?>
 
 		while ( $i < $count ) { ?>
 
-			<div class="bar" >
-				<div id="bar-<?php echo $i; ?>"></div>
+			<div class="progress-indicator" >
+				<div class="numbertext"><?php echo $i+1; ?></div>
+				<div class="bar" id="bar-<?php echo $i; ?>">
+					<div class="bar-progress"></div>
+				</div>
 			</div>
 
 			<?php $i++; ?>

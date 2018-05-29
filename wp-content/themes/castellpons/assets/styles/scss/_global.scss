@@ -417,10 +417,7 @@ FOOTER STYLES
 *********************/
 .footer {
 	clear: both;
-	margin-top: 1em;
-	@include breakpoint(medium) {
-		margin-top: 2rem;
-	}
+	padding-top: 1em;
 }
 	
 /*********************

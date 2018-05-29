@@ -42,11 +42,10 @@
 
 .slider-progress {
     position: absolute;
-    bottom: 0px;
+    bottom: rem-calc(60px);
     left: 0;
     right: 0;
     display: flex;
-
     padding: 0 20px 1rem;
 }
 

@@ -37,6 +37,17 @@
 	}
 
 	.home & {
+		border-bottom: none;
+		&:before {
+			content: " ";
+			position: absolute;
+			z-index: -1;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: -3px;
+			border-bottom: 1px solid $primary-color;
+		}
 		&.top-bar {
 		    background-color: transparentize($topbar-background, .2);
 		    ul {

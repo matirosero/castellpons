@@ -74,7 +74,7 @@ if( $query->have_posts() ): ?>
 		while ( $i < $count ) { ?>
 
 			<div class="progress-indicator" >
-				<div class="numbertext"><?php echo $i+1; ?></div>
+				<div class="numbertext"><?php echo str_pad($i+1, 2, '0', STR_PAD_LEFT); ?></div>
 				<div class="bar" id="bar-<?php echo $i; ?>">
 					<div class="bar-progress"></div>
 				</div>

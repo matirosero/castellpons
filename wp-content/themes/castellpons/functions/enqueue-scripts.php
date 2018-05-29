@@ -1,10 +1,10 @@
 <?php
 function site_scripts() {
   global $wp_styles; // Call global $wp_styles variable to add conditional wrapper around ie stylesheet the WordPress way
-        
+
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/scripts/scripts.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
-   
+
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/styles/style.css', array(), filemtime(get_template_directory() . '/assets/styles/scss'), 'all' );
 
@@ -25,13 +25,12 @@ function site_scripts() {
 
     wp_enqueue_script( 'cp-navigation-js', get_template_directory_uri() . '/assets/scripts/cp-sticky-navigation.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
 
-    // wp_enqueue_script( 'progressbar-js', get_template_directory_uri() . '/assets/scripts/progressbar.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
+    wp_enqueue_script( 'ajax-filter-pagination', get_template_directory_uri() . '/assets/scripts/ajax-filter-pagination.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
 
     wp_enqueue_script( 'slider-js', get_template_directory_uri() . '/assets/scripts/slider.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
 
 
 
-    wp_enqueue_script( 'ajax-filter-pagination', get_template_directory_uri() . '/assets/scripts/ajax-filter-pagination.js', array( 'jquery' ), filemtime(get_template_directory() . '/assets/scripts/js'), true );
 
     global $wp_query;
 
@@ -41,8 +40,8 @@ function site_scripts() {
     //     $query_vars = $wp_query->query;
     // }
 
-    wp_localize_script( 
-        'ajax-filter-pagination', 
+    wp_localize_script(
+        'ajax-filter-pagination',
         'ajaxFilterPagination', array(
             'ajaxurl' => admin_url( 'admin-ajax.php' ),
             'query_vars' => json_encode( $wp_query->query ),

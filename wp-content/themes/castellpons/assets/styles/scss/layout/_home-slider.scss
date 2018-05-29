@@ -42,11 +42,14 @@
 
 .slider-progress {
     position: absolute;
-    bottom: rem-calc(60px);
+    bottom: rem-calc(55px);
     left: 0;
     right: 0;
     display: flex;
     padding: 0 20px 1rem;
+    @include breakpoint(medium) {
+        bottom: rem-calc(60px);
+    }
 }
 
 /* The dots/bullets/indicators */
@@ -75,8 +78,6 @@
             &:not(.active) {
                 // transition: width 3s;
             }
-
-            
         }
     }
 

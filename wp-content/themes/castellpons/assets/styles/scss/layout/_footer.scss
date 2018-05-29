@@ -1,5 +1,14 @@
+/*********************
+FOOTER STYLES
+*********************/
+.footer {
+
+}
+
 #site-footer {
 	text-align: center;
+	clear: both;
+
 	a {
 		color: $medium-gray;
 		@include hover {
@@ -7,46 +16,91 @@
 		}
 	}
 
+	body:not(.home) & {
+		padding-top: 1em;
+	}
+
 	.home & {
-		position:fixed; 
-		bottom:0; 
+		position:fixed;
+		bottom:0;
 		z-index:100000;
 		width: 100%;
 		background-color: transparentize($topbar-background, .2);
 	}
 }
 
-#footer-social-menu,
-#footer-language-menu {
-	
+.inner-footer {
+	@include xy-grid;
+	// background-color: $light-gray;
 }
 
-@include breakpoint(small only) {
-	#footer-credits,
-	#footer-language-menu,
-	#footer-social-menu {
+#footer-credits {
+	flex-grow: 1;
+	width: 50%;
 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	p {
+		margin:0;
+		line-height: 1.2;
 	}
-		
-	#footer-credits,
-	#footer-language-menu {
-		font-size: 13px;
+}
+
+
+@include breakpoint(small only) {
+	.inner-footer {
+		padding: 0.25rem 20px;
+		justify-content: space-between;
+		align-items: center;
 	}
-	#footer-social-menu,
+
+	#footer-social-menu {
+		flex-grow: 1;
+		width: 25%;
+		a {
+			padding: 0.7rem 0.75rem 0.7rem 0;
+		}
+	}
+
+	#footer-credits {
+		flex-grow: 1;
+		width: 50%;
+	}
+
 	#footer-language-menu {
+		flex-grow: 1;
+		width: 25%;
 		a {
 			padding: 0.7rem 0;
 		}
 	}
+
+	#footer-credits,
+	#footer-language-menu {
+		font-size: $small-font-size;
+	}
+
 }
 
 @include breakpoint(medium) {
+	.inner-footer {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+
 	#footer-social-menu {
 		text-align: left;
+		@include xy-cell(4 of 12, true, 40);
+	}
+
+	#footer-credits {
+		@include xy-cell(4 of 12, true, 40);
 	}
 
 	#footer-language-menu {
 		text-align: right;
-		font-size: 13px;
+		font-size: $small-font-size;
+		@include xy-cell(4 of 12, true, 40);
 	}
 }

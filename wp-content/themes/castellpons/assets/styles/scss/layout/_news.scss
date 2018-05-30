@@ -14,7 +14,7 @@
 	@include xy-grid('horizontal');
 
 	.news-article-image,
-	.news-article-content {
+	.news-article-inner {
 		@include xy-cell(full, true, 20);
 	}
 
@@ -22,7 +22,7 @@
         .news-article-image {
         	@include xy-cell(5 of 12, true, 20);
         }
-        .news-article-content {
+        .news-article-inner {
         	@include xy-cell(7 of 12, true, 20);
         }
     }
@@ -30,7 +30,7 @@
         .news-article-image {
         	@include xy-cell(4 of 12, true, 20);
         }
-        .news-article-content {
+        .news-article-inner {
         	@include xy-cell(8 of 12, true, 20);
         }
     }
@@ -38,19 +38,34 @@
 
 
 
-.news-article-content {
+.news-article-inner {
 	background: $light-gray;
     position: relative;
     padding: 0.75rem 20px;
+
+    display: flex;
+    flex-direction: column;
+      justify-content: space-between;
     .article-footer {
-        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        .tags {
+            margin-bottom: 0;
+        }
+        .news-article-project-btn {
+            margin-left: 20px;
+            margin-bottom: 0;
+            white-space: nowrap;
+        }
     }
     @include breakpoint(medium) {
         padding: 28px 35px;
         .article-footer {
-            position: absolute;
-            bottom: 1rem;
-            right: 2rem;
+            // position: absolute;
+            // bottom: 1rem;
+            // right: 2rem;
+
         }
     }
 }

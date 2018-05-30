@@ -9,6 +9,10 @@ function joints_theme_support() {
 	// Default thumbnail size
 	set_post_thumbnail_size(125, 125, true);
 
+	// Add image sizes
+	add_image_size( 'project-grid-image', 470, 313, true );
+	add_image_size( 'news-list-image', 360, 278, true );
+
 	// Add RSS Support
 	add_theme_support( 'automatic-feed-links' );
 	
@@ -31,21 +35,6 @@ function joints_theme_support() {
 		'flex-width'  => true,
 		'header-text' => array( 'site-title', 'site-description' ),
 	) );
-	
-	// Adding post format support
-	 add_theme_support( 'post-formats',
-		array(
-			'aside',             // title less blurb
-			'gallery',           // gallery of images
-			'link',              // quick link to other site
-			'image',             // an image
-			'quote',             // a quick quote
-			'status',            // a Facebook like status update
-			'video',             // video
-			'audio',             // audio
-			'chat'               // chat transcript
-		)
-	); 
 	
 	// Set the maximum allowed width for any content in the theme, like oEmbeds and images added to posts.
 	$GLOBALS['content_width'] = apply_filters( 'joints_theme_support', 1200 );	

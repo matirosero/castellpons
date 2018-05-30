@@ -29,37 +29,25 @@ if( $query->have_posts() ): ?>
 
 	<div class="slideshow-container">
 
-		<!-- <ul class="orbit-container"> -->
+		<?php 
 
-			<?php 
+		$count = $query->post_count;
 
-			$count = $query->post_count;
+		while ( $query->have_posts() ) : $query->the_post(); ?>
 
-			while ( $query->have_posts() ) : $query->the_post(); ?>
-
-				<div class="slides fade">
-
-					<!-- <div class="numbertext"><?php echo $i; ?> / 3</div> -->
-					<!-- <img src="img_nature_wide.jpg" style="width:100%"> -->
-					<?php
-					the_post_thumbnail('full', ['class' => 'orbit-image', 'title' => 'Feature project']);
-					?>
-
-					<?php
-					/*
-					<div class="text"><?php the_title(); ?></div>
-					*/
-					?>
-
-				</div>
+			<div class="slides fade">
 
 				<?php
+				the_post_thumbnail('full', ['class' => 'orbit-image', 'title' => 'Feature project']);
+				?>
 
-				wp_reset_query();
+			</div>
 
-			endwhile; ?>
+			<?php
 
-		<!-- </ul> --><!-- .orbit-container -->
+			wp_reset_query();
+
+		endwhile; ?>
 
 	</div><!-- .slideshow-container -->
 

@@ -3,6 +3,7 @@
 	width: 100%;
 }
 
+
 #top-bar-menu {
 
 	width: 100%;
@@ -19,6 +20,13 @@
 	.current-menu-item {
 		a {
 			color: $primary-color;
+		}
+	}
+
+	.admin-bar & {
+		padding-top: 32px;
+		@media screen and (max-width: 782px) {
+			padding-top: 46px;
 		}
 	}
 
@@ -76,6 +84,17 @@ a[data-toggle] {
 	.home & {
 		top: 96px;
 	}
+
+	.admin-bar &,
+	.admin-bar.home & {
+		top: 46px + 96px;
+	}
+
+
+
+	// .home.adminbar & {
+	// 	top: 96px + 46px;
+	// }
 
 	li {
 		-webkit-transition: all 0.2s ease-in-out 0s;

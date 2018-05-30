@@ -2,6 +2,16 @@ body.lock-scroll {
     overflow: hidden;
 }
 
+body.admin-bar {
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+html #wpadminbar {
+	position: fixed;
+}
+
 .inner-content {
 	@include xy-grid-container;
 	// background: #ccc;

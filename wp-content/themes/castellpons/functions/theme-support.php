@@ -11,7 +11,9 @@ function joints_theme_support() {
 
 	// Add image sizes
 	add_image_size( 'project-grid-image', 470, 313, true );
+	add_image_size( 'project-grid-image-full', 600, 400, true );
 	add_image_size( 'news-list-image', 360, 278, true );
+	add_image_size( 'news-list-image-full', 600, 463, true );
 
 	// Add RSS Support
 	add_theme_support( 'automatic-feed-links' );

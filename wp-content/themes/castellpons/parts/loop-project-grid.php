@@ -10,7 +10,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article">
 
 	<div class="featured-image" itemprop="articleBody">
-		<?php the_post_thumbnail('full'); ?>
+		<?php the_post_thumbnail('project-grid-image-full'); ?>
 	</div> <!-- end article section -->
 
 	<a class="project-information-overlay" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">

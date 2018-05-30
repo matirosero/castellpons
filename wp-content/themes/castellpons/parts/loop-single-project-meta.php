@@ -80,10 +80,12 @@
 		<div class="project-gallery">
 			<?php
 			$images = get_post_meta( get_the_ID(), 'mro_cp_project_gallery', true );
-			$img_size = 'full';
+			$img_size = 'large';
 			foreach ($images as $attachment_id => $image) {
+				$srcset = cp_srcset($attachment_id,'large','1024px');
+
 				echo '<div class="project-gallery-image">';
-				echo wp_get_attachment_image( $attachment_id, $img_size );
+				echo '<img class="my_class" ' . $srcset . ' alt="text" />';
 				echo '</div>';
 			}
 			?>

@@ -9,7 +9,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('news-article small-margin-collapse small-padding-collapse'); ?> role="article">
 
 	<div class="news-article-image">
-		<?php the_post_thumbnail('full'); ?>
+		<?php the_post_thumbnail('news-list-image-full'); ?>
 	</div>
 
 	<div class="news-article-content">

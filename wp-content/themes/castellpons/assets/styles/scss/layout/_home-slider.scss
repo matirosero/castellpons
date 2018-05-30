@@ -3,9 +3,6 @@
     max-width: 100%;
     position: relative;
     margin: auto;
-    // height: $home-hero-height;
-
-    // img {vertical-align: middle;}
 }
 
 .slides {
@@ -37,8 +34,6 @@
     width: 100%;
     text-align: center;
 }
-
-
 
 .slider-progress {
     position: absolute;
@@ -94,19 +89,21 @@
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: $slide-duration/4;
+    -webkit-animation-duration: $slide-duration;
     animation-name: fade;
-    animation-duration: $slide-duration/4;
+    animation-duration: $slide-duration;
 }
 
-@-webkit-keyframes fade {
-    from {opacity: .2} 
-    to {opacity: 1}
-}
+// @-webkit-keyframes fade {
+//     0% {opacity: .2} 
+//     100% {opacity: 1}
+// }
 
 @keyframes fade {
-    from {opacity: .2} 
-    to {opacity: 1}
+    0% {opacity: 0} 
+    25% {opacity: 0.8}
+    80% {opacity: 0.8}
+    100% {opacity: 0}
 }
 
 /* On smaller screens, decrease text size */

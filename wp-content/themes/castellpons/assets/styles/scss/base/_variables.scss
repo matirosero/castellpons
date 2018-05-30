@@ -7,7 +7,7 @@ $vertical-block-margins: (
 $home-hero-height: 100vh;
 
 $progress-bar-height: 3px;
-$slide-duration: 4s;
+$slide-duration: 5s;
 
 @function block-margins($breakpoint: small) {
     @return map-get($vertical-block-margins, $breakpoint);

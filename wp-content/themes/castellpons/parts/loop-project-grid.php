@@ -10,7 +10,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article">
 
 	<div class="featured-image" itemprop="articleBody">
-		<?php the_post_thumbnail('project-grid-image-full'); ?>
+		<?php 
+		// the_post_thumbnail('project-grid-image-full'); 
+		$sizes = cp_build_srcset_sizes('100vw','50vw','33vw');
+		$srcset = cp_srcset( get_post_thumbnail_id( get_the_ID() ), 'project-grid-image-full', $sizes );
+		echo $srcset;
+		?>
 	</div> <!-- end article section -->
 
 	<a class="project-information-overlay" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">

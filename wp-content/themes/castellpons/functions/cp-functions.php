@@ -8,20 +8,46 @@
  * @param string $max_width the max width this image will be shown to build the sizes attribute 
  * http://aaronrutley.com/responsive-images-in-wordpress-with-acf/
  */
+// '(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px'
+function cp_build_srcset_sizes($small,$medium,$large) {
 
-function cp_srcset($image_id,$image_size,$max_width){
+    $sizes = '';
+
+    if ( isset( $small ) ) {
+        // $sizes['640px'] = $small;
+        $sizes .= '(max-width: 640px) '.$small.', ';
+    }
+
+    if ( isset( $medium ) ) {
+        // $sizes['1024px'] = $medium;
+        $sizes .= '(max-width: 1024px) '.$medium.', ';
+    }
+
+    if ( isset( $large ) ) {
+        // $sizes['1200px'] = $large;
+        $sizes .= $large;
+    }
+
+    return $sizes;
+
+}
+
+function cp_srcset($image_id,$image_size,$sizes){
 
     // check the image ID is not blank
     if($image_id != '') {
 
-        // set the default src image size
-        $image_src = wp_get_attachment_image_url( $image_id, $image_size );
+        // var_dump($image_size);
+        $src = wp_get_attachment_image_src( $image_id, $image_size );
+        // var_dump($src);
+        $srcset = wp_get_attachment_image_srcset( $image_id, $image_size );
+        // $sizes = wp_get_attachment_image_sizes( $image_id, $image_size );
+        $alt = get_post_meta( $image_id, '_wp_attachment_image_alt', true);
 
-        // set the srcset with various image sizes
-        $image_srcset = wp_get_attachment_image_srcset( $image_id, $image_size );
-
-        // generate the markup for the responsive image
-        $return = 'src="'.$image_src.'" srcset="'.$image_srcset.'" sizes="(max-width: '.$max_width.') 100vw, '.$max_width.'"';
+        $return = '<img src="' . esc_attr( $src[0] ) . '"
+            srcset="' . esc_attr( $srcset ) . '"
+            sizes="' . esc_attr( $sizes ) . '"
+            alt="' . esc_attr( $alt ) . '" />';
 
         return $return;
 

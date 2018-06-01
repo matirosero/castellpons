@@ -9,7 +9,13 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('news-article small-margin-collapse small-padding-collapse'); ?> role="article">
 
 	<div class="news-article-image">
-		<?php the_post_thumbnail('news-list-image-full'); ?>
+		<?php
+		// the_post_thumbnail('news-list-image-full');
+		$sizes = cp_build_srcset_sizes('100vw','42vw','33vw');
+		$srcset = cp_srcset( get_post_thumbnail_id( get_the_ID() ), 'news-list-image-full', $sizes );
+		echo $srcset;
+		// var_dump($srcset);
+		?>
 	</div>
 
 	<div class="news-article-inner">

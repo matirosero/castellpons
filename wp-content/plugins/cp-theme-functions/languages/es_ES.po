@@ -1,0 +1,1013 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: C+P Theme Functions\n"
+"POT-Creation-Date: 2018-06-01 21:23-0600\n"
+"PO-Revision-Date: 2018-06-01 21:47-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cp-theme-functions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: es_ES\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cmb2/register-metabox-fields.php:19
+msgid "Icons box"
+msgstr "Caja con iconos"
+
+#: includes/cmb2/register-metabox-fields.php:36
+msgid "Box title"
+msgstr "Título de caja"
+
+#: includes/cmb2/register-metabox-fields.php:49
+msgid "Icon {#}"
+msgstr "Ícono {#}"
+
+#: includes/cmb2/register-metabox-fields.php:50
+msgid "Add Another Icon"
+msgstr "Agregar otro ícono"
+
+#: includes/cmb2/register-metabox-fields.php:51
+msgid "Remove Icon"
+msgstr "Eliminar Ícono"
+
+#: includes/cmb2/register-metabox-fields.php:58
+msgid "Icon"
+msgstr "Ícono"
+
+#: includes/cmb2/register-metabox-fields.php:64
+#: vendor/cmb2/example-functions.php:508
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/cmb2/register-metabox-fields.php:84
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: includes/cmb2/register-metabox-fields.php:101
+msgid "This content goes in the narrow, right sidebar."
+msgstr "Este contenido va en la barra lateral angosta y derecha."
+
+#: includes/cmb2/register-metabox-fields.php:122
+msgid "Project attributes"
+msgstr "Atributos del proyecto"
+
+#: includes/cmb2/register-metabox-fields.php:138
+msgid "Location"
+msgstr "Ubicación"
+
+#: includes/cmb2/register-metabox-fields.php:139
+msgid "Location: town, city etc"
+msgstr "Ubicación: ciudad, localidad, etc."
+
+#: includes/cmb2/register-metabox-fields.php:146
+#: includes/cmb2/register-metabox-fields.php:237
+#: includes/cmb2/register-metabox-fields.php:253
+msgid "Address"
+msgstr "Dirección"
+
+#: includes/cmb2/register-metabox-fields.php:153
+msgid "Project date"
+msgstr "Fecha del Proyecto"
+
+#: includes/cmb2/register-metabox-fields.php:160
+msgid "Firm"
+msgstr "Firma"
+
+#: includes/cmb2/register-metabox-fields.php:167
+msgid "Technical architect"
+msgstr "Arquitecto técnico"
+
+#: includes/cmb2/register-metabox-fields.php:174
+msgid "Engineer"
+msgstr "Ingeniero"
+
+#: includes/cmb2/register-metabox-fields.php:181
+msgid "Project codirector"
+msgstr "Codirector de obra"
+
+#: includes/cmb2/register-metabox-fields.php:188
+msgid "Construction company"
+msgstr "Constructor"
+
+#: includes/cmb2/register-metabox-fields.php:195
+msgid "Promoters"
+msgstr "Promotores"
+
+#: includes/cmb2/register-metabox-fields.php:202
+msgid "Collaborators"
+msgstr "Colaboradores"
+
+#: includes/cmb2/register-metabox-fields.php:209
+msgid "Material Execution Budget"
+msgstr "Presupuesto de Ejecución Material:"
+
+#: includes/cmb2/register-metabox-fields.php:216
+msgid "Gallery"
+msgstr "Galería"
+
+#: includes/cmb2/register-metabox-fields.php:217
+#: vendor/cmb2/example-functions.php:402
+msgid "Upload or add multiple images/attachments."
+msgstr "﻿Subir o añadir varias imágenes/adjuntos."
+
+#: includes/cmb2/register-metabox-fields.php:260
+msgid "Google Map"
+msgstr "Google Map"
+
+#: includes/cpt/register-cpt.php:24 includes/cpt/register-cpt.php:35
+msgid "Projects"
+msgstr "Proyectos"
+
+#: includes/cpt/register-cpt.php:25
+msgid "Project"
+msgstr "Proyecto"
+
+#: includes/cpt/register-cpt.php:26
+msgctxt "cpf"
+msgid "Add New Project"
+msgstr "Añadir nuevo proyecto"
+
+#: includes/cpt/register-cpt.php:27
+msgid "Add New Project"
+msgstr "Añadir nuevo proyecto"
+
+#: includes/cpt/register-cpt.php:28
+msgid "Edit Project"
+msgstr "Editar proyecto"
+
+#: includes/cpt/register-cpt.php:29
+msgid "New Project"
+msgstr "Nuevo proyecto"
+
+#: includes/cpt/register-cpt.php:30
+msgid "View Project"
+msgstr "Ver Proyecto"
+
+#: includes/cpt/register-cpt.php:31
+msgid "Search Projects"
+msgstr "Buscar proyectos"
+
+#: includes/cpt/register-cpt.php:32
+msgid "No Projects found"
+msgstr "No se han encontrado proyectos"
+
+#: includes/cpt/register-cpt.php:33
+msgid "No Projects found in Trash"
+msgstr "No se han encontrado proyectos en la papelera"
+
+#: includes/cpt/register-cpt.php:34
+msgid "Parent Project:"
+msgstr "Proyecto padre:"
+
+#: includes/cpt/register-cpt.php:100 includes/cpt/register-cpt.php:111
+msgid "Offices"
+msgstr "Oficinas"
+
+#: includes/cpt/register-cpt.php:101
+msgid "Office"
+msgstr "Oficina"
+
+#: includes/cpt/register-cpt.php:102
+msgctxt "cpf"
+msgid "Add New Office"
+msgstr "Añadir nueva oficina"
+
+#: includes/cpt/register-cpt.php:103
+msgid "Add New Office"
+msgstr "Añadir nueva oficina"
+
+#: includes/cpt/register-cpt.php:104
+msgid "Edit Office"
+msgstr "Editar oficina"
+
+#: includes/cpt/register-cpt.php:105
+msgid "New Office"
+msgstr "Nueva oficina"
+
+#: includes/cpt/register-cpt.php:106
+msgid "View Office"
+msgstr "Ver oficina"
+
+#: includes/cpt/register-cpt.php:107
+msgid "Search Offices"
+msgstr "Buscar oficinas"
+
+#: includes/cpt/register-cpt.php:108
+msgid "No Offices found"
+msgstr "No se han encontrado oficinas"
+
+#: includes/cpt/register-cpt.php:109
+msgid "No Offices found in Trash"
+msgstr "No se han encontrado oficinas en la papelera"
+
+#: includes/cpt/register-cpt.php:110
+msgid "Parent Office:"
+msgstr "Oficina madre:"
+
+#: includes/cpt/register-cpt.php:169
+msgctxt "Taxonomy plural name"
+msgid "Project Types"
+msgstr "Tipos de Proyecto"
+
+#: includes/cpt/register-cpt.php:170
+msgctxt "Taxonomy singular name"
+msgid "Project Type"
+msgstr "Tipo de Proyecto"
+
+#: includes/cpt/register-cpt.php:171
+msgid "Search Project Types"
+msgstr "Buscar tipos de proyectos"
+
+#: includes/cpt/register-cpt.php:172
+msgid "Popular Project Types"
+msgstr "Tipos de proyectos populares"
+
+#: includes/cpt/register-cpt.php:173
+msgid "All Project Types"
+msgstr "Todos los Tipos de Proyectos"
+
+#: includes/cpt/register-cpt.php:174 includes/cpt/register-cpt.php:175
+msgid "Parent Project Type"
+msgstr "Tipo Proyecto padre"
+
+#: includes/cpt/register-cpt.php:176
+msgid "Edit Project Type"
+msgstr "Editar tipo de proyecto"
+
+#: includes/cpt/register-cpt.php:177
+msgid "Update Project Type"
+msgstr "Actualizar tipo de proyecto"
+
+#: includes/cpt/register-cpt.php:178
+msgid "Add New Project Type"
+msgstr "Añadir nuevo tipo de proyecto"
+
+#: includes/cpt/register-cpt.php:179
+msgid "New Project Type Name"
+msgstr "Nuevo nombre de tipo de proyecto"
+
+#: includes/cpt/register-cpt.php:180
+msgid "Add or remove Project Types"
+msgstr "Añadir o eliminar tipos de proyecto"
+
+#: includes/cpt/register-cpt.php:181
+msgid "Choose from most used Project Types"
+msgstr "Elegir entre los tipos más usados"
+
+#: includes/cpt/register-cpt.php:182
+msgid "Project Type"
+msgstr "Tipo de Proyecto"
+
+#: vendor/cmb2/example-functions.php:117
+msgid "Test Metabox"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:130 vendor/cmb2/example-functions.php:456
+msgid "Test Text"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:131 vendor/cmb2/example-functions.php:144
+#: vendor/cmb2/example-functions.php:157 vendor/cmb2/example-functions.php:164
+#: vendor/cmb2/example-functions.php:177 vendor/cmb2/example-functions.php:185
+#: vendor/cmb2/example-functions.php:194 vendor/cmb2/example-functions.php:202
+#: vendor/cmb2/example-functions.php:217 vendor/cmb2/example-functions.php:225
+#: vendor/cmb2/example-functions.php:233 vendor/cmb2/example-functions.php:250
+#: vendor/cmb2/example-functions.php:259 vendor/cmb2/example-functions.php:272
+#: vendor/cmb2/example-functions.php:279 vendor/cmb2/example-functions.php:286
+#: vendor/cmb2/example-functions.php:300 vendor/cmb2/example-functions.php:313
+#: vendor/cmb2/example-functions.php:326 vendor/cmb2/example-functions.php:338
+#: vendor/cmb2/example-functions.php:347 vendor/cmb2/example-functions.php:355
+#: vendor/cmb2/example-functions.php:364 vendor/cmb2/example-functions.php:371
+#: vendor/cmb2/example-functions.php:385 vendor/cmb2/example-functions.php:457
+#: vendor/cmb2/example-functions.php:548 vendor/cmb2/example-functions.php:556
+#: vendor/cmb2/example-functions.php:563 vendor/cmb2/example-functions.php:570
+#: vendor/cmb2/example-functions.php:577 vendor/cmb2/example-functions.php:584
+#: vendor/cmb2/example-functions.php:591 vendor/cmb2/example-functions.php:618
+#: vendor/cmb2/example-functions.php:626 vendor/cmb2/example-functions.php:633
+#: vendor/cmb2/example-functions.php:678
+msgid "field description (optional)"
+msgstr "descripción del campo (opcional)"
+
+#: vendor/cmb2/example-functions.php:143
+msgid "Test Text Small"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:156
+msgid "Test Text Medium"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:163
+msgid "Read-only Disabled Field"
+msgstr "Campo deshabilitado de solo lectura"
+
+#: vendor/cmb2/example-functions.php:167
+msgid "Hey there, I'm a read-only field"
+msgstr "Hola, soy un campo de solo lectura"
+
+#: vendor/cmb2/example-functions.php:176
+msgid "Custom Rendered Field"
+msgstr "Campo Renderizado Personalizado"
+
+#: vendor/cmb2/example-functions.php:184
+msgid "Website URL"
+msgstr "URL del Sitio Web"
+
+#: vendor/cmb2/example-functions.php:193
+msgid "Test Text Email"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:201
+msgid "Test Time"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:209 vendor/cmb2/example-functions.php:210
+msgid "Time zone"
+msgstr "Zona Horaria"
+
+#: vendor/cmb2/example-functions.php:216
+msgid "Test Date Picker"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:224
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:232
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:249
+msgid "Test Money"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:258
+msgid "Test Color Picker"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:271
+msgid "Test Text Area"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:278
+msgid "Test Text Area Small"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:285
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:292
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:293
+msgid "This is a title description"
+msgstr "Esto es la descripción del título"
+
+#: vendor/cmb2/example-functions.php:299
+msgid "Test Select"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:305 vendor/cmb2/example-functions.php:318
+#: vendor/cmb2/example-functions.php:330
+msgid "Option One"
+msgstr "Opción Uno"
+
+#: vendor/cmb2/example-functions.php:306 vendor/cmb2/example-functions.php:319
+#: vendor/cmb2/example-functions.php:331
+msgid "Option Two"
+msgstr "Opción Dos"
+
+#: vendor/cmb2/example-functions.php:307 vendor/cmb2/example-functions.php:320
+#: vendor/cmb2/example-functions.php:332
+msgid "Option Three"
+msgstr "Opción Tres"
+
+#: vendor/cmb2/example-functions.php:312
+msgid "Test Radio inline"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:325
+msgid "Test Radio"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:337
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:346
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:354
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:363
+msgid "Test Checkbox"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:370
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:376
+msgid "Check One"
+msgstr "Marque uno"
+
+#: vendor/cmb2/example-functions.php:377
+msgid "Check Two"
+msgstr "Seleccione dos"
+
+#: vendor/cmb2/example-functions.php:378
+msgid "Check Three"
+msgstr "Seleccione tres"
+
+#: vendor/cmb2/example-functions.php:384
+msgid "Test wysiwyg"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:394
+msgid "Test Image"
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:395
+msgid "Upload an image or enter a URL."
+msgstr "Subir una imagen o introducir un URL."
+
+#: vendor/cmb2/example-functions.php:401
+msgid "Multiple Files"
+msgstr "Archivos múltiples"
+
+#: vendor/cmb2/example-functions.php:409
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#. translators: %s: link to codex.wordpress.org/Embeds
+#: vendor/cmb2/example-functions.php:412
+#, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+"Ingrese una URL de youtube, twitter o instagram. Admite los servicios "
+"enumerados en %s."
+
+#: vendor/cmb2/example-functions.php:445
+msgid "About Page Metabox"
+msgstr "Metabox de página Sobre nosotros"
+
+#: vendor/cmb2/example-functions.php:476
+msgid "Repeating Field Group"
+msgstr "Campo Grupal que se repite"
+
+#: vendor/cmb2/example-functions.php:484
+msgid "Generates reusable form entries"
+msgstr "Generar entradas de formulario reutilizables"
+
+#: vendor/cmb2/example-functions.php:486
+msgid "Entry {#}"
+msgstr "Entrada {#}"
+
+#: vendor/cmb2/example-functions.php:487
+msgid "Add Another Entry"
+msgstr "Agregar otra entrada"
+
+#: vendor/cmb2/example-functions.php:488
+msgid "Remove Entry"
+msgstr "Eliminar Entrada"
+
+#: vendor/cmb2/example-functions.php:501
+msgid "Entry Title"
+msgstr "Título de la entrada"
+
+#: vendor/cmb2/example-functions.php:509
+msgid "Write a short description for this entry"
+msgstr "Escriba una descripción corta"
+
+#: vendor/cmb2/example-functions.php:515
+msgid "Entry Image"
+msgstr "Imagen de la entrada"
+
+#: vendor/cmb2/example-functions.php:521
+msgid "Image Caption"
+msgstr "Leyenda de la imagen"
+
+#: vendor/cmb2/example-functions.php:540
+msgid "User Profile Metabox"
+msgstr "Perfil de usuario Metabox"
+
+#: vendor/cmb2/example-functions.php:547 vendor/cmb2/example-functions.php:617
+msgid "Extra Info"
+msgstr "Información extra"
+
+#: vendor/cmb2/example-functions.php:555
+msgid "Avatar"
+msgstr "Avatar"
+
+#: vendor/cmb2/example-functions.php:562
+msgid "Facebook URL"
+msgstr "URL de Facebook"
+
+#: vendor/cmb2/example-functions.php:569
+msgid "Twitter URL"
+msgstr "URL de Twitter"
+
+#: vendor/cmb2/example-functions.php:576
+msgid "Google+ URL"
+msgstr "URL Google+"
+
+#: vendor/cmb2/example-functions.php:583
+msgid "Linkedin URL"
+msgstr "URL de LinkedIn"
+
+#: vendor/cmb2/example-functions.php:590
+msgid "User Field"
+msgstr "Campo de usuario"
+
+#: vendor/cmb2/example-functions.php:610
+msgid "Category Metabox"
+msgstr "Metabox de categoría"
+
+#: vendor/cmb2/example-functions.php:625
+msgid "Term Image"
+msgstr "Imagen del término"
+
+#: vendor/cmb2/example-functions.php:632
+msgid "Arbitrary Term Field"
+msgstr "Campo arbitrario por término"
+
+#: vendor/cmb2/example-functions.php:651
+msgid "Theme Options"
+msgstr "Opciones del Tema"
+
+#: vendor/cmb2/example-functions.php:677
+msgid "Site Background Color"
+msgstr "Color de fondo del sitio"
+
+#: vendor/cmb2/example-functions.php:713
+msgid "REST Test Box"
+msgstr "Caja de prueba para REST API"
+
+#: vendor/cmb2/example-functions.php:722
+msgid "REST Test Text"
+msgstr "Campo de texto de prueba para REST API"
+
+#: vendor/cmb2/example-functions.php:723
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
+#: vendor/cmb2/example-functions.php:729
+msgid "REST Editable Test Text"
+msgstr "Probar el campo de texto, editable de la REST API"
+
+#: vendor/cmb2/example-functions.php:730
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+"Se mostrará en el REST API \"editables\" contextos sólo (`POST` peticiones)."
+
+#: vendor/cmb2/includes/CMB2.php:175
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+"Se requiere de configuración Metabox para tener un parámetro de "
+"identificación ID."
+
+#: vendor/cmb2/includes/CMB2.php:553
+msgid "Click to toggle"
+msgstr "Haga clic para activar"
+
+#: vendor/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr "Por favor inténtalo nuevamente"
+
+#: vendor/cmb2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr "Eliminar Embed"
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: vendor/cmb2/includes/CMB2_Ajax.php:189
+#: vendor/cmb2/includes/helper-functions.php:105
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+"No se encontraron resultados adicionales para %1$s. Ver más información en "
+"%2$s."
+
+#: vendor/cmb2/includes/CMB2_Base.php:406
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+msgstr ""
+"El parámetro de campo \"%1$s\" ha sido descontinuado a favor del parámetro "
+"\"%1$s\"."
+
+#: vendor/cmb2/includes/CMB2_Base.php:410
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+msgstr ""
+"Usando el parámetro de campo \"%1$s\" como un retorno de llamada ha sido "
+"discontinuado en favor del parámetro \"%1$s\"."
+
+#: vendor/cmb2/includes/CMB2_Base.php:440
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+"Se llamó a %1$s con un parámetro que está <strong>en desuso</strong> desde "
+"la versión %2$s! %3$s"
+
+#: vendor/cmb2/includes/CMB2_Base.php:442
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+"Se llamó a %1$s con un parámetro que está <strong>en desuso</strong> desde "
+"la versión %2$s sin alternativa disponible."
+
+#: vendor/cmb2/includes/CMB2_Base.php:475
+#: vendor/cmb2/includes/CMB2_Hookup_Base.php:100
+#: vendor/cmb2/includes/CMB2_Options_Hookup.php:233
+#: vendor/cmb2/includes/types/CMB2_Type_Base.php:149
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr "Propiedad %1$s no válida: %2$s"
+
+#: vendor/cmb2/includes/CMB2_Base.php:490
+#: vendor/cmb2/includes/types/CMB2_Type_Base.php:133
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr "Método %1$s inválido: %2$s"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1174
+msgid "Add Group"
+msgstr "Añadir grupo"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1175
+msgid "Remove Group"
+msgstr "Eliminar Grupo"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1197
+#: vendor/cmb2/includes/CMB2_Field.php:1201
+msgid "None"
+msgstr "Ninguno"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1262
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "Lo sentimos, este campo no tiene un cmb_id especificado."
+
+#: vendor/cmb2/includes/CMB2_Field_Display.php:432
+#: vendor/cmb2/includes/CMB2_JS.php:167
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:78
+msgid "File:"
+msgstr "Archivo:"
+
+#: vendor/cmb2/includes/CMB2_Hookup_Base.php:42
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: vendor/cmb2/includes/CMB2_JS.php:107 vendor/cmb2/includes/CMB2_JS.php:147
+msgid "Clear"
+msgstr "Borrar"
+
+#: vendor/cmb2/includes/CMB2_JS.php:108
+msgid "Default"
+msgstr "Predeterminado"
+
+#: vendor/cmb2/includes/CMB2_JS.php:109
+msgid "Select Color"
+msgstr "Seleccionar Color"
+
+#: vendor/cmb2/includes/CMB2_JS.php:110
+msgid "Current Color"
+msgstr "Color actual"
+
+#: vendor/cmb2/includes/CMB2_JS.php:137
+#, fuzzy
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "mm/dd/aa"
+
+#: vendor/cmb2/includes/CMB2_JS.php:138
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "Domingo, lunes, martes, miércoles, jueves, viernes, sábado"
+
+#: vendor/cmb2/includes/CMB2_JS.php:139
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "Do, Lu, Ma, Mi, Ju, Vi, Sa"
+
+#: vendor/cmb2/includes/CMB2_JS.php:140
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "Dom, Lun, Mar, Mie, Jue, Vie, Sab"
+
+#: vendor/cmb2/includes/CMB2_JS.php:141
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+"Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, "
+"Octubre, Noviembre, Diciembre"
+
+#: vendor/cmb2/includes/CMB2_JS.php:142
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "Ene, Feb, Mar, Abr, May, Jun, Jul, Ago, Sep, Oct, Nov, Dic"
+
+#: vendor/cmb2/includes/CMB2_JS.php:143
+msgid "Next"
+msgstr "Siguiente"
+
+#: vendor/cmb2/includes/CMB2_JS.php:144
+msgid "Prev"
+msgstr "Anterior"
+
+#: vendor/cmb2/includes/CMB2_JS.php:145
+msgid "Today"
+msgstr "Hoy"
+
+#: vendor/cmb2/includes/CMB2_JS.php:146 vendor/cmb2/includes/CMB2_JS.php:156
+msgid "Done"
+msgstr "Hecho"
+
+#: vendor/cmb2/includes/CMB2_JS.php:150
+msgid "Choose Time"
+msgstr "Elegir Hora"
+
+#: vendor/cmb2/includes/CMB2_JS.php:151
+msgid "Time"
+msgstr "Hora:"
+
+#: vendor/cmb2/includes/CMB2_JS.php:152
+msgid "Hour"
+msgstr "Hora"
+
+#: vendor/cmb2/includes/CMB2_JS.php:153
+msgid "Minute"
+msgstr "Minuto"
+
+#: vendor/cmb2/includes/CMB2_JS.php:154
+msgid "Second"
+msgstr "Segundo"
+
+#: vendor/cmb2/includes/CMB2_JS.php:155
+msgid "Now"
+msgstr "Ahora"
+
+#: vendor/cmb2/includes/CMB2_JS.php:157
+#, fuzzy
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr "hh: mm TT"
+
+#: vendor/cmb2/includes/CMB2_JS.php:163
+msgid "Use this file"
+msgstr "Usar este archivo"
+
+#: vendor/cmb2/includes/CMB2_JS.php:164
+msgid "Use these files"
+msgstr "Utilizar estos archivos"
+
+#: vendor/cmb2/includes/CMB2_JS.php:165
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:63
+msgid "Remove Image"
+msgstr "Eliminar Imagen"
+
+#: vendor/cmb2/includes/CMB2_JS.php:166 vendor/cmb2/includes/CMB2_Types.php:412
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:83
+msgid "Remove"
+msgstr "Eliminar"
+
+#: vendor/cmb2/includes/CMB2_JS.php:168
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:81
+msgid "Download"
+msgstr "Descargar"
+
+#: vendor/cmb2/includes/CMB2_JS.php:169
+msgid "Select / Deselect All"
+msgstr "Seleccionar / Deseleccionar Todo"
+
+#: vendor/cmb2/includes/CMB2_Options_Hookup.php:111
+msgid "Settings updated."
+msgstr "Ajustes actualizados."
+
+#: vendor/cmb2/includes/CMB2_Options_Hookup.php:113
+msgid "Nothing to update."
+msgstr "No hay nada que actualizar."
+
+#: vendor/cmb2/includes/CMB2_Types.php:231
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+"Clases personalizadas de tipo de campo CMB2 deben extender CMB2_Type_Base."
+
+#: vendor/cmb2/includes/CMB2_Types.php:349
+msgid "Add Row"
+msgstr "Añadir fila"
+
+#: vendor/cmb2/includes/CMB2_Types.php:412
+msgid "Remove Row"
+msgstr "Eliminar Fila"
+
+#: vendor/cmb2/includes/CMB2_hookup.php:181
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+"La Metadata de términos es una característica de WordPress 4.4+. Por favor "
+"actualice su instalación de WordPress."
+
+#: vendor/cmb2/includes/CMB2_hookup.php:185
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+"La configuración de metadatos de términos requiere un parámetro “taxonomies”."
+
+#: vendor/cmb2/includes/CMB2_hookup.php:458
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "Activar panel: %s"
+
+#: vendor/cmb2/includes/helper-functions.php:303
+msgid "Save"
+msgstr "Guardar"
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr "Este cuadro no tiene permisos de lectura."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr "Este cuadro no tiene permisos de escritura."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+"Ninguna casilla encontrada por esa identificación. Una casilla debe "
+"registrarse con el parámetro “show_in_rest” configurado."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr "Una descripción humanamente legible del objeto."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr "El ID para el objeto."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr "El título para el objeto."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr "Incluye los campos registrados para el cuadro en la respuesta."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+"Incluye atributos totalmente renderizados, 'form_open', 'form_close', así "
+"como la escritura de controladores en cola 'js_dependencies' y controladores "
+"de hoja de estilo 'css_dependencies'."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr "No se han encontrado cajas."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+"Incluye el objeto del cuadro en la que los campos son registrados en la "
+"respuesta."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+"Cuando se pasa el argumento '_rendered', los atributos de campo renderizable "
+"serán devueltos completamente renderizados. Por defecto, se devolverán los "
+"nombres de los controladores de devolución de llamada para los atributos "
+"renderizable."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+"Para ver o modificar el valor del campo, los argumentos 'object_id' y "
+"'tipo_objeto' son requeridos."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+"Valor del campo CMB2 no puede actualizarse sin el valor del parámetro "
+"especificado."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+"Valor del campo CMB2 no puede modificarse sin los parámetros especificados "
+"object_id y object_type."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr "Ningún campo se encontró con ese id."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr "Error de valor para%s"
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:24
+msgid "The register_routes() method must be overridden"
+msgstr "El método register_routes() debe ser sobrescrito"
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:34
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:46
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:58
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:70
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:82
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:94
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:106
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:118
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:130
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:142
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:154
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:167
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr "El método '%s' no está implementado. Debe sustituirse en la subclase."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:272
+msgid "Current page of the collection."
+msgstr "Página actual de la colección."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:280
+msgid "Maximum number of items to be returned in result set."
+msgstr "Número máximo de artículos a mostrar en los resultados."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:289
+msgid "Limit results to those matching a string."
+msgstr "Limita los resultados a lo indicado en el string."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:307
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr "Alcance de la petición; determina los campos visibles en la respuesta."
+
+#: vendor/cmb2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr "Añadir o subir archivo"
+
+#: vendor/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr "Añadir o subir archivos"
+
+#: vendor/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:99
+msgid "No terms"
+msgstr "No hay términos"
+
+#. Plugin Name of the plugin/theme
+msgid "C+P Theme Functions"
+msgstr "Funciones del tema C + P"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/matirosero/castellpons"
+msgstr "https://github.com/matirosero/castellpons"
+
+#. Description of the plugin/theme
+msgid "Custom functions for the C+P website."
+msgstr "Funciones personalizadas para el sitio web de C + P."
+
+#. Author of the plugin/theme
+msgid "Mat Rosero"
+msgstr "Mat Rosero"
+
+#. Author URI of the plugin/theme
+msgid "https://www.matilderosero.com/"
+msgstr "https://www.matilderosero.com"

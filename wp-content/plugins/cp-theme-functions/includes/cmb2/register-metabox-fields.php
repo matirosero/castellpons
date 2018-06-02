@@ -157,7 +157,7 @@ function mro_cp_register_project_metabox() {
 	) );
 
 	$cmb->add_field( array(
-		'name'      => esc_html__( 'Firm', 'cpf' ),
+		'name'      => esc_html__( 'Architects', 'cpf' ),
 		'id'        => $prefix . 'firm',
 		'type'      => 'text',
 		// 'column'  	=> true, 

@@ -1,0 +1,398 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CastellPons\n"
+"POT-Creation-Date: 2018-06-01 21:14-0600\n"
+"PO-Revision-Date: 2018-06-01 21:20-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+msgid "Epic 404 - Article Not Found"
+msgstr "Épico 404 - Artículo no encontrado"
+
+#: 404.php:23
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"El artículo que buscas no ha sido encontrado, ¡pero puedes intentarlo de "
+"nuevo!"
+
+#: comments.php:21
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario sobre %2$s&rdquo;"
+msgstr[1] "%1$s comentarios sobre %2$s&rdquo;"
+
+#: comments.php:30 comments.php:46
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: comments.php:33 comments.php:49
+msgid "Older Comments"
+msgstr "Comentarios más antiguos"
+
+#: comments.php:34 comments.php:50
+msgid "Newer Comments"
+msgstr "Comentarios más recientes"
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "Comentarios cerrados."
+
+#: footer.php:25 parts/loop-single-project-meta.php:14
+msgid "Architects"
+msgstr "Arquitectos"
+
+#: functions/admin.php:35
+msgid "The RSS Feed is either empty or unavailable."
+msgstr "O bien el disco está vacío o no está disponible."
+
+#: functions/admin.php:39
+#, fuzzy
+msgid "j F Y @ g:i a"
+msgstr "j F Y @ g:i a"
+
+#: functions/admin.php:51
+msgid "Custom RSS Feed (Customize in admin.php)"
+msgstr "RSS personalizado (personalizar en admin.php)"
+
+#: functions/admin.php:65
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"#\" target=\"_blank"
+"\">Your Site Name</a></span>."
+msgstr ""
+"<span id=\"footer-thankyou\">Desarrollado por <a href=\"#\" target=\"_blank"
+"\">Su Sitio</a></span>."
+
+#: functions/cleanup.php:71
+msgid "Read"
+msgstr "Leer"
+
+#: functions/cleanup.php:71
+msgid "... Read more &raquo;"
+msgstr "… Leer más &raquo;"
+
+#: functions/cleanup.php:93
+#, php-format
+msgid "Posts by %s"
+msgstr "Artículos por %s"
+
+#: functions/comments.php:17
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions/comments.php:18
+#, fuzzy
+msgid " F jS, Y - g:ia"
+msgstr " F jS, Y - g:ia"
+
+#: functions/comments.php:19
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: functions/comments.php:23
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está esperando moderación."
+
+#: functions/cp-ajax.php:71
+msgctxt "masculine"
+msgid "All"
+msgstr "Todos"
+
+#: functions/cp-ajax.php:74
+msgctxt "feminine"
+msgid "All"
+msgstr "Todas"
+
+#: functions/customizer.php:20
+msgid "Social Media Icons"
+msgstr "Íconos de redes sociales"
+
+#: functions/customizer.php:22
+msgid "Add the URL for each of your social profiles."
+msgstr ""
+"Agrega la dirección URL para cada uno de tus perfiles de redes sociales."
+
+#: functions/customizer.php:72
+#, php-format
+msgid "%s icon"
+msgstr "%s ícono"
+
+#: functions/menu.php:5
+msgid "The Main Menu"
+msgstr "El menú principal"
+
+#: functions/page-navi.php:13
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: functions/page-navi.php:14
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: functions/related-posts.php:18
+msgid "<h4>Related Posts</h4>"
+msgstr "<h4>Artículos relacionados</h4>"
+
+#: functions/sidebar.php:26
+msgid "Footer right"
+msgstr "Pie de página derecho"
+
+#: functions/sidebar.php:27
+msgid "Widget area for footer right column."
+msgstr "Área de widgets para pie de página columna derecha."
+
+#: parts/content-missing.php:12
+msgid "Sorry, No Results."
+msgstr "Disculpa, no hay resultados"
+
+#: parts/content-missing.php:16
+msgid "Try your search again."
+msgstr "Prueba tu búsqueda de nuevo."
+
+#: parts/content-missing.php:24 parts/content-missing.php:42
+msgid "This is the error message in the parts/content-missing.php template."
+msgstr ""
+"Este es el mensaje de error de la plantilla parts / content-missing.php."
+
+#: parts/content-missing.php:30
+msgid "Oops, Post Not Found!"
+msgstr "Artículo no encontrado."
+
+#: parts/content-missing.php:34
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Algo falta. Por favor revisa de nuevo."
+
+#: parts/loop-archive.php:30
+msgid "Read more..."
+msgstr "Seguir leyendo…"
+
+#: parts/loop-archive.php:37
+msgid "See project"
+msgstr "Ver proyecto"
+
+#: parts/loop-single-project-meta.php:22
+msgid "Technical architect"
+msgstr "Arquitecto técnico"
+
+#: parts/loop-single-project-meta.php:30
+msgid "Engineer"
+msgstr "Ingeniero"
+
+#: parts/loop-single-project-meta.php:38
+msgid "Project codirector"
+msgstr "Codirector del proyecto"
+
+#: parts/loop-single-project-meta.php:46
+msgid "Construction firm"
+msgstr "Empresa constructora"
+
+#: parts/loop-single-project-meta.php:54
+msgid "Promoters"
+msgstr "Promotores"
+
+#: parts/loop-single-project-meta.php:62
+msgid "Collaborators"
+msgstr "Colaboradores"
+
+#: parts/loop-single-project-meta.php:70
+msgid "MEB"
+msgstr ""
+
+#: parts/loop-single-project.php:41 parts/loop-single.php:20
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: parts/loop-single-project.php:42 parts/loop-single.php:21
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: parts/nav-offcanvas.php:18 parts/nav-title-bar.php:7
+msgid "Menu"
+msgstr "Menú"
+
+#: search.php:16
+msgid "Search Results for:"
+msgstr "Resultados de búsqueda para:"
+
+#: searchform.php:9
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: searchform.php:10
+msgctxt "jointswp"
+msgid "Search..."
+msgstr "Buscar…"
+
+#: searchform.php:10
+msgctxt "jointswp"
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: searchform.php:12
+msgctxt "jointswp"
+msgid "Search"
+msgstr "Buscar"
+
+#: sidebar.php:18
+msgid "Please activate some Widgets."
+msgstr "Por favor active algunos widgets."
+
+#. Theme Name of the plugin/theme
+msgid "CastellPons"
+msgstr "CastellPons"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/matirosero/castellpons"
+msgstr "https://github.com/matirosero/castellpons"
+
+#. Author of the plugin/theme
+msgid "Matilde Rosero"
+msgstr "Matilde Rosero"
+
+#. Author URI of the plugin/theme
+msgid "https://www.matilderosero.com"
+msgstr "https://www.matilderosero.com"
+
+#~ msgid "Custom Types"
+#~ msgstr "Tipos personalizados"
+
+#~ msgid "Custom Post"
+#~ msgstr "Artículo personalizado"
+
+#~ msgid "All Custom Posts"
+#~ msgstr "Entradas personalizadas."
+
+#~ msgid "Add New"
+#~ msgstr "Añadir nuevo"
+
+#~ msgid "Add New Custom Type"
+#~ msgstr "Agregar nuevo tipo personalizado"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Edit Post Types"
+#~ msgstr "Editar tipos de entrada"
+
+#~ msgid "New Post Type"
+#~ msgstr "Agregar nuevo tipo de publicación"
+
+#, fuzzy
+#~ msgid "View Post Type"
+#~ msgstr "Ver tipo de publicación"
+
+#~ msgid "Search Post Type"
+#~ msgstr "Buscar tipo de contenido"
+
+#~ msgid "Nothing found in the Database."
+#~ msgstr "Nada encontrado en la base de datos."
+
+#~ msgid "Nothing found in Trash"
+#~ msgstr "Nada encontrado en la papelera de reciclaje"
+
+#, fuzzy
+#~ msgid "This is the example custom post type"
+#~ msgstr "Este es el ejemplo de tipo de publicación personalizado"
+
+#~ msgid "Custom Categories"
+#~ msgstr "Categorías personalizadas"
+
+#~ msgid "Custom Category"
+#~ msgstr "Categoría Personalizada"
+
+#~ msgid "Search Custom Categories"
+#~ msgstr "Buscar categorías personalizados"
+
+#~ msgid "All Custom Categories"
+#~ msgstr "Categorías Personalizadas"
+
+#~ msgid "Parent Custom Category"
+#~ msgstr "Categoría padre personalizada"
+
+#~ msgid "Parent Custom Category:"
+#~ msgstr "Categoría madre personalizada:"
+
+#~ msgid "Edit Custom Category"
+#~ msgstr "Editar categoría personalizada"
+
+#, fuzzy
+#~ msgid "Update Custom Category"
+#~ msgstr "Actualizar categoría personalizada"
+
+#~ msgid "Add New Custom Category"
+#~ msgstr "Agregar nueva categoría personalizada"
+
+#~ msgid "New Custom Category Name"
+#~ msgstr "Nuevo nombre de categoría personalizada"
+
+#~ msgid "Custom Tags"
+#~ msgstr "Etiquetas personalizadas"
+
+#, fuzzy
+#~ msgid "Custom Tag"
+#~ msgstr "Etiqueta personalizada"
+
+#~ msgid "Search Custom Tags"
+#~ msgstr "Buscar etiquetas personalizados"
+
+#~ msgid "All Custom Tags"
+#~ msgstr "Etiquetas personalizadas"
+
+#~ msgid "Parent Custom Tag"
+#~ msgstr "Etiqueta madre personalizada"
+
+#~ msgid "Parent Custom Tag:"
+#~ msgstr "Etiqueta personalizada madre :"
+
+#~ msgid "Edit Custom Tag"
+#~ msgstr "Editar etiqueta personalizada"
+
+#, fuzzy
+#~ msgid "Update Custom Tag"
+#~ msgstr "Actualizar Etiqueta Personalizada"
+
+#~ msgid "Add New Custom Tag"
+#~ msgstr "Agregar nueva etiqueta personalizada"
+
+#~ msgid "New Custom Tag Name"
+#~ msgstr "Nuevo nombre de etiqueta personalizada"
+
+#~ msgid "Footer Links"
+#~ msgstr "Enlaces del pie de página"
+
+#, fuzzy
+#~ msgid "Sidebar 1"
+#~ msgstr "Lateral 1"
+
+#, fuzzy
+#~ msgid "The first (primary) sidebar."
+#~ msgstr "El lateral principal."
+
+#~ msgid "Offcanvas"
+#~ msgstr "Offcanvas"
+
+#~ msgid "The offcanvas sidebar."
+#~ msgstr "Barra lateral offcanvas"
+
+#~ msgid "PEM"
+#~ msgstr "PEM"

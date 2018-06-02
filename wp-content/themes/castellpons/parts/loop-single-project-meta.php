@@ -67,7 +67,7 @@
 			<?php
 			if ( get_post_meta( get_the_ID(), 'mro_cp_project_pem', true ) ) { ?>
 				<li class="project-pem">
-					<h4><?php _e('PEM', 'jointswp'); ?></h4>
+					<h4><?php _e('MEB', 'jointswp'); ?></h4>
 					<?php echo get_post_meta( get_the_ID(), 'mro_cp_project_pem', true ); ?>
 				</li>
 			<?php } ?>

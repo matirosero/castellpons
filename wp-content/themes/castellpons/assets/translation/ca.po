@@ -1,0 +1,479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CastellPons\n"
+"POT-Creation-Date: 2018-06-01 21:14-0600\n"
+"PO-Revision-Date: 2018-06-01 21:14-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+#, fuzzy
+msgid "Epic 404 - Article Not Found"
+msgstr "Èpic 404 - Article no trobat"
+
+#: 404.php:23
+#, fuzzy
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"¡L’article que estàs buscant no s’ha localitzat, però pots intentar-ho més "
+"tard!"
+
+#: comments.php:21
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:30 comments.php:46
+#, fuzzy
+msgid "Comment navigation"
+msgstr "Comentar navegació"
+
+#: comments.php:33 comments.php:49
+#, fuzzy
+msgid "Older Comments"
+msgstr "Comentaris antics"
+
+#: comments.php:34 comments.php:50
+#, fuzzy
+msgid "Newer Comments"
+msgstr "Comentaris més recents"
+
+#: comments.php:62
+#, fuzzy
+msgid "Comments are closed."
+msgstr "Els comentaris estan tancats."
+
+#: footer.php:25 parts/loop-single-project-meta.php:14
+#, fuzzy
+msgid "Architects"
+msgstr "Arquitectes"
+
+#: functions/admin.php:35
+#, fuzzy
+msgid "The RSS Feed is either empty or unavailable."
+msgstr "El canal RSS està buit o no està disponible."
+
+#: functions/admin.php:39
+#, fuzzy
+msgid "j F Y @ g:i a"
+msgstr "j FY @ g: ia"
+
+#: functions/admin.php:51
+#, fuzzy
+msgid "Custom RSS Feed (Customize in admin.php)"
+msgstr "Canal RSS personalitzat (Personalitza a admin.php)"
+
+#: functions/admin.php:65
+#, fuzzy
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"#\" target=\"_blank"
+"\">Your Site Name</a></span>."
+msgstr ""
+"<span id=\"footer-thankyou\">Desenvolupat pel <a href=\"#\" target=\"_blank"
+"\">vostre nom del lloc</a></span> ."
+
+#: functions/cleanup.php:71
+#, fuzzy
+msgid "Read"
+msgstr "Llegit"
+
+#: functions/cleanup.php:71
+#, fuzzy
+msgid "... Read more &raquo;"
+msgstr "Veure més &raquo;"
+
+#: functions/cleanup.php:93
+#, fuzzy, php-format
+msgid "Posts by %s"
+msgstr "Entrades de %s"
+
+#: functions/comments.php:17
+#, fuzzy, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions/comments.php:18
+#, fuzzy
+msgid " F jS, Y - g:ia"
+msgstr "JS F, I - g:ia"
+
+#: functions/comments.php:19
+#, fuzzy
+msgid "(Edit)"
+msgstr "(Edita)"
+
+#: functions/comments.php:23
+#, fuzzy
+msgid "Your comment is awaiting moderation."
+msgstr "El seu comentari està pendent d’aprovació."
+
+#: functions/cp-ajax.php:71
+#, fuzzy
+msgctxt "masculine"
+msgid "All"
+msgstr "Tots"
+
+#: functions/cp-ajax.php:74
+#, fuzzy
+msgctxt "feminine"
+msgid "All"
+msgstr "Tots"
+
+#: functions/customizer.php:20
+#, fuzzy
+msgid "Social Media Icons"
+msgstr "Icones de mitjans socials"
+
+#: functions/customizer.php:22
+#, fuzzy
+msgid "Add the URL for each of your social profiles."
+msgstr "Afegiu l'URL per a cadascun dels vostres perfils socials."
+
+#: functions/customizer.php:72
+#, fuzzy, php-format
+msgid "%s icon"
+msgstr "icona de%s"
+
+#: functions/menu.php:5
+#, fuzzy
+msgid "The Main Menu"
+msgstr "Menú principal"
+
+#: functions/page-navi.php:13
+#, fuzzy
+msgid "&laquo;"
+msgstr "&raquo;"
+
+#: functions/page-navi.php:14
+#, fuzzy
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: functions/related-posts.php:18
+#, fuzzy
+msgid "<h4>Related Posts</h4>"
+msgstr "Publicacions relacionades"
+
+#: functions/sidebar.php:26
+#, fuzzy
+msgid "Footer right"
+msgstr "Peu de pàgina dret"
+
+#: functions/sidebar.php:27
+#, fuzzy
+msgid "Widget area for footer right column."
+msgstr "Àrea de widget per a la columna dreta del peu de pàgina."
+
+#: parts/content-missing.php:12
+#, fuzzy
+msgid "Sorry, No Results."
+msgstr "Ho sentim, sense resultats."
+
+#: parts/content-missing.php:16
+#, fuzzy
+msgid "Try your search again."
+msgstr "Torneu a provar la cerca."
+
+#: parts/content-missing.php:24 parts/content-missing.php:42
+#, fuzzy
+msgid "This is the error message in the parts/content-missing.php template."
+msgstr ""
+"Aquest és el missatge d'error a la plantilla parts / content-missing.php."
+
+#: parts/content-missing.php:30
+#, fuzzy
+msgid "Oops, Post Not Found!"
+msgstr "No s’ha trobat l’entrada!"
+
+#: parts/content-missing.php:34
+#, fuzzy
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Falta informació. Revisa la informació de nou."
+
+#: parts/loop-archive.php:30
+#, fuzzy
+msgid "Read more..."
+msgstr "Llegeix més..."
+
+#: parts/loop-archive.php:37
+#, fuzzy
+msgid "See project"
+msgstr "Projecte"
+
+#: parts/loop-single-project-meta.php:22
+#, fuzzy
+msgid "Technical architect"
+msgstr "Arquitecte tècnic"
+
+#: parts/loop-single-project-meta.php:30
+#, fuzzy
+msgid "Engineer"
+msgstr "Enginyer"
+
+#: parts/loop-single-project-meta.php:38
+#, fuzzy
+msgid "Project codirector"
+msgstr "Coordinador del projecte"
+
+#: parts/loop-single-project-meta.php:46
+#, fuzzy
+msgid "Construction firm"
+msgstr "construcció"
+
+#: parts/loop-single-project-meta.php:54
+#, fuzzy
+msgid "Promoters"
+msgstr "Promotors"
+
+#: parts/loop-single-project-meta.php:62
+#, fuzzy
+msgid "Collaborators"
+msgstr "Col·laboradors"
+
+#: parts/loop-single-project-meta.php:70
+msgid "MEB"
+msgstr ""
+
+#: parts/loop-single-project.php:41 parts/loop-single.php:20
+#, fuzzy
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: parts/loop-single-project.php:42 parts/loop-single.php:21
+#, fuzzy
+msgid "Tags:"
+msgstr "Etiquetes:"
+
+#: parts/nav-offcanvas.php:18 parts/nav-title-bar.php:7
+#, fuzzy
+msgid "Menu"
+msgstr "Menú"
+
+#: search.php:16
+#, fuzzy
+msgid "Search Results for:"
+msgstr "Cercar resultats per:"
+
+#: searchform.php:9
+#, fuzzy
+msgctxt "label"
+msgid "Search for:"
+msgstr "Cercar:"
+
+#: searchform.php:10
+#, fuzzy
+msgctxt "jointswp"
+msgid "Search..."
+msgstr "Cercar..."
+
+#: searchform.php:10
+#, fuzzy
+msgctxt "jointswp"
+msgid "Search for:"
+msgstr "Cercar:"
+
+#: searchform.php:12
+#, fuzzy
+msgctxt "jointswp"
+msgid "Search"
+msgstr "Cercar"
+
+#: sidebar.php:18
+#, fuzzy
+msgid "Please activate some Widgets."
+msgstr "Activa els widgets."
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "CastellPons"
+msgstr "CastellPons"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://github.com/matirosero/castellpons"
+msgstr "https://github.com/matirosero/castellpons"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Matilde Rosero"
+msgstr "Matilde Rosero"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://www.matilderosero.com"
+msgstr "https://www.matilderosero.com"
+
+#, fuzzy
+#~ msgid "Custom Types"
+#~ msgstr "Tipus personalitzats"
+
+#, fuzzy
+#~ msgid "Custom Post"
+#~ msgstr "Tipus d'Entrades personalitzat"
+
+#, fuzzy
+#~ msgid "All Custom Posts"
+#~ msgstr "Entrades personalitzades"
+
+#, fuzzy
+#~ msgid "Add New"
+#~ msgstr "Afegir nou"
+
+#, fuzzy
+#~ msgid "Add New Custom Type"
+#~ msgstr "Afegeix un tipus personalitzat nou"
+
+#, fuzzy
+#~ msgid "Edit"
+#~ msgstr "Edita"
+
+#, fuzzy
+#~ msgid "Edit Post Types"
+#~ msgstr "Tipus d'entrada"
+
+#, fuzzy
+#~ msgid "New Post Type"
+#~ msgstr "Tipus d’entrada"
+
+#, fuzzy
+#~ msgid "View Post Type"
+#~ msgstr "Tipus d’entrada"
+
+#, fuzzy
+#~ msgid "Search Post Type"
+#~ msgstr "Cerca el tipus de publicació"
+
+#, fuzzy
+#~ msgid "Nothing found in the Database."
+#~ msgstr "No s'ha trobat res a la Base de dades."
+
+#, fuzzy
+#~ msgid "Nothing found in Trash"
+#~ msgstr "No s'ha trobat res a la Paperera"
+
+#, fuzzy
+#~ msgid "This is the example custom post type"
+#~ msgstr "Aquest és l'exemple de tipus de publicació personalitzada"
+
+#, fuzzy
+#~ msgid "Custom Categories"
+#~ msgstr "Categories personalitzades"
+
+#, fuzzy
+#~ msgid "Custom Category"
+#~ msgstr "Categoria personalitzada"
+
+#, fuzzy
+#~ msgid "Search Custom Categories"
+#~ msgstr "Cerca categories personalitzades"
+
+#, fuzzy
+#~ msgid "All Custom Categories"
+#~ msgstr "Totes les categories personalitzades"
+
+#, fuzzy
+#~ msgid "Parent Custom Category"
+#~ msgstr "Categoria personalitzada per a pares"
+
+#, fuzzy
+#~ msgid "Parent Custom Category:"
+#~ msgstr "Categoria personalitzada per a pares:"
+
+#, fuzzy
+#~ msgid "Edit Custom Category"
+#~ msgstr "Editeu la categoria personalitzada"
+
+#, fuzzy
+#~ msgid "Update Custom Category"
+#~ msgstr "Actualitza la categoria personalitzada"
+
+#, fuzzy
+#~ msgid "Add New Custom Category"
+#~ msgstr "Afegeix una nova categoria personalitzada"
+
+#, fuzzy
+#~ msgid "New Custom Category Name"
+#~ msgstr "Nou nom de categoria personalitzada"
+
+#, fuzzy
+#~ msgid "Custom Tags"
+#~ msgstr "Personalitzat"
+
+#, fuzzy
+#~ msgid "Custom Tag"
+#~ msgstr "Personalitzat"
+
+#, fuzzy
+#~ msgid "Search Custom Tags"
+#~ msgstr "Cerca etiquetes personalitzades"
+
+#, fuzzy
+#~ msgid "All Custom Tags"
+#~ msgstr "Totes les etiquetes personalitzades"
+
+#, fuzzy
+#~ msgid "Parent Custom Tag"
+#~ msgstr "Etiqueta personal principal"
+
+#, fuzzy
+#~ msgid "Parent Custom Tag:"
+#~ msgstr "Etiqueta personal principal:"
+
+#, fuzzy
+#~ msgid "Edit Custom Tag"
+#~ msgstr "Edita l'etiqueta personalitzada"
+
+#, fuzzy
+#~ msgid "Update Custom Tag"
+#~ msgstr "Actualitza l'etiqueta personalitzada"
+
+#, fuzzy
+#~ msgid "Add New Custom Tag"
+#~ msgstr "Afegeix una etiqueta personalitzada nova"
+
+#, fuzzy
+#~ msgid "New Custom Tag Name"
+#~ msgstr "Nou nom d'etiqueta personalitzada"
+
+#, fuzzy
+#~ msgid "Footer Links"
+#~ msgstr "Enllaços de Peu de pàgina"
+
+#, fuzzy
+#~ msgid "Sidebar 1"
+#~ msgstr "Barra Lateral"
+
+#, fuzzy
+#~ msgid "The first (primary) sidebar."
+#~ msgstr "La primera barra lateral (primària)."
+
+#, fuzzy
+#~ msgid "Offcanvas"
+#~ msgstr "Offcanvas"
+
+#, fuzzy
+#~ msgid "The offcanvas sidebar."
+#~ msgstr "Barra lateral de offcanvas."
+
+#, fuzzy
+#~ msgid "PEM"
+#~ msgstr "& PEM"

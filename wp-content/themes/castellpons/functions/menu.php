@@ -3,7 +3,6 @@
 register_nav_menus(
 	array(
 		'main-nav' => __( 'The Main Menu', 'jointswp' ),   // Main nav in header
-		'footer-links' => __( 'Footer Links', 'jointswp' ) // Secondary nav in footer
 	)
 );
 

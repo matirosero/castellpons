@@ -1,0 +1,1211 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: C+P Theme Functions\n"
+"POT-Creation-Date: 2018-06-01 21:23-0600\n"
+"PO-Revision-Date: 2018-06-01 21:49-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cp-theme-functions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ca\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cmb2/register-metabox-fields.php:19
+#, fuzzy
+msgid "Icons box"
+msgstr "Icones"
+
+#: includes/cmb2/register-metabox-fields.php:36
+#, fuzzy
+msgid "Box title"
+msgstr "Títol"
+
+#: includes/cmb2/register-metabox-fields.php:49
+#, fuzzy
+msgid "Icon {#}"
+msgstr "Icona"
+
+#: includes/cmb2/register-metabox-fields.php:50
+#, fuzzy
+msgid "Add Another Icon"
+msgstr "Afegeix una altra icona"
+
+#: includes/cmb2/register-metabox-fields.php:51
+#, fuzzy
+msgid "Remove Icon"
+msgstr "Icono Quitar"
+
+#: includes/cmb2/register-metabox-fields.php:58
+#, fuzzy
+msgid "Icon"
+msgstr "Icona"
+
+#: includes/cmb2/register-metabox-fields.php:64
+#: vendor/cmb2/example-functions.php:508
+#, fuzzy
+msgid "Description"
+msgstr "Descripció"
+
+#: includes/cmb2/register-metabox-fields.php:84
+#, fuzzy
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: includes/cmb2/register-metabox-fields.php:101
+#, fuzzy
+msgid "This content goes in the narrow, right sidebar."
+msgstr "Aquest contingut passa a la barra lateral estret, a la dreta."
+
+#: includes/cmb2/register-metabox-fields.php:122
+#, fuzzy
+msgid "Project attributes"
+msgstr "Atributs del projecte"
+
+#: includes/cmb2/register-metabox-fields.php:138
+#, fuzzy
+msgid "Location"
+msgstr "Ubicació"
+
+#: includes/cmb2/register-metabox-fields.php:139
+#, fuzzy
+msgid "Location: town, city etc"
+msgstr "Ubicació: municipi, ciutat, etc."
+
+#: includes/cmb2/register-metabox-fields.php:146
+#: includes/cmb2/register-metabox-fields.php:237
+#: includes/cmb2/register-metabox-fields.php:253
+#, fuzzy
+msgid "Address"
+msgstr "Adreça"
+
+#: includes/cmb2/register-metabox-fields.php:153
+#, fuzzy
+msgid "Project date"
+msgstr "Projecte"
+
+#: includes/cmb2/register-metabox-fields.php:160
+#, fuzzy
+msgid "Firm"
+msgstr "Negoci"
+
+#: includes/cmb2/register-metabox-fields.php:167
+#, fuzzy
+msgid "Technical architect"
+msgstr "Arquitecte tècnic"
+
+#: includes/cmb2/register-metabox-fields.php:174
+#, fuzzy
+msgid "Engineer"
+msgstr "Enginyer"
+
+#: includes/cmb2/register-metabox-fields.php:181
+#, fuzzy
+msgid "Project codirector"
+msgstr "Coordinador del projecte"
+
+#: includes/cmb2/register-metabox-fields.php:188
+#, fuzzy
+msgid "Construction company"
+msgstr "Companyia de construcció"
+
+#: includes/cmb2/register-metabox-fields.php:195
+#, fuzzy
+msgid "Promoters"
+msgstr "Promotors"
+
+#: includes/cmb2/register-metabox-fields.php:202
+#, fuzzy
+msgid "Collaborators"
+msgstr "Col·laboradors"
+
+#: includes/cmb2/register-metabox-fields.php:209
+#, fuzzy
+msgid "Material Execution Budget"
+msgstr "Pressupost d'execució de materials"
+
+#: includes/cmb2/register-metabox-fields.php:216
+#, fuzzy
+msgid "Gallery"
+msgstr "Galeria"
+
+#: includes/cmb2/register-metabox-fields.php:217
+#: vendor/cmb2/example-functions.php:402
+#, fuzzy
+msgid "Upload or add multiple images/attachments."
+msgstr "Carregueu o afegiu diverses imatges / fitxers adjunts."
+
+#: includes/cmb2/register-metabox-fields.php:260
+#, fuzzy
+msgid "Google Map"
+msgstr "Mapa Google"
+
+#: includes/cpt/register-cpt.php:24 includes/cpt/register-cpt.php:35
+#, fuzzy
+msgid "Projects"
+msgstr "Projectes"
+
+#: includes/cpt/register-cpt.php:25
+#, fuzzy
+msgid "Project"
+msgstr "Projecte"
+
+#: includes/cpt/register-cpt.php:26
+#, fuzzy
+msgctxt "cpf"
+msgid "Add New Project"
+msgstr "Afegir nou Projecte"
+
+#: includes/cpt/register-cpt.php:27
+#, fuzzy
+msgid "Add New Project"
+msgstr "Afegir nou Projecte"
+
+#: includes/cpt/register-cpt.php:28
+#, fuzzy
+msgid "Edit Project"
+msgstr "Editar El Projecte"
+
+#: includes/cpt/register-cpt.php:29
+#, fuzzy
+msgid "New Project"
+msgstr "Nou Projecte"
+
+#: includes/cpt/register-cpt.php:30
+#, fuzzy
+msgid "View Project"
+msgstr "Veure Projecte"
+
+#: includes/cpt/register-cpt.php:31
+#, fuzzy
+msgid "Search Projects"
+msgstr "Cercar Projectes"
+
+#: includes/cpt/register-cpt.php:32
+#, fuzzy
+msgid "No Projects found"
+msgstr "No s'han trobat actuacions"
+
+#: includes/cpt/register-cpt.php:33
+#, fuzzy
+msgid "No Projects found in Trash"
+msgstr "Sense actuacions a la paperera"
+
+#: includes/cpt/register-cpt.php:34
+#, fuzzy
+msgid "Parent Project:"
+msgstr "Actuació Depenent:"
+
+#: includes/cpt/register-cpt.php:100 includes/cpt/register-cpt.php:111
+#, fuzzy
+msgid "Offices"
+msgstr "Oficines"
+
+#: includes/cpt/register-cpt.php:101
+#, fuzzy
+msgid "Office"
+msgstr "Oficines"
+
+#: includes/cpt/register-cpt.php:102
+#, fuzzy
+msgctxt "cpf"
+msgid "Add New Office"
+msgstr "Afegeix una nova oficina"
+
+#: includes/cpt/register-cpt.php:103
+#, fuzzy
+msgid "Add New Office"
+msgstr "Afegeix una nova oficina"
+
+#: includes/cpt/register-cpt.php:104
+#, fuzzy
+msgid "Edit Office"
+msgstr "Edita l'oficina"
+
+#: includes/cpt/register-cpt.php:105
+#, fuzzy
+msgid "New Office"
+msgstr "Nova oficina"
+
+#: includes/cpt/register-cpt.php:106
+#, fuzzy
+msgid "View Office"
+msgstr "Veure oficina"
+
+#: includes/cpt/register-cpt.php:107
+#, fuzzy
+msgid "Search Offices"
+msgstr "Oficines de cerca"
+
+#: includes/cpt/register-cpt.php:108
+#, fuzzy
+msgid "No Offices found"
+msgstr "No s'ha trobat cap oficina"
+
+#: includes/cpt/register-cpt.php:109
+#, fuzzy
+msgid "No Offices found in Trash"
+msgstr "No hi ha oficines a la paperera"
+
+#: includes/cpt/register-cpt.php:110
+#, fuzzy
+msgid "Parent Office:"
+msgstr "Oficina de pares:"
+
+#: includes/cpt/register-cpt.php:169
+#, fuzzy
+msgctxt "Taxonomy plural name"
+msgid "Project Types"
+msgstr "Tipus Actuacions"
+
+#: includes/cpt/register-cpt.php:170
+#, fuzzy
+msgctxt "Taxonomy singular name"
+msgid "Project Type"
+msgstr "Tipus Actuació"
+
+#: includes/cpt/register-cpt.php:171
+#, fuzzy
+msgid "Search Project Types"
+msgstr "Projecte tipus de cerca"
+
+#: includes/cpt/register-cpt.php:172
+#, fuzzy
+msgid "Popular Project Types"
+msgstr "Tipus de projectes populars"
+
+#: includes/cpt/register-cpt.php:173
+#, fuzzy
+msgid "All Project Types"
+msgstr "Tots el tipus d'actuació"
+
+#: includes/cpt/register-cpt.php:174 includes/cpt/register-cpt.php:175
+#, fuzzy
+msgid "Parent Project Type"
+msgstr "Actuació Depenent:"
+
+#: includes/cpt/register-cpt.php:176
+#, fuzzy
+msgid "Edit Project Type"
+msgstr "Editar El Projecte"
+
+#: includes/cpt/register-cpt.php:177
+#, fuzzy
+msgid "Update Project Type"
+msgstr "Actualitzar Actuació"
+
+#: includes/cpt/register-cpt.php:178
+#, fuzzy
+msgid "Add New Project Type"
+msgstr "Afegir nou Projecte"
+
+#: includes/cpt/register-cpt.php:179
+#, fuzzy
+msgid "New Project Type Name"
+msgstr "Nou projecte tipus nom"
+
+#: includes/cpt/register-cpt.php:180
+#, fuzzy
+msgid "Add or remove Project Types"
+msgstr "Afegeix o esborra tipus"
+
+#: includes/cpt/register-cpt.php:181
+#, fuzzy
+msgid "Choose from most used Project Types"
+msgstr "Escollir entre els tipus més utilitzats"
+
+#: includes/cpt/register-cpt.php:182
+#, fuzzy
+msgid "Project Type"
+msgstr "Tipus Actuació"
+
+#: vendor/cmb2/example-functions.php:117
+#, fuzzy
+msgid "Test Metabox"
+msgstr "Prova Metabox"
+
+#: vendor/cmb2/example-functions.php:130 vendor/cmb2/example-functions.php:456
+#, fuzzy
+msgid "Test Text"
+msgstr "Text de verificació"
+
+#: vendor/cmb2/example-functions.php:131 vendor/cmb2/example-functions.php:144
+#: vendor/cmb2/example-functions.php:157 vendor/cmb2/example-functions.php:164
+#: vendor/cmb2/example-functions.php:177 vendor/cmb2/example-functions.php:185
+#: vendor/cmb2/example-functions.php:194 vendor/cmb2/example-functions.php:202
+#: vendor/cmb2/example-functions.php:217 vendor/cmb2/example-functions.php:225
+#: vendor/cmb2/example-functions.php:233 vendor/cmb2/example-functions.php:250
+#: vendor/cmb2/example-functions.php:259 vendor/cmb2/example-functions.php:272
+#: vendor/cmb2/example-functions.php:279 vendor/cmb2/example-functions.php:286
+#: vendor/cmb2/example-functions.php:300 vendor/cmb2/example-functions.php:313
+#: vendor/cmb2/example-functions.php:326 vendor/cmb2/example-functions.php:338
+#: vendor/cmb2/example-functions.php:347 vendor/cmb2/example-functions.php:355
+#: vendor/cmb2/example-functions.php:364 vendor/cmb2/example-functions.php:371
+#: vendor/cmb2/example-functions.php:385 vendor/cmb2/example-functions.php:457
+#: vendor/cmb2/example-functions.php:548 vendor/cmb2/example-functions.php:556
+#: vendor/cmb2/example-functions.php:563 vendor/cmb2/example-functions.php:570
+#: vendor/cmb2/example-functions.php:577 vendor/cmb2/example-functions.php:584
+#: vendor/cmb2/example-functions.php:591 vendor/cmb2/example-functions.php:618
+#: vendor/cmb2/example-functions.php:626 vendor/cmb2/example-functions.php:633
+#: vendor/cmb2/example-functions.php:678
+#, fuzzy
+msgid "field description (optional)"
+msgstr "descripció del camp (opcional)"
+
+#: vendor/cmb2/example-functions.php:143
+#, fuzzy
+msgid "Test Text Small"
+msgstr "Prova el Text petita"
+
+#: vendor/cmb2/example-functions.php:156
+#, fuzzy
+msgid "Test Text Medium"
+msgstr "Text de text mitjà"
+
+#: vendor/cmb2/example-functions.php:163
+#, fuzzy
+msgid "Read-only Disabled Field"
+msgstr "Camp només de lectura de mobilitat"
+
+#: vendor/cmb2/example-functions.php:167
+#, fuzzy
+msgid "Hey there, I'm a read-only field"
+msgstr "Hey allà, jo sóc un camp només de lectura"
+
+#: vendor/cmb2/example-functions.php:176
+#, fuzzy
+msgid "Custom Rendered Field"
+msgstr "Personalitzada prestats camp"
+
+#: vendor/cmb2/example-functions.php:184
+#, fuzzy
+msgid "Website URL"
+msgstr "URL del lloc web"
+
+#: vendor/cmb2/example-functions.php:193
+#, fuzzy
+msgid "Test Text Email"
+msgstr "Text Text Email"
+
+#: vendor/cmb2/example-functions.php:201
+#, fuzzy
+msgid "Test Time"
+msgstr "Temps de prova"
+
+#: vendor/cmb2/example-functions.php:209 vendor/cmb2/example-functions.php:210
+#, fuzzy
+msgid "Time zone"
+msgstr "Zona horària"
+
+#: vendor/cmb2/example-functions.php:216
+#, fuzzy
+msgid "Test Date Picker"
+msgstr "Selector de data de prova"
+
+#: vendor/cmb2/example-functions.php:224
+#, fuzzy
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr "Selector de dates de prova (marca de temps UNIX)"
+
+#: vendor/cmb2/example-functions.php:232
+#, fuzzy
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr "Data de prova / Time Selector Combo (marca de temps UNIX)"
+
+#: vendor/cmb2/example-functions.php:249
+#, fuzzy
+msgid "Test Money"
+msgstr "Prova de moneda"
+
+#: vendor/cmb2/example-functions.php:258
+#, fuzzy
+msgid "Test Color Picker"
+msgstr "Prova de selector de color"
+
+#: vendor/cmb2/example-functions.php:271
+#, fuzzy
+msgid "Test Text Area"
+msgstr "àrea de text"
+
+#: vendor/cmb2/example-functions.php:278
+#, fuzzy
+msgid "Test Text Area Small"
+msgstr "Prova la zona de text petit"
+
+#: vendor/cmb2/example-functions.php:285
+#, fuzzy
+msgid "Test Text Area for Code"
+msgstr "Prova d'àrea de Text per al codi"
+
+#: vendor/cmb2/example-functions.php:292
+#, fuzzy
+msgid "Test Title Weeeee"
+msgstr "Weeeee títol de prova"
+
+#: vendor/cmb2/example-functions.php:293
+#, fuzzy
+msgid "This is a title description"
+msgstr "Aquesta és una descripció de títol"
+
+#: vendor/cmb2/example-functions.php:299
+#, fuzzy
+msgid "Test Select"
+msgstr "SELECCIONA"
+
+#: vendor/cmb2/example-functions.php:305 vendor/cmb2/example-functions.php:318
+#: vendor/cmb2/example-functions.php:330
+#, fuzzy
+msgid "Option One"
+msgstr "Opció"
+
+#: vendor/cmb2/example-functions.php:306 vendor/cmb2/example-functions.php:319
+#: vendor/cmb2/example-functions.php:331
+#, fuzzy
+msgid "Option Two"
+msgstr "Opció segona"
+
+#: vendor/cmb2/example-functions.php:307 vendor/cmb2/example-functions.php:320
+#: vendor/cmb2/example-functions.php:332
+#, fuzzy
+msgid "Option Three"
+msgstr "Opció tres"
+
+#: vendor/cmb2/example-functions.php:312
+#, fuzzy
+msgid "Test Radio inline"
+msgstr "Prova de ràdio en línia"
+
+#: vendor/cmb2/example-functions.php:325
+#, fuzzy
+msgid "Test Radio"
+msgstr "Ràdio"
+
+#: vendor/cmb2/example-functions.php:337
+#, fuzzy
+msgid "Test Taxonomy Radio"
+msgstr "Prova taxonomia ràdio"
+
+#: vendor/cmb2/example-functions.php:346
+#, fuzzy
+msgid "Test Taxonomy Select"
+msgstr "Test Taxonomy Selecciona"
+
+#: vendor/cmb2/example-functions.php:354
+#, fuzzy
+msgid "Test Taxonomy Multi Checkbox"
+msgstr "Comprovar Taxonomy Multi Checkbox"
+
+#: vendor/cmb2/example-functions.php:363
+#, fuzzy
+msgid "Test Checkbox"
+msgstr "Casella de verificació"
+
+#: vendor/cmb2/example-functions.php:370
+#, fuzzy
+msgid "Test Multi Checkbox"
+msgstr "Comprovació múltiple de la casella de selecció"
+
+#: vendor/cmb2/example-functions.php:376
+#, fuzzy
+msgid "Check One"
+msgstr "Comprova"
+
+#: vendor/cmb2/example-functions.php:377
+#, fuzzy
+msgid "Check Two"
+msgstr "Comprova"
+
+#: vendor/cmb2/example-functions.php:378
+#, fuzzy
+msgid "Check Three"
+msgstr "Comproveu tres"
+
+#: vendor/cmb2/example-functions.php:384
+#, fuzzy
+msgid "Test wysiwyg"
+msgstr "Prova de wysiwyg"
+
+#: vendor/cmb2/example-functions.php:394
+#, fuzzy
+msgid "Test Image"
+msgstr "Imatge de prova"
+
+#: vendor/cmb2/example-functions.php:395
+#, fuzzy
+msgid "Upload an image or enter a URL."
+msgstr "Penja una imatge o introdueix una URL."
+
+#: vendor/cmb2/example-functions.php:401
+#, fuzzy
+msgid "Multiple Files"
+msgstr "Múltiples fitxers"
+
+#: vendor/cmb2/example-functions.php:409
+#, fuzzy
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#. translators: %s: link to codex.wordpress.org/Embeds
+#: vendor/cmb2/example-functions.php:412
+#, fuzzy, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+"Introduïu un URL de youtube, twitter o instagram. Suporta els serveis que "
+"apareixen a%s."
+
+#: vendor/cmb2/example-functions.php:445
+#, fuzzy
+msgid "About Page Metabox"
+msgstr "Metacaixa per la página Nosaltres"
+
+#: vendor/cmb2/example-functions.php:476
+#, fuzzy
+msgid "Repeating Field Group"
+msgstr "Grup pel camp repetitiu"
+
+#: vendor/cmb2/example-functions.php:484
+#, fuzzy
+msgid "Generates reusable form entries"
+msgstr "Genera entrades de formulari reutilitzables"
+
+#: vendor/cmb2/example-functions.php:486
+#, fuzzy
+msgid "Entry {#}"
+msgstr "Entrada {#}"
+
+#: vendor/cmb2/example-functions.php:487
+#, fuzzy
+msgid "Add Another Entry"
+msgstr "Afegeix una altra entrada"
+
+#: vendor/cmb2/example-functions.php:488
+#, fuzzy
+msgid "Remove Entry"
+msgstr "Elimina entrada"
+
+#: vendor/cmb2/example-functions.php:501
+#, fuzzy
+msgid "Entry Title"
+msgstr "Títol Entrada del Blog"
+
+#: vendor/cmb2/example-functions.php:509
+#, fuzzy
+msgid "Write a short description for this entry"
+msgstr "Escriviu una breu descripció per a aquesta entrada"
+
+#: vendor/cmb2/example-functions.php:515
+#, fuzzy
+msgid "Entry Image"
+msgstr "Imatge d'entrada"
+
+#: vendor/cmb2/example-functions.php:521
+#, fuzzy
+msgid "Image Caption"
+msgstr "Llegenda sobre la imatge"
+
+#: vendor/cmb2/example-functions.php:540
+#, fuzzy
+msgid "User Profile Metabox"
+msgstr "Metacaixa de perfil d'usuari"
+
+#: vendor/cmb2/example-functions.php:547 vendor/cmb2/example-functions.php:617
+#, fuzzy
+msgid "Extra Info"
+msgstr "S&apos; està extreguen"
+
+#: vendor/cmb2/example-functions.php:555
+#, fuzzy
+msgid "Avatar"
+msgstr "Avatar"
+
+#: vendor/cmb2/example-functions.php:562
+#, fuzzy
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: vendor/cmb2/example-functions.php:569
+#, fuzzy
+msgid "Twitter URL"
+msgstr "URL de Twitter"
+
+#: vendor/cmb2/example-functions.php:576
+#, fuzzy
+msgid "Google+ URL"
+msgstr "URL de Google+"
+
+#: vendor/cmb2/example-functions.php:583
+#, fuzzy
+msgid "Linkedin URL"
+msgstr "URL de Linkedin"
+
+#: vendor/cmb2/example-functions.php:590
+#, fuzzy
+msgid "User Field"
+msgstr "Camp de l’usuari"
+
+#: vendor/cmb2/example-functions.php:610
+#, fuzzy
+msgid "Category Metabox"
+msgstr "Metacaixa de Categoria"
+
+#: vendor/cmb2/example-functions.php:625
+#, fuzzy
+msgid "Term Image"
+msgstr "Imatge pel terme"
+
+#: vendor/cmb2/example-functions.php:632
+#, fuzzy
+msgid "Arbitrary Term Field"
+msgstr "Camp arbitrari pel terme"
+
+#: vendor/cmb2/example-functions.php:651
+#, fuzzy
+msgid "Theme Options"
+msgstr "Opcions del tema"
+
+#: vendor/cmb2/example-functions.php:677
+#, fuzzy
+msgid "Site Background Color"
+msgstr "Color de fons del lloc"
+
+#: vendor/cmb2/example-functions.php:713
+#, fuzzy
+msgid "REST Test Box"
+msgstr "REST Box de proves"
+
+#: vendor/cmb2/example-functions.php:722
+#, fuzzy
+msgid "REST Test Text"
+msgstr "Text de prova de resta"
+
+#: vendor/cmb2/example-functions.php:723
+#, fuzzy
+msgid "Will show in the REST API for this box and for pages."
+msgstr "Es mostrarà a la REST API per a aquesta casella i per a pàgines."
+
+#: vendor/cmb2/example-functions.php:729
+#, fuzzy
+msgid "REST Editable Test Text"
+msgstr "RESTA Text d'edició de prova"
+
+#: vendor/cmb2/example-functions.php:730
+#, fuzzy
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+"Es mostrarà només a contextos \"editables\" a REST API (\"sol·licituds POST"
+"\")."
+
+#: vendor/cmb2/includes/CMB2.php:175
+#, fuzzy
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+"És necessària la configuració de la Metacaixa per tenir un paràmetre d'ID."
+
+#: vendor/cmb2/includes/CMB2.php:553
+#, fuzzy
+msgid "Click to toggle"
+msgstr "Feu clic per alternar"
+
+#: vendor/cmb2/includes/CMB2_Ajax.php:75
+#, fuzzy
+msgid "Please Try Again"
+msgstr "Si us plau, torneu-ho a provar"
+
+#: vendor/cmb2/includes/CMB2_Ajax.php:181
+#, fuzzy
+msgid "Remove Embed"
+msgstr "Elimina l'inserit"
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: vendor/cmb2/includes/CMB2_Ajax.php:189
+#: vendor/cmb2/includes/helper-functions.php:105
+#, fuzzy, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr "No s'ha trobat cap resultat per a%1$s. Vegeu més informació a%2$s."
+
+#: vendor/cmb2/includes/CMB2_Base.php:406
+#, fuzzy, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+msgstr ""
+"El paràmetre del camp \"%1$s\" s'ha desactivat a favor del paràmetre \"%1$s"
+"\"."
+
+#: vendor/cmb2/includes/CMB2_Base.php:410
+#, fuzzy, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+msgstr ""
+"S'ha desactivat el paràmetre de camp \"%1$s\" com a devolució de trucada a "
+"favor del paràmetre \"%1$s\"."
+
+#: vendor/cmb2/includes/CMB2_Base.php:440
+#, fuzzy, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+"Es va trucar a%1$s amb un paràmetre que està <strong>obsolet</strong> des de "
+"la versió%2$s. %3$s"
+
+#: vendor/cmb2/includes/CMB2_Base.php:442
+#, fuzzy, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+"%1$s s'anomenava amb un argument que és <strong>obsolet</strong> des de la "
+"versió %2$s amb cap alternativa disponible."
+
+#: vendor/cmb2/includes/CMB2_Base.php:475
+#: vendor/cmb2/includes/CMB2_Hookup_Base.php:100
+#: vendor/cmb2/includes/CMB2_Options_Hookup.php:233
+#: vendor/cmb2/includes/types/CMB2_Type_Base.php:149
+#, fuzzy, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr "La propietat%1$s no és vàlida:%2$s"
+
+#: vendor/cmb2/includes/CMB2_Base.php:490
+#: vendor/cmb2/includes/types/CMB2_Type_Base.php:133
+#, fuzzy, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr "El mètode%1$s no és vàlid:%2$s"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1174
+#, fuzzy
+msgid "Add Group"
+msgstr "Afegeix un grup"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1175
+#, fuzzy
+msgid "Remove Group"
+msgstr "Elimina el grup"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1197
+#: vendor/cmb2/includes/CMB2_Field.php:1201
+#, fuzzy
+msgid "None"
+msgstr "Cap"
+
+#: vendor/cmb2/includes/CMB2_Field.php:1262
+#, fuzzy
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr "Ho sentim, aquest camp no té especificat cmb_id."
+
+#: vendor/cmb2/includes/CMB2_Field_Display.php:432
+#: vendor/cmb2/includes/CMB2_JS.php:167
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:78
+#, fuzzy
+msgid "File:"
+msgstr "Fitxer:"
+
+#: vendor/cmb2/includes/CMB2_Hookup_Base.php:42
+#, fuzzy, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr "%1$s hauria d'implementar-se per una classe estesa."
+
+#: vendor/cmb2/includes/CMB2_JS.php:107 vendor/cmb2/includes/CMB2_JS.php:147
+#, fuzzy
+msgid "Clear"
+msgstr "Esborrar"
+
+#: vendor/cmb2/includes/CMB2_JS.php:108
+#, fuzzy
+msgid "Default"
+msgstr "Per defecte"
+
+#: vendor/cmb2/includes/CMB2_JS.php:109
+#, fuzzy
+msgid "Select Color"
+msgstr "Selecciona un color"
+
+#: vendor/cmb2/includes/CMB2_JS.php:110
+#, fuzzy
+msgid "Current Color"
+msgstr "Color actual"
+
+#: vendor/cmb2/includes/CMB2_JS.php:137
+#, fuzzy
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr "dd/mm/yy"
+
+#: vendor/cmb2/includes/CMB2_JS.php:138
+#, fuzzy
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "Diumenge, Dilluns, Dimarts, Dimecres, Dijous, Divendres, Dissabte"
+
+#: vendor/cmb2/includes/CMB2_JS.php:139
+#, fuzzy
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "Dg, Dl, Dm, Dc, Dj, Dv, Ds"
+
+#: vendor/cmb2/includes/CMB2_JS.php:140
+#, fuzzy
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "Dmg, Dll, Dmt, Dmc, Djs, Dvs, Dss"
+
+#: vendor/cmb2/includes/CMB2_JS.php:141
+#, fuzzy
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+"Gener, Febrer, Març, Abril, Maig, Juny, Juliol, Agost, Setembre, Octubre, "
+"Novembre, Desembre"
+
+#: vendor/cmb2/includes/CMB2_JS.php:142
+#, fuzzy
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "Gen, Feb, Mar, Abr, Mai, Jun, Jul, Ago, Set, Oct, Nov, Des"
+
+#: vendor/cmb2/includes/CMB2_JS.php:143
+#, fuzzy
+msgid "Next"
+msgstr "Següent"
+
+#: vendor/cmb2/includes/CMB2_JS.php:144
+#, fuzzy
+msgid "Prev"
+msgstr "Ant"
+
+#: vendor/cmb2/includes/CMB2_JS.php:145
+#, fuzzy
+msgid "Today"
+msgstr "Avui"
+
+#: vendor/cmb2/includes/CMB2_JS.php:146 vendor/cmb2/includes/CMB2_JS.php:156
+#, fuzzy
+msgid "Done"
+msgstr "Fet"
+
+#: vendor/cmb2/includes/CMB2_JS.php:150
+#, fuzzy
+msgid "Choose Time"
+msgstr "Escollir data"
+
+#: vendor/cmb2/includes/CMB2_JS.php:151
+#, fuzzy
+msgid "Time"
+msgstr "Hora:"
+
+#: vendor/cmb2/includes/CMB2_JS.php:152
+#, fuzzy
+msgid "Hour"
+msgstr "Hora"
+
+#: vendor/cmb2/includes/CMB2_JS.php:153
+#, fuzzy
+msgid "Minute"
+msgstr "Minut"
+
+#: vendor/cmb2/includes/CMB2_JS.php:154
+#, fuzzy
+msgid "Second"
+msgstr "Segon"
+
+#: vendor/cmb2/includes/CMB2_JS.php:155
+#, fuzzy
+msgid "Now"
+msgstr "Ara"
+
+#: vendor/cmb2/includes/CMB2_JS.php:157
+#, fuzzy
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr "hh:mm TT"
+
+#: vendor/cmb2/includes/CMB2_JS.php:163
+#, fuzzy
+msgid "Use this file"
+msgstr "Usa aquest fitxer"
+
+#: vendor/cmb2/includes/CMB2_JS.php:164
+#, fuzzy
+msgid "Use these files"
+msgstr "Usa aquests fitxers"
+
+#: vendor/cmb2/includes/CMB2_JS.php:165
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:63
+#, fuzzy
+msgid "Remove Image"
+msgstr "Eliminar Imatge"
+
+#: vendor/cmb2/includes/CMB2_JS.php:166 vendor/cmb2/includes/CMB2_Types.php:412
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:83
+#, fuzzy
+msgid "Remove"
+msgstr "Elimina"
+
+#: vendor/cmb2/includes/CMB2_JS.php:168
+#: vendor/cmb2/includes/types/CMB2_Type_File_Base.php:81
+#, fuzzy
+msgid "Download"
+msgstr "Descàrrega"
+
+#: vendor/cmb2/includes/CMB2_JS.php:169
+#, fuzzy
+msgid "Select / Deselect All"
+msgstr "Selecciona / deselecciona tot"
+
+#: vendor/cmb2/includes/CMB2_Options_Hookup.php:111
+#, fuzzy
+msgid "Settings updated."
+msgstr "Configuració actualitzada."
+
+#: vendor/cmb2/includes/CMB2_Options_Hookup.php:113
+#, fuzzy
+msgid "Nothing to update."
+msgstr "Res per actualitzar."
+
+#: vendor/cmb2/includes/CMB2_Types.php:231
+#, fuzzy
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+"Les classes de tipus de camp CMB2 personalitzades han d'estendre "
+"CMB2_Type_Base."
+
+#: vendor/cmb2/includes/CMB2_Types.php:349
+#, fuzzy
+msgid "Add Row"
+msgstr "Afegeix fila@ item: inmenu colors"
+
+#: vendor/cmb2/includes/CMB2_Types.php:412
+#, fuzzy
+msgid "Remove Row"
+msgstr "Elimina fila"
+
+#: vendor/cmb2/includes/CMB2_hookup.php:181
+#, fuzzy
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+"La metadada del terme és una funció de WordPress 4.4+. Actualitzeu la vostra "
+"instal·lació de WordPress."
+
+#: vendor/cmb2/includes/CMB2_hookup.php:185
+#, fuzzy
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+"La configuració de metaboxes de temps requereix un paràmetre de \"taxonomies"
+"\"."
+
+#: vendor/cmb2/includes/CMB2_hookup.php:458
+#, fuzzy, php-format
+msgid "Toggle panel: %s"
+msgstr "Canvia el quadre:%s"
+
+#: vendor/cmb2/includes/helper-functions.php:303
+#, fuzzy
+msgid "Save"
+msgstr "Desar"
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+#, fuzzy
+msgid "This box does not have read permissions."
+msgstr "Aquesta casella no té permisos de lectura."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+#, fuzzy
+msgid "This box does not have write permissions."
+msgstr "Aquesta casella no té permisos d'escriptura."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+#, fuzzy
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+"No hi ha cap caixa que hi hagi trobat. Cal inscriure una casella amb el "
+"paràmetre \"show_in_rest\" configurat."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+#, fuzzy
+msgid "A human-readable description of the object."
+msgstr "Una descripció explicativa per l'objecte."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+#, fuzzy
+msgid "The id for the object."
+msgstr "L'id per l'objecte."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+#, fuzzy
+msgid "The title for the object."
+msgstr "El títol per l'objecte."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+#, fuzzy
+msgid "Includes the registered fields for the box in the response."
+msgstr "Inclou els camps registrats per al quadre de la resposta."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+#, fuzzy
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+"Inclou els atributs completament representats, 'form_open', 'form_close', "
+"així com els controladors de seqüència 'js_dependencies' enquadrats, i les "
+"manetes de fulls d'estils 'css_dependencies'."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+#, fuzzy
+msgid "No boxes found."
+msgstr "No s'ha trobat cap caixa."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+#, fuzzy
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr "Inclou l'objecte de caixa en què es registren els camps a la resposta."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+#, fuzzy
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+"Quan es passa l'argument '_rendered', els atributs de camp renderables es "
+"tornaran completament representats. Per defecte, es retornaran els noms dels "
+"responsables de devolució de trucada dels atributs renderables."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+#, fuzzy
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+"Per veure o modificar el valor del camp, els arguments 'object_id' i "
+"'object_type' són obligatoris."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+#, fuzzy
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+"El valor del camp CMB2 no es pot actualitzar sense el paràmetre de valor "
+"especificat."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+#, fuzzy
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+"El valor del camp CMB2 no es pot modificar sense especificar els paràmetres "
+"object_id i object_type especificats."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+#, fuzzy
+msgid "No field found by that id."
+msgstr "No s'ha trobat cap campt per aquest id."
+
+#: vendor/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, fuzzy, php-format
+msgid "Value Error for %s"
+msgstr "Error de valor per a%s"
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:24
+#, fuzzy
+msgid "The register_routes() method must be overridden"
+msgstr "El mètode de register_routes() ha de ser sobreescrit."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:34
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:46
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:58
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:70
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:82
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:94
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:106
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:118
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:130
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:142
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:154
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:167
+#, fuzzy, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+"Mètode \"%s\" no s'ha implementat. Cal ser sobreescrit dins la subclasse."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:272
+#, fuzzy
+msgid "Current page of the collection."
+msgstr "Pàgina actual de la col·lecció."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:280
+#, fuzzy
+msgid "Maximum number of items to be returned in result set."
+msgstr "Nombre màxim d'elements que s'han de retornar al conjunt de resultats."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:289
+#, fuzzy
+msgid "Limit results to those matching a string."
+msgstr "Limiteu els resultats als que coincideixen amb la cadena."
+
+#: vendor/cmb2/includes/shim/WP_REST_Controller.php:307
+#, fuzzy
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+"Àmbit en què es fa la sol·licitud; determina els camps presents en resposta."
+
+#: vendor/cmb2/includes/types/CMB2_Type_File.php:76
+#, fuzzy
+msgid "Add or Upload File"
+msgstr "Afegeix o carrega fitxer"
+
+#: vendor/cmb2/includes/types/CMB2_Type_File_List.php:41
+#, fuzzy
+msgid "Add or Upload Files"
+msgstr "Afegeix o carrega fitxers"
+
+#: vendor/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:99
+#, fuzzy
+msgid "No terms"
+msgstr "Encara no hi ha termes"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "C+P Theme Functions"
+msgstr "Funcions del tema C + P"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://github.com/matirosero/castellpons"
+msgstr "https://github.com/matirosero/castellpons"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "Custom functions for the C+P website."
+msgstr "Funcions personalitzades per al lloc web de C + P."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Mat Rosero"
+msgstr "Mat Rosero"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://www.matilderosero.com/"
+msgstr "https://www.matilderosero.com/"

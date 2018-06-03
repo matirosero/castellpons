@@ -60,7 +60,7 @@
                 text-transform: uppercase;
                 font-size: $small-font-size;
                 color: $body-font-color;
-                
+                font-weight: bold;
 
                 @include hover {
                     color: $primary-color;

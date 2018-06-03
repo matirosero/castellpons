@@ -27,7 +27,7 @@
 			<?php
 			if ( get_post_meta( get_the_ID(), 'mro_cp_project_engineer', true ) ) { ?>
 				<li class="project-engineer">
-					<h4><?php _e('Engineer', 'jointswp'); ?></h4>
+					<h4><?php _e('Engineers', 'jointswp'); ?></h4>
 					<?php echo get_post_meta( get_the_ID(), 'mro_cp_project_engineer', true ); ?>
 				</li>
 			<?php } ?>

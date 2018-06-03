@@ -46,6 +46,16 @@
 			background: transparentize($black, 0.25);
 			color: $white;
 		}
+
+		h3, p {
+			margin: 0;
+		}
+
+		@include breakpoint(small only) {
+			p {
+				font-size: $small-font-size;
+			}
+		}
 	}
 
 }

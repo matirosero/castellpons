@@ -85,7 +85,7 @@
 				$srcset = cp_srcset($attachment_id,'large','1024px');
 
 				echo '<div class="project-gallery-image">';
-				echo '<img class="my_class" ' . $srcset . ' alt="text" />';
+				echo $srcset;
 				echo '</div>';
 			}
 			?>

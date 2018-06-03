@@ -1,8 +1,34 @@
 <?php
 
+add_action( 'cmb2_admin_init', 'mro_cp_register_post_metabox' );
+function mro_cp_register_post_metabox() {
+	$prefix = 'mro_cp_post_';
 
+	$cmb = new_cmb2_box( array(
+		'id'           => $prefix . 'metabox',
+		'title'        => __( 'Extra information', 'cpf' ),
+		'object_types' => array( 'post' ), // Post type
+		'context'      => 'normal',
+		'priority'     => 'high',
+		'show_names'   => false, // Show field names on the left
+	) );
 
-
+	$cmb->add_field( array(
+		'name'    => __( 'Related project', 'cpf' ),
+		'desc'    => __( 'Drag a project from the left column to the right column to attach them to this post.<br />ONLY ONE PROJECT WILL BE LINKED.', 'cpf' ),
+		'id'      => $prefix . 'attached_project',
+		'type'    => 'custom_attached_posts',
+		'column'  => true, // Output in the admin post-listing as a custom column. https://github.com/CMB2/CMB2/wiki/Field-Parameters#column
+		'options' => array(
+			'show_thumbnails' => true, // Show thumbnails on the left
+			'filter_boxes'    => true, // Show a text box for filtering the results
+			'query_args'      => array(
+				'posts_per_page' => 10,
+				'post_type'      => 'cp-project',
+			), // override the get_posts args
+		),
+	) );
+}
 
 add_action( 'cmb2_admin_init', 'mro_cp_register_iconsbox_metabox' );
 /**

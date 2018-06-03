@@ -51,6 +51,7 @@ require_once( dirname( __FILE__ ) . '/includes/cpt/register-cpt.php' );
  * @since 0.1.0
  */
 require_once( dirname( __FILE__ ) . '/includes/cmb2/register-metabox-fields.php' );
+require_once( dirname( __FILE__ ) . '/includes/cmb2/cmb2-helpers.php' );
 
 
 /**

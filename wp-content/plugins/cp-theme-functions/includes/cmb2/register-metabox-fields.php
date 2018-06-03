@@ -1,5 +1,37 @@
 <?php
 
+add_action( 'cmb2_admin_init', 'mro_cp_register_frontpage_metabox' );
+function mro_cp_register_frontpage_metabox() {
+	$prefix = 'mro_cp_frontpage_';
+
+	$cmb = new_cmb2_box( array(
+		'id'           => $prefix . 'metabox',
+		'title'        => __( 'Slider projects', 'cpf' ),
+		'object_types' => array( 'page' ), // Post type
+		'context'      => 'normal',
+		'priority'     => 'high',
+		'show_names'   => false, // Show field names on the left
+		'show_on' => array( 'key' => 'front-page', 'value' => '' ),
+	) );
+
+	$cmb->add_field( array(
+		'name'    => __( 'Slider projects', 'cpf' ),
+		'desc'    => __( 'Drag projects from the left column to the right column to attach them to this post.', 'cpf' ),
+		'id'      => $prefix . 'slider_projects',
+		'type'    => 'custom_attached_posts',
+		'column'  => true, // Output in the admin post-listing as a custom column. https://github.com/CMB2/CMB2/wiki/Field-Parameters#column
+		'options' => array(
+			'show_thumbnails' => true, // Show thumbnails on the left
+			'filter_boxes'    => true, // Show a text box for filtering the results
+			'query_args'      => array(
+				'posts_per_page' => 10,
+				'post_type'      => 'cp-project',
+			), // override the get_posts args
+		),
+	) );
+}
+
+
 add_action( 'cmb2_admin_init', 'mro_cp_register_post_metabox' );
 function mro_cp_register_post_metabox() {
 	$prefix = 'mro_cp_post_';

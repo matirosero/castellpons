@@ -34,7 +34,21 @@
 
 		<footer class="article-footer">
 			<p class="tags"><?php the_tags('', ' ', ''); ?></p>
-	    	<a href="#" class="button news-article-project-btn"><?php _e( 'See project', 'jointswp' );?></a>
+
+			<?php
+			if ( get_post_meta( get_the_ID(), 'mro_cp_post_attached_project', true ) ) {
+				
+				$attached = get_post_meta( get_the_ID(), 'mro_cp_post_attached_project', true );
+
+				echo '<a href="' . get_post_permalink($attached[0]) . '" class="button news-article-project-btn">' . __( 'See project', 'jointswp' ) . '</a>';
+
+			}
+
+			// foreach ( $attached as $attached_post ) {
+			// 	$post = get_post( $attached_post );
+			// }
+			?>
+	    	
 		</footer> <!-- end article footer -->
 
 	</div>

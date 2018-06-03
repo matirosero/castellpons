@@ -17,9 +17,9 @@ function cp_add_customizer_sections( $wp_customize ) {
 
     // section
     $wp_customize->add_section( 'ct_social_media_icons', array(
-        'title'       => __( 'Social Media Icons', 'tribes' ),
+        'title'       => __( 'Social Media Icons', 'jointswp' ),
         'priority'    => 25,
-        'description' => __( 'Add the URL for each of your social profiles.', 'tribes' )
+        'description' => __( 'Add the URL for each of your social profiles.', 'jointswp' )
     ) );
 
     // create a setting and control for each social site
@@ -69,7 +69,7 @@ function cp_social_media_icons() {
 
                 <li>
                     <a class="social-icon-link <?php echo $active_site; ?>" target="_blank" href="<?php echo esc_url( get_theme_mod( $active_site) ); ?>">
-                        <i class="<?php echo esc_attr( $class ); ?>" title="<?php printf( __('%s icon', 'text-domain'), $active_site ); ?>"></i>
+                        <i class="<?php echo esc_attr( $class ); ?>" title="<?php printf( __('%s icon', 'jointswp'), $active_site ); ?>"></i>
                     </a>
                 </li>
             <?php

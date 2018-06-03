@@ -1,77 +1,90 @@
 <?php
-/*
- * The WordPress Query class.
- *
- * @link http://codex.wordpress.org/Function_Reference/WP_Query
- */
-$args = array(
 
-	// Type & Status Parameters
-	'post_type'   => 'cp-project',
-	'post_status' => 'any',
+echo 'hi';
+if ( get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true ) ) {
 
-	'post_status' => array(
-		'publish',
-	),
+	$attached = get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true );
 
-	// Order & Orderby Parameters
-	'order'               => 'DESC',
-	'orderby'             => 'date',
+	var_dump($attached);
 
-	// Pagination Parameters
-	'posts_per_page'         => 3,
+	/*
+	 * The WordPress Query class.
+	 *
+	 * @link http://codex.wordpress.org/Function_Reference/WP_Query
+	 */
+	$args = array(
 
-);
+		// Type & Status Parameters
+		'post_type'   => 'cp-project',
+		'post_status' => 'any',
 
-$query = new WP_Query( $args );
+		'post_status' => array(
+			'publish',
+		),
 
-if( $query->have_posts() ): ?>
+		'post__in'	=> $attached,
 
-	<div class="slideshow-container">
+		// Order & Orderby Parameters
+		'order'               => 'DESC',
+		'orderby'             => 'date',
 
-		<?php 
+		// Pagination Parameters
+		'posts_per_page'         => 3,
 
-		$count = $query->post_count;
+	);
 
-		while ( $query->have_posts() ) : $query->the_post(); ?>
+	$query = new WP_Query( $args );
 
-			<div class="slides fade">
+	if( $query->have_posts() ): ?>
+
+		<div class="slideshow-container">
+
+			<?php 
+
+			$count = $query->post_count;
+
+			while ( $query->have_posts() ) : $query->the_post(); ?>
+
+				<div class="slides fade">
+
+					<?php
+					the_post_thumbnail('full', ['class' => 'orbit-image', 'title' => 'Feature project']);
+					?>
+
+				</div>
 
 				<?php
-				the_post_thumbnail('full', ['class' => 'orbit-image', 'title' => 'Feature project']);
-				?>
 
-			</div>
+				wp_reset_query();
+
+			endwhile; ?>
+
+		</div><!-- .slideshow-container -->
+
+		<div class="slider-progress" style="text-align:center">
 
 			<?php
 
-			wp_reset_query();
+			$i = 0;
 
-		endwhile; ?>
+			while ( $i < $count ) { ?>
 
-	</div><!-- .slideshow-container -->
-
-	<div class="slider-progress" style="text-align:center">
-
-		
-
-		<?php
-
-		$i = 0;
-
-		while ( $i < $count ) { ?>
-
-			<div class="progress-indicator" >
-				<div class="numbertext"><?php echo str_pad($i+1, 2, '0', STR_PAD_LEFT); ?></div>
-				<div class="bar" id="bar-<?php echo $i; ?>">
-					<div class="bar-progress"></div>
+				<div class="progress-indicator" >
+					<div class="numbertext"><?php echo str_pad($i+1, 2, '0', STR_PAD_LEFT); ?></div>
+					<div class="bar" id="bar-<?php echo $i; ?>">
+						<div class="bar-progress"></div>
+					</div>
 				</div>
-			</div>
 
-			<?php $i++; ?>
+				<?php $i++; ?>
 
-		<?php } ?>
+			<?php } ?>
 
-	</div>
+		</div>
 
-<?php endif; ?>
+	<?php endif; 
+
+} else {
+	echo 'no';
+}
+

@@ -27,6 +27,12 @@
 		color: $white !important;
 		&:after {
 			color: $primary-color;
+			background: $white;
 		}
 	}
 }
+
+input[type="file"] {
+
+}
+

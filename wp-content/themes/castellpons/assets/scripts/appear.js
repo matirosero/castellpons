@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 
 	AOS.init({
 	  duration: 1200,
-	  data-aos-once: true,
+	  once: true,
 	})
 
 });

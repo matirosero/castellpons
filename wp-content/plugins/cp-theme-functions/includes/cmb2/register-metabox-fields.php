@@ -42,7 +42,16 @@ function mro_cp_register_post_metabox() {
 		'object_types' => array( 'post' ), // Post type
 		'context'      => 'normal',
 		'priority'     => 'high',
-		'show_names'   => false, // Show field names on the left
+		'show_names'   => true, // Show field names on the left
+	) );
+
+	$cmb->add_field( array(
+		'name' => esc_html__( 'External link', 'cmb2' ),
+		// 'desc' => esc_html__( 'field description (optional)', 'cmb2' ),
+		'id'   => $prefix . 'url',
+		'type' => 'text_url',
+		// 'protocols' => array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet'), // Array of allowed protocols
+		// 'repeatable' => true,
 	) );
 
 	$cmb->add_field( array(
@@ -60,6 +69,8 @@ function mro_cp_register_post_metabox() {
 			), // override the get_posts args
 		),
 	) );
+
+
 }
 
 add_action( 'cmb2_admin_init', 'mro_cp_register_iconsbox_metabox' );

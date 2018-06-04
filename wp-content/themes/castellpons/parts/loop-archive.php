@@ -36,6 +36,14 @@
 			<p class="tags"><?php the_tags('', ' ', ''); ?></p>
 
 			<?php
+			if ( get_post_meta( get_the_ID(), 'mro_cp_post_url', true ) ) {
+
+				$url = get_post_meta( get_the_ID(), 'mro_cp_post_url', true );
+
+				echo '<a href="' . $url . '" class="button news-article-project-btn">' . __( 'Read article', 'jointswp' ) . '</a>';
+
+			}
+
 			if ( get_post_meta( get_the_ID(), 'mro_cp_post_attached_project', true ) ) {
 
 				$attached = get_post_meta( get_the_ID(), 'mro_cp_post_attached_project', true );

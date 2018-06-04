@@ -19,7 +19,7 @@ if ( get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true ) ) {
 		$srcset = wp_get_attachment_image_srcset( $attachment_id, 'full' );
 		// var_dump($srcset);
 
-		echo '<div class="slides fade">
+		echo '<div class="slides fade vh-fix">
 			<img src="'.$url.'" srcset="'.$srcset.'" alt="" />
 			</div>';
 	}

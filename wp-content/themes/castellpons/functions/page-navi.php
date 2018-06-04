@@ -22,7 +22,7 @@
 		$paginate_links = preg_replace( '/\s*page-numbers/', '', $paginate_links );
 		// Display the pagination if more than one page is found.
 		if ( $paginate_links ) {
-			echo '<div class="page-navigation">';
+			echo '<div class="page-navigation" data-aos="fade-up">';
 			echo $paginate_links;
 			echo '</div><!--// end .pagination -->';
 		}

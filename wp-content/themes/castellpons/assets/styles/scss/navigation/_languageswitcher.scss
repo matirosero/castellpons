@@ -9,12 +9,20 @@
 		// border: 1px solid;
 
 		> .submenu {
-			display: none;
+			display: block;
+			visibility: hidden
+			opacity: 0;
 			position: absolute;
 			top: -76px;
 
+			transition: opacity 1s ease-out, visibility 1s ease-out;
+
+			
+
 			&.active {
-				display: block;
+				// display: block;
+				visibility: visible;
+				opacity: 1;
 			}
 
 
@@ -35,4 +43,55 @@
 			}
 		}
 	}
+}
+
+@-webkit-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }

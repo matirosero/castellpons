@@ -79,7 +79,7 @@ function cp_tax_filter($current = 'all') {
 	//TODO: TODOS TODAS
 
 	if ( $current == 'all' ) {
-		echo '<ul class="filter-menu menu align-center">
+		echo '<ul class="filter-menu menu align-center"  data-aos="fade">
 		<li class="is-active"><a data-slug="todos" href="#">' . $all . '</a></li>';
 	} else {
 		echo '<ul class="filter-menu menu align-center">

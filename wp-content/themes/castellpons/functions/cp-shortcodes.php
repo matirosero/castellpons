@@ -55,10 +55,18 @@ function ct_offices_shortcode( $atts ) {
 
 		$return .= '<ul class="offices">';
 
+		$i = 0;
+		$count = $query->post_count; 
+
 
 		while( $query->have_posts() ) : $query->the_post();
 
-	        $return .= '<li class="location">
+			$aos = '';
+			if ( $i > 0 ) {
+				$aos = ' data-aos="fade-up"';
+			}
+
+	        $return .= '<li class="location"'.$aos.'>
 	        	<h3 class="location-city">'.get_the_title().'</h3>
 	        	<p class="location-address">'.wpautop( get_the_content() ).'</p>
 	        	<div class="location-map">';
@@ -67,6 +75,8 @@ function ct_offices_shortcode( $atts ) {
 
 			$return .= '</div>
 	        	</li>';
+
+	        $i++;
 
 	    endwhile;
 

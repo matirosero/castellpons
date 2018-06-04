@@ -11,7 +11,7 @@
 	<div class="content-row">
 	<!-- grid-x grid-margin-x grid-padding-x -->
 
-		<main id="main" class="main" role="main">
+		<main id="main" class="main" role="main" data-aos="fade-up" data-aos-offset="-200">
 			 <!-- small-12 large-8 medium-8 cell -->
 
 			<?php
@@ -27,7 +27,7 @@
 			    <?php
 			    if ( is_page_template( 'template-iconsbox.php' ) ) { ?>
 
-			    	<div class="callout icon-box">
+			    	<div class="callout icon-box" data-aos="fade-up">
 
 			    		<?php
 			    		if ( get_post_meta( get_the_ID(), 'mro_cp_iconsbox_title', true ) ) {
@@ -65,7 +65,7 @@
 
 		</main> <!-- end #main -->
 
-		<div id="sidebar1" class="sidebar" role="complementary">
+		<div id="sidebar1" class="sidebar" role="complementary" data-aos="fade-up" data-aos-offset="-200">
 			<!-- small-12 medium-4 large-4 cell -->
 
 			<?php

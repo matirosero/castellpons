@@ -7,7 +7,7 @@
 ?>
 
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article">
+<article id="post-<?php the_ID(); ?>" <?php post_class('project'); ?> role="article" data-aos="fade-up" data-aos-offset="200">
 
 	<div class="featured-image" itemprop="articleBody">
 		<?php 

@@ -68,6 +68,7 @@ CSS file.
 @import "global";
 
 @import "base/base";
+@import "base/aos";
 @import "typography/typography";
 @import "navigation/navigation";
 @import "layout/layout";
@@ -76,4 +77,4 @@ CSS file.
 // @import "animate/animations/fade-enter/fadeInLeft";
 // @import "animate/animations/fade-enter/fadeInRight";
 // @import "animate/animations/fade-enter/fadeInUp";
-@import "animate";
+// @import "animate";

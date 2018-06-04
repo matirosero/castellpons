@@ -28,7 +28,7 @@
 
 	.project-information-overlay {
 		position: absolute;
-		background: transparentize($black, 1);
+		background-color: transparentize($black, 1);
 		padding: 0 1rem;
 		top: 0;
 		bottom: 0;
@@ -42,8 +42,13 @@
 
 		color: transparentize($white, 1);
 
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		transition: all 1s ease;
+
 		@include hover {
-			background: transparentize($black, 0.25);
+			background-color: transparentize($black, 0.25);
 			color: $white;
 		}
 

@@ -6,7 +6,7 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class('news-article small-margin-collapse small-padding-collapse'); ?> role="article" data-aos="fade-up" data-aos-offset="200">
+<article id="post-<?php the_ID(); ?>" <?php post_class('news-article small-margin-collapse small-padding-collapse'); ?> role="article" data-aos="fade-up" data-aos-offset="150">
 
 	<div class="news-article-image">
 		<?php

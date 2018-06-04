@@ -1,4 +1,4 @@
-		<aside id="sidebar1" class="sidebar medium-order-2" role="complementary">
+		<aside id="sidebar1" class="sidebar medium-order-2" role="complementary" data-aos="fade-up" data-aos-offset="-200">
 			<!-- small-12 medium-4 large-4 cell -->
 
 			<?php

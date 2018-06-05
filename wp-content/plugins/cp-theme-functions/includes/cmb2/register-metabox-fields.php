@@ -22,6 +22,7 @@ function mro_cp_register_frontpage_metabox() {
 		'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
 	) );
 
+	/*
 	$cmb->add_field( array(
 		'name'    => __( 'Slider projects', 'cpf' ),
 		'desc'    => __( 'Drag projects from the left column to the right column to attach them to this post.', 'cpf' ),
@@ -37,6 +38,7 @@ function mro_cp_register_frontpage_metabox() {
 			), // override the get_posts args
 		),
 	) );
+	*/
 }
 
 

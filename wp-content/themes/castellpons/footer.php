@@ -12,7 +12,7 @@
  		if ( is_front_page() ) { ?>
  			<footer id="site-footer" class="footer" role="contentinfo">
  		<?php } else { ?>
- 			<footer id="site-footer" class="footer" role="contentinfo" data-aos="fade" data-aos-offset="-100" data-aos-delay="1200" data-aos-duration="2000">
+ 			<footer id="site-footer" class="footer" role="contentinfo">
 		<?php } ?>
 
 			<div class="inner-footer">

@@ -45,13 +45,32 @@ function mro_cp_register_post_metabox() {
 		'show_names'   => true, // Show field names on the left
 	) );
 
-	$cmb->add_field( array(
-		'name' => esc_html__( 'External link', 'cmb2' ),
+	$group_post_urls = $cmb->add_field( array(
+		'id'          => $prefix . 'urls',
+		'type'        => 'group',
+		'description' => esc_html__( 'External links', 'cmb2' ),
+		'options'     => array(
+			'group_title'   => esc_html__( 'Link {#}', 'cmb2' ), // {#} gets replaced by row number
+			'add_button'    => esc_html__( 'Add Another Link', 'cmb2' ),
+			'remove_button' => esc_html__( 'Remove Link', 'cmb2' ),
+			'sortable'      => true, // beta
+			// 'closed'     => true, // true to have the groups closed by default
+		),
+	) );
+
+	$cmb->add_group_field( $group_post_urls, array(
+		'name'       => esc_html__( 'Link Title', 'cmb2' ),
+		'id'         => 'title',
+		'type'       => 'text_medium',
+		// 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
+	) );
+
+	$cmb->add_group_field( $group_post_urls, array(
+		'name' => esc_html__( 'Link URL', 'cmb2' ),
 		// 'desc' => esc_html__( 'field description (optional)', 'cmb2' ),
-		'id'   => $prefix . 'url',
+		'id'   => 'url',
 		'type' => 'text_url',
 		// 'protocols' => array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet'), // Array of allowed protocols
-		// 'repeatable' => true,
 	) );
 
 	$cmb->add_field( array(

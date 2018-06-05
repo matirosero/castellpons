@@ -33,16 +33,21 @@
 		</div>
 
 		<footer class="article-footer">
-			<p class="tags"><?php the_tags('', ' ', ''); ?></p>
 
 			<?php
-			if ( get_post_meta( get_the_ID(), 'mro_cp_post_url', true ) ) {
+			if ( get_post_meta( get_the_ID(), 'mro_cp_post_urls', true ) ) {
 
-				$url = get_post_meta( get_the_ID(), 'mro_cp_post_url', true );
+				$links = get_post_meta( get_the_ID(), 'mro_cp_post_urls', true );
+				?>
 
-				echo '<a href="' . $url . '" class="button news-article-project-btn">' . __( 'Read article', 'jointswp' ) . '</a>';
+				<ul class="news-links">
+					<?php
+					foreach ($links as $link) {
+						echo '<li><a href="'.$link['url'].'" target="_blank">'.$link['title'].'</a></li>';
+					} ?>
+				</ul>
 
-			}
+			<?php }
 
 			if ( get_post_meta( get_the_ID(), 'mro_cp_post_attached_project', true ) ) {
 
@@ -50,12 +55,7 @@
 
 				echo '<a href="' . get_post_permalink($attached[0]) . '" class="button news-article-project-btn">' . __( 'See project', 'jointswp' ) . '</a>';
 
-			}
-
-			// foreach ( $attached as $attached_post ) {
-			// 	$post = get_post( $attached_post );
-			// }
-			?>
+			} ?>
 
 		</footer> <!-- end article footer -->
 

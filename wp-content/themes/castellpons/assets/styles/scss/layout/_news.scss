@@ -44,14 +44,18 @@
     padding: 0.75rem 20px;
 
     .article-footer {
-        .tags {
-            
+        .news-links {
+            @include reset-list;
             line-height: 1.2;
-            a {
+            margin-bottom: 1rem;
+            li {
                 display: inline-block;
                 margin-right: 0.5rem;
-                text-transform: uppercase;
                 font-size: $small-font-size;
+            }
+            a {
+
+                text-transform: uppercase;
                 color: $body-font-color;
                 font-weight: bold;
 
@@ -76,7 +80,7 @@
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
-            .tags {
+            .news-links {
                 flex-grow: 1;
                 margin-bottom: 0;
             }

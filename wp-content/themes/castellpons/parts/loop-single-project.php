@@ -17,7 +17,7 @@
 			<?php
 			if ( !has_post_thumbnail() ) { ?>
 				<header class="article-header">
-					<h1 class="entry-title single-title" itemprop="headline"><?php the_title(); ?></h1>
+					<h1 class="entry-title single-title" itemprop="headline"><?php echo strtok(get_the_title(), '/'); ?></h1>
 				<?php
 				if ( is_singular( 'cp-project' ) ) { ?>
 					<p><?php the_excerpt(); ?></p>

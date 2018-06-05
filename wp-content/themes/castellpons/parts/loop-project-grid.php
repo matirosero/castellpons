@@ -19,7 +19,7 @@
 	</div> <!-- end article section -->
 
 	<a class="project-information-overlay" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-		<h3 class="title"><?php the_title(); ?></h3>
+		<h3 class="title"><?php echo strtok(get_the_title(), '/'); ?></h3>
 		<p><?php the_excerpt(); ?></p>
 	</a> <!-- end article header -->
 

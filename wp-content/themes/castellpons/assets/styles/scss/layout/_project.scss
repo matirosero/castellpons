@@ -15,7 +15,11 @@
 .project-grid {
 	// margin-bottom: 20px;
 	@include xy-grid(horizontal);
-	@include xy-grid-layout( 2, '.project', true, 20, margin );
+	@include xy-grid-layout( 1, '.project', true, 20, margin );
+
+	@include breakpoint(medium) {
+		@include xy-grid-layout( 2, '.project', true, 20, margin );
+	}
 
 	@include breakpoint(large) {
 		@include xy-grid-layout( 3, '.project', true, 20, margin );

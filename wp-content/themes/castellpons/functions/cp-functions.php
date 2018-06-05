@@ -171,3 +171,12 @@ function wpdocs_theme_add_editor_styles() {
     add_editor_style( 'assets/styles/editor.css' );
 }
 add_action( 'admin_init', 'wpdocs_theme_add_editor_styles' );
+
+
+/**
+ * Get rid of tags on posts.
+ */
+function cp_unregister_tags() {
+    unregister_taxonomy_for_object_type( 'post_tag', 'post' );
+}
+add_action( 'init', 'cp_unregister_tags' );

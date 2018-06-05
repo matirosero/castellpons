@@ -1,23 +1,19 @@
 <?php
 
+if ( get_post_meta( get_the_ID(), 'mro_cp_frontpage_images', true ) ) {
 
+	$images = get_post_meta( get_the_ID(), 'mro_cp_frontpage_images', true );
 
-if ( get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true ) ) {
-
-	$attached = get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true );
-
-	// var_dump($attached);
+	// if ( $count > 5 ) {
+	// 	$count = 5;
+	// }
 
 	echo '<div class="slideshow-container">';
 
-	foreach ($attached as $project_id) {
-		// var_dump($project_id);
-		$attachment_id = get_post_thumbnail_id( $project_id );
-		// var_dump($attachment_id);
-		$url = get_the_post_thumbnail_url( $project_id, 'full' );
-		// var_dump($url);
-		$srcset = wp_get_attachment_image_srcset( $attachment_id, 'full' );
-		// var_dump($srcset);
+	foreach ($images as $id => $image) {
+
+		$url = get_the_post_thumbnail_url( $id, 'full' );
+		$srcset = wp_get_attachment_image_srcset( $id, 'full' );
 
 		echo '<div class="slides fade vh-fix">
 			<img src="'.$url.'" srcset="'.$srcset.'" alt="" />
@@ -26,11 +22,9 @@ if ( get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true ) ) {
 
 	echo '</div><!-- .slideshow-container -->';
 
-	$count = count($attached);
+	$count = count($images);
 
-	if ( $count > 5 ) {
-		$count = 5;
-	}
+
 
 	?>
 

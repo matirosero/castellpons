@@ -28,6 +28,10 @@ if ( get_post_meta( get_the_ID(), 'mro_cp_frontpage_slider_projects', true ) ) {
 
 	$count = count($attached);
 
+	if ( $count > 5 ) {
+		$count = 5;
+	}
+
 	?>
 
 	<div class="slider-progress" style="text-align:center">

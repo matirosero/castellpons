@@ -13,7 +13,15 @@ if ( has_post_thumbnail() ) { ?>
 		</div>
 
 		<div class="page-header-inner small-12 cell" data-aos="fade" data-aos-duration="2000">
-			<h1 class="page-title"><?php echo get_the_title($post->ID); ?></h1>
+			<h1 class="page-title">
+				<?php
+				if ( is_singular( 'cp-project' ) ) { 
+					echo strtok(get_the_title(), '/');
+				} else {
+					the_title();
+				}
+				?>
+			</h1>
 			<?php
 			if ( is_singular( 'cp-project' ) ) { ?>
 				<p><?php the_excerpt(); ?></p>

@@ -15,6 +15,14 @@ function mro_cp_register_frontpage_metabox() {
 	) );
 
 	$cmb->add_field( array(
+		'name'         => esc_html__( 'Slider images', 'cpf' ),
+		'desc'         => esc_html__( 'Upload or add multiple images/attachments.', 'cpf' ),
+		'id'           => $prefix . 'images',
+		'type'         => 'file_list',
+		'preview_size' => array( 100, 100 ), // Default: array( 50, 50 )
+	) );
+
+	$cmb->add_field( array(
 		'name'    => __( 'Slider projects', 'cpf' ),
 		'desc'    => __( 'Drag projects from the left column to the right column to attach them to this post.', 'cpf' ),
 		'id'      => $prefix . 'slider_projects',
@@ -48,26 +56,26 @@ function mro_cp_register_post_metabox() {
 	$group_post_urls = $cmb->add_field( array(
 		'id'          => $prefix . 'urls',
 		'type'        => 'group',
-		'description' => esc_html__( 'External links', 'cmb2' ),
+		'description' => esc_html__( 'External links', 'cpf' ),
 		'options'     => array(
-			'group_title'   => esc_html__( 'Link {#}', 'cmb2' ), // {#} gets replaced by row number
-			'add_button'    => esc_html__( 'Add Another Link', 'cmb2' ),
-			'remove_button' => esc_html__( 'Remove Link', 'cmb2' ),
+			'group_title'   => esc_html__( 'Link {#}', 'cpf' ), // {#} gets replaced by row number
+			'add_button'    => esc_html__( 'Add Another Link', 'cpf' ),
+			'remove_button' => esc_html__( 'Remove Link', 'cpf' ),
 			'sortable'      => true, // beta
 			// 'closed'     => true, // true to have the groups closed by default
 		),
 	) );
 
 	$cmb->add_group_field( $group_post_urls, array(
-		'name'       => esc_html__( 'Link Title', 'cmb2' ),
+		'name'       => esc_html__( 'Link Title', 'cpf' ),
 		'id'         => 'title',
 		'type'       => 'text_medium',
 		// 'repeatable' => true, // Repeatable fields are supported w/in repeatable groups (for most types)
 	) );
 
 	$cmb->add_group_field( $group_post_urls, array(
-		'name' => esc_html__( 'Link URL', 'cmb2' ),
-		// 'desc' => esc_html__( 'field description (optional)', 'cmb2' ),
+		'name' => esc_html__( 'Link URL', 'cpf' ),
+		// 'desc' => esc_html__( 'field description (optional)', 'cpf' ),
 		'id'   => 'url',
 		'type' => 'text_url',
 		// 'protocols' => array('http', 'https', 'ftp', 'ftps', 'mailto', 'news', 'irc', 'gopher', 'nntp', 'feed', 'telnet'), // Array of allowed protocols

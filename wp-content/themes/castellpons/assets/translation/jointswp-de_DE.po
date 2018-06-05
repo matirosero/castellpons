@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: CastellPons\n"
+"POT-Creation-Date: 2018-06-01 21:14-0600\n"
+"PO-Revision-Date: 2018-06-01 21:21-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:19
+#, fuzzy
+msgid "Epic 404 - Article Not Found"
+msgstr "404 - Artikel nicht gefunden."
+
+#: 404.php:23
+#, fuzzy
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"Der gesuchte Artikel wurde nicht gefunden. Bitte versuchen Sie es noch "
+"einmal!"
+
+#: comments.php:21
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:30 comments.php:46
+#, fuzzy
+msgid "Comment navigation"
+msgstr "Kommentar Navigation"
+
+#: comments.php:33 comments.php:49
+#, fuzzy
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: comments.php:34 comments.php:50
+#, fuzzy
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: comments.php:62
+#, fuzzy
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: footer.php:25 parts/loop-single-project-meta.php:14
+#, fuzzy
+msgid "Architects"
+msgstr "Architekten"
+
+#: functions/admin.php:35
+#, fuzzy
+msgid "The RSS Feed is either empty or unavailable."
+msgstr "Der RSS-Feed ist entweder leer oder nicht verfügbar."
+
+#: functions/admin.php:39
+#, fuzzy
+msgid "j F Y @ g:i a"
+msgstr "j. F Y H:i"
+
+#: functions/admin.php:51
+#, fuzzy
+msgid "Custom RSS Feed (Customize in admin.php)"
+msgstr "Benutzerdefinierter RSS-Feed (Anpassen in admin.php)"
+
+#: functions/admin.php:65
+#, fuzzy
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"#\" target=\"_blank"
+"\">Your Site Name</a></span>."
+msgstr ""
+"<span id=\"footer-thankyou\">Entwickelt von <a href=\"#\" target=\"_blank"
+"\">Ihrem Site-Namen</a></span> ."
+
+#: functions/cleanup.php:71
+#, fuzzy
+msgid "Read"
+msgstr "Lesen"
+
+#: functions/cleanup.php:71
+#, fuzzy
+msgid "... Read more &raquo;"
+msgstr "Weiterlesen &raquo;"
+
+#: functions/cleanup.php:93
+#, fuzzy, php-format
+msgid "Posts by %s"
+msgstr "Beiträge von %s"
+
+#: functions/comments.php:17
+#, fuzzy, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions/comments.php:18
+#, fuzzy
+msgid " F jS, Y - g:ia"
+msgstr " F jS, Y - g:ia"
+
+#: functions/comments.php:19
+#, fuzzy
+msgid "(Edit)"
+msgstr "(Bearbeiten)"
+
+#: functions/comments.php:23
+#, fuzzy
+msgid "Your comment is awaiting moderation."
+msgstr "Ihr Kommentar wartet auf Moderation."
+
+#: functions/cp-ajax.php:71
+#, fuzzy
+msgctxt "masculine"
+msgid "All"
+msgstr "Alle"
+
+#: functions/cp-ajax.php:74
+#, fuzzy
+msgctxt "feminine"
+msgid "All"
+msgstr "Alle"
+
+#: functions/customizer.php:20
+#, fuzzy
+msgid "Social Media Icons"
+msgstr "Social-Media-Symbolen"
+
+#: functions/customizer.php:22
+#, fuzzy
+msgid "Add the URL for each of your social profiles."
+msgstr "Füge die URL für jedes Deiner Social Media-Profile hinzu."
+
+#: functions/customizer.php:72
+#, fuzzy, php-format
+msgid "%s icon"
+msgstr "Zeige alle Beiträge in %s"
+
+#: functions/menu.php:5
+#, fuzzy
+msgid "The Main Menu"
+msgstr "Das Hauptmenü"
+
+#: functions/page-navi.php:13
+#, fuzzy
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: functions/page-navi.php:14
+#, fuzzy
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: functions/related-posts.php:18
+#, fuzzy
+msgid "<h4>Related Posts</h4>"
+msgstr "<h4>Verwandte Beiträge</h4>"
+
+#: functions/sidebar.php:26
+#, fuzzy
+msgid "Footer right"
+msgstr "Fußzeile rechts"
+
+#: functions/sidebar.php:27
+#, fuzzy
+msgid "Widget area for footer right column."
+msgstr "Widget-Bereich für Fußzeile Spalte 1."
+
+#: parts/content-missing.php:12
+#, fuzzy
+msgid "Sorry, No Results."
+msgstr "Sorry, keine Ergebnisse."
+
+#: parts/content-missing.php:16
+#, fuzzy
+msgid "Try your search again."
+msgstr "Versuchen Sie Ihre Suche erneut."
+
+#: parts/content-missing.php:24 parts/content-missing.php:42
+#, fuzzy
+msgid "This is the error message in the parts/content-missing.php template."
+msgstr ""
+"Dies ist die Fehlermeldung in der Vorlage parts / content-missing.php."
+
+#: parts/content-missing.php:30
+#, fuzzy
+msgid "Oops, Post Not Found!"
+msgstr "Dieser Beitrag wurde nicht gefunden!"
+
+#: parts/content-missing.php:34
+#, fuzzy
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Eine Eingabe fehlt. Bitte überprüfen Sie alle Eingaben."
+
+#: parts/loop-archive.php:30
+#, fuzzy
+msgid "Read more..."
+msgstr "Weiterlesen..."
+
+#: parts/loop-archive.php:37
+#, fuzzy
+msgid "See project"
+msgstr "Projekt anschauen"
+
+#: parts/loop-single-project-meta.php:22
+#, fuzzy
+msgid "Technical architect"
+msgstr "TECHNISCHER ARCHITEKT"
+
+#: parts/loop-single-project-meta.php:30
+#, fuzzy
+msgid "Engineer"
+msgstr "Ingenieur"
+
+#: parts/loop-single-project-meta.php:38
+#, fuzzy
+msgid "Project codirector"
+msgstr "Projekt-Kodirektor"
+
+#: parts/loop-single-project-meta.php:46
+#, fuzzy
+msgid "Construction firm"
+msgstr "Baufirma"
+
+#: parts/loop-single-project-meta.php:54
+#, fuzzy
+msgid "Promoters"
+msgstr "Förderer"
+
+#: parts/loop-single-project-meta.php:62
+#, fuzzy
+msgid "Collaborators"
+msgstr "Mitarbeiter"
+
+#: parts/loop-single-project-meta.php:70
+#, fuzzy
+msgid "MEB"
+msgstr "MEB"
+
+#: parts/loop-single-project.php:41 parts/loop-single.php:20
+#, fuzzy
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: parts/loop-single-project.php:42 parts/loop-single.php:21
+#, fuzzy
+msgid "Tags:"
+msgstr "Tags:"
+
+#: parts/nav-offcanvas.php:18 parts/nav-title-bar.php:7
+#, fuzzy
+msgid "Menu"
+msgstr "Menü"
+
+#: search.php:16
+#, fuzzy
+msgid "Search Results for:"
+msgstr "Suchergebnisse für:"
+
+#: searchform.php:9
+#, fuzzy
+msgctxt "label"
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: searchform.php:10
+#, fuzzy
+msgctxt "jointswp"
+msgid "Search..."
+msgstr "Suche..."
+
+#: searchform.php:10
+#, fuzzy
+msgctxt "jointswp"
+msgid "Search for:"
+msgstr "Suche nach:"
+
+#: searchform.php:12
+#, fuzzy
+msgctxt "jointswp"
+msgid "Search"
+msgstr "Suche"
+
+#: sidebar.php:18
+#, fuzzy
+msgid "Please activate some Widgets."
+msgstr "Bitte aktiviere einige Widgets."
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "CastellPons"
+msgstr "CastellPons"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://github.com/matirosero/castellpons"
+msgstr "https://github.com/matirosero/castellpons"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Matilde Rosero"
+msgstr "Matilde Rosero"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://www.matilderosero.com"
+msgstr "https://www.matilderosero.com"

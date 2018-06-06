@@ -35,6 +35,14 @@
 					<div id="footer-language-menu" class="widget-area" role="complementary" >
 					<!-- <div id="footer-language-menu" class="widget-area small-12 medium-4 large-4 cell" role="complementary"> -->
 						<?php dynamic_sidebar( 'footer-right' ); ?>
+<!-- 						<div class="dropup">
+  <button class="dropbtn">Dropup</button>
+  <div class="dropup-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div> -->
 					</div><!-- #primary-sidebar -->
 				<?php endif; ?>
 

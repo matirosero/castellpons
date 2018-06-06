@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
 
         // console.log( $(this).next().attr('class') );
 
-        $(this).next('.submenu').toggleClass('active');
+        $(this).toggleClass('open').next('.submenu').toggleClass('active');
 
     });
 

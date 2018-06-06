@@ -8,6 +8,40 @@
 		// background: $light-gray;
 		// border: 1px solid;
 
+		@include breakpoint(small only) {
+			> .wpml-ls-link {
+				.icon-down-open {
+					display: none;
+				}
+				&.open {
+					color: $primary-color !important;
+					.icon-down-open {
+						display: inline;
+					}
+					.icon-up-open {
+						display: none;
+					}
+				}
+			}
+		}
+
+		@include breakpoint(medium) {
+			> .wpml-ls-link {
+				.icon-right-open {
+					display: none;
+				}
+				&.open {
+					color: $primary-color !important;
+					.icon-right-open {
+						display: inline;
+					}
+					.icon-left-open {
+						display: none;
+					}
+				}
+			}
+		}
+
 		> .submenu {
 			display: block;
 			visibility: hidden;
@@ -31,23 +65,33 @@
 				-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
 				box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.15);
 
-				&:after { 
+				&:before { 
 					content: ''; 
 					position: absolute;
-				    right: 0.75rem;
+				    right: 14px;
 				    top: 100%;
 				    width: 0;
 				    height: 0;
 				    border-left: 8px solid transparent;
 				    border-right: 8px solid transparent;
-				    border-top: 8px solid $topbar-background;
+				    border-top: 8px solid $white;
 				    clear: both;
+				    z-index:2;
 
-				    box-shadow:
-    inset  18px  0 0 white,
-    inset 0px -3px white,
-    inset 0 0 3px   black;
-  transform:skew(45deg);
+				}
+
+				&:after {
+					/* This is the shadow triangle */
+					content: '';
+					position: absolute;
+				    right: 12px;
+				    top: 100%;
+					width: 0;
+					height: 0;
+				    border-left: 10px solid transparent;
+				    border-right: 10px solid transparent;
+				    border-top: 10px solid rgba(0,0,0, 0.03);
+					z-index:1;
 				}
 				
 				li {

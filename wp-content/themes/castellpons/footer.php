@@ -49,7 +49,7 @@
 			</div> <!-- end #inner-footer -->
 
 		</footer> <!-- end .footer -->
-
+</div>
 		<?php wp_footer(); ?>
 
 	</body>

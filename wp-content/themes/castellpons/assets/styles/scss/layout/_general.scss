@@ -12,6 +12,12 @@ html #wpadminbar {
 	position: fixed;
 }
 
+body:not(.home) .wrapper {
+    min-height:100vh;
+    position:relative;
+    padding-bottom: 70px;
+}
+
 .inner-content {
 	@include xy-grid-container;
 	// background: #ccc;

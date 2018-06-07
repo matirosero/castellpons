@@ -35,7 +35,7 @@
 	</head>
 
 	<body <?php body_class(); ?>>
-
+<div class="wrapper vh-fix" >
 		<header id="site-header" class="header" role="banner">
 
 			 <!-- This navs will be applied to the topbar, above all content

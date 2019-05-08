@@ -347,12 +347,12 @@ function mro_cp_register_office_metabox() {
 		// 'classes_cb' => 'mro_cit_demo_add_some_classes', // Add classes through a callback.
 	) );
 
-	$cmb->add_field( array(
-		'name' => esc_html__( 'Address', 'cpf' ),
-		// 'desc' => esc_html__( 'field description (optional)', 'cpf' ),
-		'id'   => 'post_content',
-		'type' => 'textarea_small',
-	) );
+	// $cmb->add_field( array(
+	// 	'name' => esc_html__( 'Address', 'cpf' ),
+	// 	// 'desc' => esc_html__( 'field description (optional)', 'cpf' ),
+	// 	'id'   => 'post_content',
+	// 	'type' => 'textarea_small',
+	// ) );
 
 	$cmb->add_field( array(
 		'name'      => esc_html__( 'Google Map', 'cpf' ),

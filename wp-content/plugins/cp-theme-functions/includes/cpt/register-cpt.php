@@ -133,7 +133,7 @@ function mro_cp_register_offices() {
 		'capability_type'     => 'post',
 		'supports'            => array(
 			'title',
-			// 'editor',
+			'editor',
 			// 'author',
 			// 'thumbnail',
 			// 'excerpt',

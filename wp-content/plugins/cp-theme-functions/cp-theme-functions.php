@@ -26,11 +26,11 @@ add_action( 'plugins_loaded', 'cpf_load_textdomain' );
  *
  * @since 0.1.0
  */
-if ( file_exists( __DIR__ . '/vendor/cmb2/init.php' ) ) {
-  	require_once __DIR__ . '/vendor/cmb2/init.php';
-} elseif ( file_exists(  __DIR__ . '/vendor/CMB2/init.php' ) ) {
-  	require_once __DIR__ . '/vendor/CMB2/init.php';
-}
+// if ( file_exists( __DIR__ . '/vendor/cmb2/init.php' ) ) {
+//   	require_once __DIR__ . '/vendor/cmb2/init.php';
+// } elseif ( file_exists(  __DIR__ . '/vendor/CMB2/init.php' ) ) {
+//   	require_once __DIR__ . '/vendor/CMB2/init.php';
+// }
 
 
 

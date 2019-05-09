@@ -15,7 +15,8 @@
 			 <!-- small-12 large-8 medium-8 cell -->
 
 			<?php
-			if ( !has_post_thumbnail() ) { ?>
+			if ( !has_post_thumbnail() && !is_page_template( 
+				'template-no-title.php' ) ) { ?>
 				<header class="article-header">
 					<h1 class="page-title"><?php the_title(); ?></h1>
 				</header> <!-- end article header -->

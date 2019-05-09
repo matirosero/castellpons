@@ -71,7 +71,7 @@ function ct_offices_shortcode( $atts ) {
 	        	<p class="location-address">'.wpautop( get_the_content() ).'</p>
 	        	<div class="location-map">';
 
-	        $return .= do_shortcode( get_post_meta( get_the_ID(), 'mro_cp_office_map', true ) );
+
 
 			$return .= '</div>
 	        	</li>';

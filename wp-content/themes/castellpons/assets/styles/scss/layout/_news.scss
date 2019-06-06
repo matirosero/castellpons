@@ -21,6 +21,13 @@
     @include breakpoint(medium) {
         .news-article-image {
         	@include xy-cell(5 of 12, true, 20);
+            @supports (object-fit:cover) {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit:cover;
+                }
+            }
         }
         .news-article-inner {
         	@include xy-cell(7 of 12, true, 20);

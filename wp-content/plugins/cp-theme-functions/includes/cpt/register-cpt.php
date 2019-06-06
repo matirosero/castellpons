@@ -193,6 +193,7 @@ function mro_cp_register_projecttax() {
 		'query_var'         => true,
 		'rewrite'           => true,
 		'query_var'         => true,
+		'show_in_rest'         => true,
 		'capabilities'      => array(),
 	);
 

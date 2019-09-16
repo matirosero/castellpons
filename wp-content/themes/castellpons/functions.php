@@ -49,6 +49,7 @@ require_once(get_template_directory().'/functions/translation/translation.php');
 /*
  * MRo CP functions
  */
+require_once(get_template_directory().'/functions/pre-get-posts.php'); 
 // Replace 'older/newer' post links with numbered navigation
 require_once(get_template_directory().'/functions/cp-functions.php'); 
 require_once(get_template_directory().'/functions/customizer.php'); 

@@ -79,11 +79,9 @@ function cp_tax_filter($current = 'all') {
 	//TODO: TODOS TODAS
 
 	if ( $current == 'all' ) {
-		echo '<ul class="filter-menu menu align-center"  data-aos="fade">
-		<li class="is-active"><a data-slug="todos" href="#">' . $all . '</a></li>';
+		echo '<ul class="filter-menu menu align-center" data-aos="fade">';
 	} else {
-		echo '<ul class="filter-menu menu align-center">
-		<li><a data-slug="todos" href="#">' . $all . '</a></li>';
+		echo '<ul class="filter-menu menu align-center">';
 	}
 
 	foreach ($terms as $term) {
@@ -95,6 +93,12 @@ function cp_tax_filter($current = 'all') {
 		}
 
 		echo '<li class="' . $li_class . '"><a data-taxonomy="' . $tax . '" data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
+	}
+
+	if ( $current == 'all' ) {
+		echo '<li class="is-active"><a data-slug="todos" href="#">' . $all . '</a></li>';
+	} else {
+		echo '<li><a data-slug="todos" href="#">' . $all . '</a></li>';
 	}
 
 	echo '</ul>';

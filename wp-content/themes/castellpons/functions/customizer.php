@@ -1,4 +1,5 @@
 <?php
+require_once dirname(__FILE__) . '/customizer/taxonomy-dropdown-custom-control.php';
 
 function cp_customizer_social_media_array() {
 
@@ -10,17 +11,40 @@ function cp_customizer_social_media_array() {
 
 function cp_add_customizer_sections( $wp_customize ) {
 
-    $social_sites = cp_customizer_social_media_array();
+    $wp_customize->add_section(
+        'ct_projects', array(
+            'title' => __( 'Projects', 'jointswp' ),
+            'priority' => 25,
+        )
+    );
 
-    // set a priority used to order the social sites
-    $priority = 5;
+    $wp_customize->add_setting( 'ct_projects_default', array(
+        'default'        => '',
+    ) );
 
-    // section
+    $wp_customize->add_control(
+        new Taxonomy_Dropdown_Custom_Control(
+            $wp_customize, 'ct_projects_default', array(
+                'label' => __( 'Default category', 'jointswp' ),
+                'section' => 'ct_projects',
+                'settings' => 'ct_projects_default',
+            )
+        )
+    );
+
+
     $wp_customize->add_section( 'ct_social_media_icons', array(
         'title'       => __( 'Social Media Icons', 'jointswp' ),
         'priority'    => 25,
         'description' => __( 'Add the URL for each of your social profiles.', 'jointswp' )
     ) );
+
+    $social_sites = cp_customizer_social_media_array();
+
+    // set a priority used to order the social sites
+    $priority = 5;
+
+
 
     // create a setting and control for each social site
     foreach ( $social_sites as $social_site ) {

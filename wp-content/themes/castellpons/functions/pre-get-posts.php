@@ -10,7 +10,7 @@ if( $query->is_main_query() && !is_admin() && is_post_type_archive( 'cp-project'
 	        array(
 	            'taxonomy' => 'cp-type',
 	            'field'    => 'slug',
-	            'terms'    => array( '0-seleccionados' ),
+	            'terms'    => array( 'destacats' ),
 	        )
 	    );
 

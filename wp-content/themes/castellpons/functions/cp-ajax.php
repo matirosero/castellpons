@@ -66,6 +66,18 @@ function my_image_size_override() {
 function cp_tax_filter($current = 'all') {
 	global $wp_query;
 
+	if ( get_theme_mod( 'ct_projects_default' ) ) {
+
+		// Get default taxonomy, this will be in ONE language
+		$default_tax = (int)get_theme_mod( 'ct_projects_default' );
+
+		// Get default tax in current language
+		$default_tax_current_language = apply_filters( 'wpml_object_id', $default_tax, 'cp-type' );
+
+		$current = $default_tax_current_language;
+
+	}
+
 	if ( is_post_type_archive( 'cp-project' ) ) {
 		$tax = 'cp-type';
 		$all = _x( 'All', 'masculine', 'jointswp' );
@@ -78,11 +90,13 @@ function cp_tax_filter($current = 'all') {
 
 	//TODO: TODOS TODAS
 
-	if ( $current == 'all' ) {
+	// if ( $current == 'all' ) {
 		echo '<ul class="filter-menu menu align-center" data-aos="fade">';
-	} else {
-		echo '<ul class="filter-menu menu align-center">';
-	}
+	// } else {
+	// 	echo '<ul class="filter-menu menu align-center">';
+	// }
+
+	$count = count($terms);
 
 	foreach ($terms as $term) {
 
@@ -92,14 +106,21 @@ function cp_tax_filter($current = 'all') {
 			$li_class = $term->slug;
 		}
 
-		echo '<li class="' . $li_class . '"><a data-taxonomy="' . $tax . '" data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $term->name . '</a></li>';
+		$name = $term->name;
+
+		$name = preg_replace('/[0-9]/', '', $name);
+
+		$name = str_replace('. ', '', $name);
+
+
+		echo '<li class="' . $li_class . '"><a data-taxonomy="' . $tax . '" data-slug="' . $term->slug . '" data-id="' . $term->term_id . '" href="' . get_term_link( $term->term_id, $tax ) . '">' . $name . '</a></li>';
 	}
 
-	if ( $current == 'all' ) {
-		echo '<li class="is-active"><a data-slug="todos" href="#">' . $all . '</a></li>';
-	} else {
-		echo '<li><a data-slug="todos" href="#">' . $all . '</a></li>';
-	}
+	// if ( $current == 'all' ) {
+	// 	echo '<li class="is-active"><a data-slug="todos" href="#">' . $all . '</a></li>';
+	// } else {
+		echo '<li class="all"><a data-slug="all" href="#">' . $all . '</a></li>';
+	// }
 
 	echo '</ul>';
 

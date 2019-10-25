@@ -58,3 +58,14 @@ function site_scripts() {
     );
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);
+
+function cp_hook_css() {
+    ?>
+        <style>
+            .home #site-footer {
+                z-index: 9998 !important;
+            }
+        </style>
+    <?php
+}
+add_action('wp_head', 'cp_hook_css');
